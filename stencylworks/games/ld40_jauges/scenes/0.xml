@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="5" desc="" eventsnippetid="0" extheight="1344" extwidth="6464" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="1280" id="0" name="level1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="6400">
+<scene depth="4" desc="" eventsnippetid="0" extheight="1344" extwidth="6464" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="1280" id="0" name="level1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="6400">
     <layers>
         <color-bg blue="-1" green="-1" red="-1"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="bg" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="items" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="rooms" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="255,0,255" id="3" locked="false" name="ui1" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="255,175,175" id="4" locked="false" name="ui2" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="bg" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="items" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="rooms" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,0,255" id="3" locked="false" name="ui" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>

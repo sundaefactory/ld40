@@ -3,12 +3,17 @@
     <group eventID="1" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <anchor-screen comment="false" x="26" y="40">
+                <print comment="false" x="26" y="40">
+                    <getlayer comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getlayer>
+                </print>
+                <anchor-screen comment="false" x="26" y="73">
                     <ACTOR eid="this" id="0"/>
                 </anchor-screen>
-                <if comment="false" x="26" y="67">
+                <if comment="false" x="26" y="100">
                     <group eventID="1" id="-1">
-                        <set-xy comment="false" x="37" y="92">
+                        <set-xy comment="false" x="37" y="125">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <plus comment="false" id="2" x="0" y="0">
@@ -35,9 +40,9 @@
                     </group>
                     <get-val-9-3 comment="false" id="0" x="0" y="0"/>
                 </if>
-                <else comment="false" x="26" y="164">
+                <else comment="false" x="26" y="197">
                     <group eventID="1" id="-1">
-                        <set-xy comment="false" x="37" y="184">
+                        <set-xy comment="false" x="37" y="217">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <minus comment="false" id="2" x="0" y="0">
@@ -63,7 +68,7 @@
                         </set-xy>
                     </group>
                 </else>
-                <set-xy comment="false" x="26" y="256">
+                <set-xy comment="false" x="26" y="289">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="1"/>
                     <plus comment="false" id="2" x="0" y="0">
@@ -74,22 +79,25 @@
                         </times>
                     </plus>
                 </set-xy>
-                <create-actor-on-layer comment="false" x="26" y="298">
+                <create-actor-on-layer comment="false" x="26" y="331">
                     <actortype eid="14" id="0"/>
                     <get-xy comment="false" id="1" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
-                        <int id="1" val="0"/>
+                        <int id="1" val="2"/>
                     </get-xy>
                     <get-xy comment="false" id="2" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
-                        <int id="1" val="1"/>
+                        <int id="1" val="3"/>
                     </get-xy>
                     <int id="3" val="1"/>
-                    <int id="4" val="ui2"/>
+                    <int id="4" val="ui"/>
                 </create-actor-on-layer>
-                <set-val-9-2 comment="false" x="26" y="338">
+                <set-val-9-2 comment="false" x="26" y="371">
                     <ACTOR eid="lastcreated" id="0"/>
                 </set-val-9-2>
+                <anchor-screen comment="false" x="26" y="398">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                </anchor-screen>
             </group>
         </init>
     </group>
@@ -144,11 +152,11 @@
         </movewithinlayer>
     </group>
     <group eventID="1" id="10">
-        <setzindex comment="false" x="88" y="425">
+        <setzindex comment="false" x="66" y="436">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="1"/>
         </setzindex>
-        <setzindex comment="false" x="88" y="452">
+        <setzindex comment="false" x="66" y="463">
             <ACTOR eid="var" id="0" vid="2"/>
             <int id="1" val="0"/>
         </setzindex>

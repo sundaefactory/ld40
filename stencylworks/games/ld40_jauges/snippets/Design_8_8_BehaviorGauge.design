@@ -8,7 +8,7 @@
                     <int id="1" val="0"/>
                     <int id="2" val="0"/>
                     <int id="3" val="1"/>
-                    <int id="4" val="ui1"/>
+                    <int id="4" val="ui"/>
                 </create-actor-on-layer>
             </group>
         </init>
