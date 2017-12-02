@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <anchor-screen comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </anchor-screen>
+                <if comment="false" x="26" y="67">
+                    <group eventID="1" id="-1">
+                        <set-xy comment="false" x="37" y="92">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <screen-xy comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </screen-xy>
+                                        <times comment="false" id="1" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <int id="1" val="0.5"/>
+                                        </times>
+                                    </minus>
+                                    <get-wh comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="2"/>
+                                    </get-wh>
+                                </minus>
+                                <int id="1" val="50"/>
+                            </plus>
+                        </set-xy>
+                    </group>
+                    <get-val-9-3 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="164">
+                    <group eventID="1" id="-1">
+                        <set-xy comment="false" x="37" y="184">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <screen-xy comment="false" id="0" x="0" y="0">
+                                            <int id="0" val="2"/>
+                                        </screen-xy>
+                                        <times comment="false" id="1" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <int id="1" val="0.5"/>
+                                        </times>
+                                    </plus>
+                                    <get-wh comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="2"/>
+                                    </get-wh>
+                                </minus>
+                                <int id="1" val="50"/>
+                            </minus>
+                        </set-xy>
+                    </group>
+                </else>
+                <set-xy comment="false" x="26" y="256">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <int id="0" val="100"/>
+                        <times comment="false" id="1" x="0" y="0">
+                            <get-val-9-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </times>
+                    </plus>
+                </set-xy>
+                <create-actor-on-layer comment="false" x="26" y="298">
+                    <actortype eid="14" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui2"/>
+                </create-actor-on-layer>
+                <set-val-9-2 comment="false" x="26" y="338">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-9-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="4">
+        <movewithinlayer comment="false" x="158" y="551">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </movewithinlayer>
+        <movewithinlayer comment="false" x="158" y="578">
+            <ACTOR eid="var" id="0" vid="2"/>
+            <int id="1" val="3"/>
+        </movewithinlayer>
+        <setzindex comment="false" x="158" y="605">
+            <ACTOR eid="var" id="0" vid="2"/>
+            <minus comment="false" id="1" x="0" y="0">
+                <zindex comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </zindex>
+                <int id="1" val="-1"/>
+            </minus>
+        </setzindex>
+    </group>
+    <group eventID="1" id="6">
+        <apply-filter comment="false" x="400" y="370">
+            <ACTOR eid="var" id="0" vid="2"/>
+            <filter-tint comment="false" id="1" x="0" y="0">
+                <get-val-9-1 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="100"/>
+            </filter-tint>
+        </apply-filter>
+        <setlayer2 comment="false" x="400" y="415">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val="ui1"/>
+        </setlayer2>
+        <setlayer2 comment="false" x="400" y="442">
+            <ACTOR eid="var" id="0" vid="2"/>
+            <int id="1" val="1"/>
+            <int id="2" val="ui2"/>
+        </setlayer2>
+    </group>
+    <group eventID="1" id="8">
+        <backforward comment="false" x="530" y="524">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </backforward>
+    </group>
+    <group eventID="1" id="9">
+        <movewithinlayer comment="false" x="34" y="501">
+            <ACTOR eid="var" id="0" vid="2"/>
+            <int id="1" val="3"/>
+        </movewithinlayer>
+    </group>
+    <group eventID="1" id="10">
+        <setzindex comment="false" x="88" y="425">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+        </setzindex>
+        <setzindex comment="false" x="88" y="452">
+            <ACTOR eid="var" id="0" vid="2"/>
+            <int id="1" val="0"/>
+        </setzindex>
+    </group>
+    <group eventID="1" id="-1">
+        <plus comment="false" x="514" y="480">
+            <int id="0" val=""/>
+            <int id="1" val="1"/>
+        </plus>
+    </group>
+</groups>

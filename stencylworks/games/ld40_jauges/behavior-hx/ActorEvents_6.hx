@@ -19,6 +19,7 @@ import com.stencyl.models.Scene;
 import com.stencyl.models.Sound;
 import com.stencyl.models.Region;
 import com.stencyl.models.Font;
+import com.stencyl.models.Joystick;
 
 import com.stencyl.Engine;
 import com.stencyl.Input;
@@ -39,7 +40,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,18 +69,39 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_0 extends SceneScript
+class ActorEvents_6 extends ActorScript
 {
+	public var _colliding:Bool;
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
+		nameMap.set("colliding", "_colliding");
+		_colliding = false;
 		
 	}
 	
 	override public function init()
 	{
+		
+		/* ======================== When Creating ========================= */
+		actor.growTo(51200/100, 25600/100, 0, Linear.easeNone);
+		actor.alpha = 100 / 100;
+		
+		/* ======================== Something Else ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if(!(_colliding))
+				{
+					_colliding = true;
+					propertyChanged("_colliding", _colliding);
+					actor.fadeTo(0, 0.3, Quad.easeIn);
+				}
+			}
+		});
 		
 	}
 	
