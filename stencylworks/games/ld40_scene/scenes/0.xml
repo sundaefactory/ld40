@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="1" desc="" eventsnippetid="22" extheight="1088" extwidth="8256" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="1024" id="0" name="scene_00" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="8192">
+<scene depth="2" desc="" eventsnippetid="22" extheight="1088" extwidth="8256" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="1024" id="0" name="scene_00" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="8192">
     <layers>
         <color-bg blue="0" green="0" red="0"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="bg" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="player" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="true" group="7" id="50" name="Ascenseur 1" sx="1.0" sy="1.0" x="813" y="399" z="0">
+        <actor a="0.0" aid="1" c="true" group="7" id="50" name="Ascenseur 1" sx="1.0" sy="1.0" x="812" y="317" z="0">
             <snippets>
                 <s enabled="true" id="23"/>
                 <s enabled="true" id="24">
@@ -25,18 +26,20 @@
                     <prop id="10" list="0" val="0"/>
                     <prop id="11" list="0" val="0"/>
                     <prop id="12" list="0" val=""/>
+                    <prop id="13" list="0" val="64"/>
+                    <prop id="14" list="0" val=""/>
+                    <prop id="15" list="0" val="0"/>
                 </s>
             </snippets>
         </actor>
-        <actor a="0.0" aid="2" c="false" group="0" id="4" name="player 2" sx="1.0" sy="1.0" x="682" y="410" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="58" name="EscalierOut 3" sx="1.0" sy="1.0" x="1069" y="765" z="0"/>
-        <actor a="0.0" aid="4" c="true" group="7" id="56" name="EscalierIn 4" sx="1.0" sy="1.0" x="1109" y="412" z="0">
+        <actor a="0.0" aid="2" c="false" group="0" id="4" name="player 2" sx="1.0" sy="1.0" x="857" y="396" z="1"/>
+        <actor a="0.0" aid="4" c="true" group="7" id="56" name="EscalierIn 4" sx="1.0" sy="1.0" x="1019" y="347" z="0">
             <snippets>
                 <s enabled="true" id="24">
                     <prop id="2147483647" list="0" val="thisactor"/>
                     <prop id="1" list="0" val="0"/>
                     <prop id="2" list="0" val="false"/>
-                    <prop id="3" list="0" val="3"/>
+                    <prop id="3" list="0" val="5"/>
                     <prop id="4" list="0" val=""/>
                     <prop id="5" list="0" val="false"/>
                     <prop id="6" list="0" val="0"/>
@@ -46,6 +49,36 @@
                     <prop id="10" list="0" val="0"/>
                     <prop id="11" list="0" val="0"/>
                     <prop id="12" list="0" val=""/>
+                    <prop id="13" list="0" val="66"/>
+                    <prop id="14" list="0" val=""/>
+                    <prop id="15" list="0" val="0"/>
+                    <prop id="16" list="0" val=""/>
+                    <prop id="17" list="0" val="true"/>
+                </s>
+                <s enabled="true" id="27"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="5" c="true" group="7" id="56" name="EscalierUp 5" sx="1.0" sy="1.0" x="1137" y="701" z="0">
+            <snippets>
+                <s enabled="true" id="24">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="0"/>
+                    <prop id="2" list="0" val="false"/>
+                    <prop id="3" list="0" val="-1"/>
+                    <prop id="4" list="0" val=""/>
+                    <prop id="5" list="0" val="false"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val="0"/>
+                    <prop id="8" list="0" val="0"/>
+                    <prop id="9" list="0" val="0"/>
+                    <prop id="10" list="0" val="0"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val=""/>
+                    <prop id="13" list="0" val="66"/>
+                    <prop id="14" list="0" val=""/>
+                    <prop id="15" list="0" val="0"/>
+                    <prop id="16" list="0" val=""/>
+                    <prop id="17" list="0" val="false"/>
                 </s>
                 <s enabled="true" id="27"/>
             </snippets>
