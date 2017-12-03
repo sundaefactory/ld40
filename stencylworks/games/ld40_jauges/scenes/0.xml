@@ -14,6 +14,7 @@
         <actor a="0.0" aid="1" c="false" group="0" id="4" name="player 1" sx="1.0" sy="1.0" x="67" y="154" z="2"/>
         <actor a="0.0" aid="2" c="false" group="4" id="6" name="room 2" sx="1.0" sy="1.0" x="1024" y="0" z="1"/>
         <actor a="0.0" aid="3" c="false" group="4" id="6" name="room 3" sx="1.0" sy="1.0" x="512" y="0" z="1"/>
+        <actor a="0.0" aid="4" c="false" group="6" id="35" name="plant 4" sx="1.0" sy="1.0" x="223" y="175" z="3"/>
     </actors>
     <snippets>
         <s enabled="true" id="8">

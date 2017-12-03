@@ -3,6 +3,18 @@
     <custom-block blocktag="custom-18" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_&quot;);" desc="" global="false" gui="Missing" id="18" message="" name="" oid="-1" return="void" shared="false" snippetID="9">
         <blank name="Self" order="0" type="actor"/>
     </custom-block>
+    <custom-block blocktag="custom-43" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_&quot;);" desc="" global="false" gui="Missing" id="43" message="" name="" oid="-1" return="void" shared="false" snippetID="9">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-45" blocktype="ACTION" code="sayToScene(&quot;BehaviorGauges&quot;, &quot;_customBlock_&quot;);" desc="" global="false" gui="Missing" id="45" message="" name="" oid="-1" return="void" shared="false" snippetID="8"/>
+    <custom-block blocktag="custom-41" blocktype="ACTION" code="sayToScene(&quot;BehaviorGauges&quot;, &quot;_customBlock_addToGauge&quot;, [, ]);" desc="" global="false" gui="add %1 to gauge %0" id="41" message="addToGauge" name="addToGauge" oid="-1" return="void" shared="false" snippetID="8">
+        <blank name="gauge" order="0" type="text"/>
+        <blank name="value" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-42" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_addToGauge&quot;, []);" desc="" global="false" gui="add %1 to gauge %0" id="42" message="addToGauge" name="addToGauge" oid="-1" return="void" shared="false" snippetID="9">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="value" order="1" type="number"/>
+    </custom-block>
     <tileset across="11" atlasID="0" desc="" down="19" id="3" name="decor" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
@@ -214,6 +226,12 @@
         <tile collision="0" data="" durations="100" frames="207" id="207" order="-1"/>
         <tile collision="0" data="" durations="100" frames="208" id="208" order="-1"/>
     </tileset>
+    <custom-block blocktag="custom-39" blocktype="ACTION" code="sayToScene(&quot;BehaviorGauges&quot;, &quot;_customBlock_disableGauge&quot;, []);" desc="" global="false" gui="disable gauge %0" id="39" message="disableGauge" name="disableGauge" oid="-1" return="void" shared="false" snippetID="8">
+        <blank name="num" order="0" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-38" blocktype="ACTION" code="sayToScene(&quot;BehaviorGauges&quot;, &quot;_customBlock_enableGauge2&quot;, []);" desc="" global="false" gui="enable gauge %0" id="38" message="enableGauge2" name="enableGauge2" oid="-1" return="void" shared="false" snippetID="8">
+        <blank name="num" order="0" type="number"/>
+    </custom-block>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
         <snippets>
             <s enabled="true" id="9">
@@ -246,62 +264,82 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="13" name="gauge_breath" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="respire" numframes="1" originx="32" originy="32" sync="false" version="2" width="64"/>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="21" name="gauge_breath" shared="false" width="64">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="14" fixedrot="true" fric="0.2" gid="5" id="22" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_drink" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="23" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="23" name="gauge_drink" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="23" name="gauge_breath" shared="false" width="64">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.2" gid="5" id="20" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_eat" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="21" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="21" name="gauge_eat" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="25" name="gauge_breath" shared="false" width="64">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="5" id="28" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_light" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="29" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="29" name="gauge_light" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="27" name="gauge_breath" shared="false" width="64">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="18" fixedrot="true" fric="0.2" gid="5" id="30" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_love" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="31" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="31" name="gauge_love" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="29" name="gauge_breath" shared="false" width="64">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="15" fixedrot="true" fric="0.2" gid="5" id="24" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_pee" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="25" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="25" name="gauge_pee" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="31" name="gauge_breath" shared="false" width="64">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="16" fixedrot="true" fric="0.2" gid="5" id="26" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_poo" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="27" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="27" name="gauge_poo" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="33" name="gauge_breath" shared="false" width="64">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="19" fixedrot="true" fric="0.2" gid="5" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_sleep" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="33" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="33" name="gauge_sleep" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="14" fixedrot="true" fric="0.2" gid="5" id="22" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_drink" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="23" static="false">
-        <snippets/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="6" id="35" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="plant" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="false">
+        <snippets>
+            <s enabled="true" id="20">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+            </s>
+        </snippets>
     </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.2" gid="5" id="20" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_eat" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="21" static="false">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="5" id="28" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_light" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="29" static="false">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="18" fixedrot="true" fric="0.2" gid="5" id="30" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_love" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="31" static="false">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="15" fixedrot="true" fric="0.2" gid="5" id="24" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_pee" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="25" static="false">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="16" fixedrot="true" fric="0.2" gid="5" id="26" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_poo" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="27" static="false">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="19" fixedrot="true" fric="0.2" gid="5" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_sleep" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="33" static="false">
-        <snippets/>
-    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="50" id="36" name="plant" shared="false" width="43">
+        <anim across="1" down="1" durations="100" height="50" id="0" loop="false" name="normal" numframes="1" originx="21" originy="25" sync="false" version="2" width="43">
+            <poly data="4,0,0,43,0,43,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="50" id="1" loop="true" name="pipi" numframes="1" originx="21" originy="25" sync="false" version="2" width="43">
+            <poly data="4,0,0,43,0,43,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="pipi" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="50" id="2" loop="true" name="caca" numframes="1" originx="21" originy="25" sync="false" version="2" width="43">
+            <poly data="4,0,0,43,0,43,50,0,50" density="0.1" fric="0.2" gid="-1000" id="0" name="caca" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="50" id="3" loop="true" name="pipi_caca" numframes="1" originx="21" originy="25" sync="false" version="2" width="43"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="0" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
         <snippets>
             <s enabled="true" id="3">
@@ -358,9 +396,17 @@
             <poly data="4,0,0,1,0,1,1,0,1" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <custom-block blocktag="custom-19" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_setGaugeType&quot;, []);" desc="" global="false" gui="set gauge type of %0 with %1" id="19" message="setGaugeType" name="setGaugeType" oid="-1" return="void" shared="false" snippetID="9">
+    <custom-block blocktag="custom-34" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_setGaugeState&quot;, []);" desc="" global="false" gui="set gauge state of %0 to %1" id="34" message="setGaugeState" name="setGaugeState" oid="-1" return="void" shared="false" snippetID="9">
         <blank name="Self" order="0" type="actor"/>
-        <blank name="type" order="1" type="number"/>
+        <blank name="state" order="1" type="boolean"/>
+    </custom-block>
+    <custom-block blocktag="custom-46" blocktype="ACTION" code="sayToScene(&quot;BehaviorGauges&quot;, &quot;_customBlock_setGaugeState&quot;, [, ]);" desc="" global="false" gui="set gauge %0 to state %1" id="46" message="setGaugeState" name="setGaugeState" oid="-1" return="void" shared="false" snippetID="8">
+        <blank name="gauge" order="0" type="text"/>
+        <blank name="state" order="1" type="boolean"/>
+    </custom-block>
+    <custom-block blocktag="custom-44" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_setGaugeType&quot;, []);" desc="" global="false" gui="set gauge type of %0 to %1" id="44" message="setGaugeType" name="setGaugeType" oid="-1" return="void" shared="false" snippetID="9">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="type" order="1" type="text"/>
     </custom-block>
     <custom-block blocktag="custom-16" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_setGaugeValue&quot;, []);" desc="" global="false" gui="set gauge value of %0 to %1" id="16" message="setGaugeValue" name="setGaugeValue" oid="-1" return="void" shared="false" snippetID="9">
         <blank name="Self" order="0" type="actor"/>
