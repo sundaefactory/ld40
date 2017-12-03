@@ -1,2 +1,3 @@
 ko
-ld40_jauges.setgaugetype-cs: 44 au lieu de 19
+ld40_release2.level01-ev: 0 utilisé par level1-ev
+ld40_release2.setgaugetype-cs: 19 au lieu de 44
