@@ -1,3 +1,2 @@
 ko
-ld40_release.setgaugestate-cs: 34 au lieu de 46
-ld40_release.setscenegaugestate-cs: 46 utilisé par setgaugestate-cs
+ld40_scene.-cs: 68 au lieu de 53

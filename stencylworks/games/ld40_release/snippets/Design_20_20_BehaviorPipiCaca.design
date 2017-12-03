@@ -88,34 +88,44 @@
             <group eventID="5" id="-1">
                 <if comment="false" x="26" y="39">
                     <group eventID="5" id="-1">
-                        <set-val-20-3 comment="false" x="37" y="69">
+                        <set-val-20-3 comment="false" x="37" y="74">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-20-3>
-                        <custom-49 comment="false" x="37" y="94">
+                        <custom-46 comment="false" x="37" y="99">
+                            <int id="0" val="pipi"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </custom-46>
+                        <custom-49 comment="false" x="37" y="124">
                             <int id="0" val="pipi"/>
                             <int id="1" val="50"/>
                         </custom-49>
-                        <if comment="false" x="37" y="114">
+                        <if comment="false" x="37" y="144">
                             <group eventID="5" id="-1">
-                                <setanim comment="false" x="48" y="139">
+                                <setanim comment="false" x="48" y="169">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="pipi_caca"/>
                                 </setanim>
                             </group>
                             <get-val-20-4 comment="false" id="0" x="0" y="0"/>
                         </if>
-                        <else comment="false" x="37" y="178">
+                        <else comment="false" x="37" y="208">
                             <group eventID="5" id="-1">
-                                <setanim comment="false" x="48" y="198">
+                                <setanim comment="false" x="48" y="228">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="pipi"/>
                                 </setanim>
                             </group>
                         </else>
                     </group>
-                    <not comment="false" id="0" x="0" y="0">
-                        <get-val-20-3 comment="false" id="0" x="0" y="0"/>
-                    </not>
+                    <and comment="false" id="0" x="0" y="0">
+                        <more comment="false" id="0" x="0" y="0">
+                            <get-val-20-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </more>
+                        <not comment="false" id="1" x="0" y="0">
+                            <get-val-20-3 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                    </and>
                 </if>
             </group>
             <int id="0" val="pipi"/>
@@ -127,34 +137,44 @@
             <group eventID="5" id="-1">
                 <if comment="false" x="26" y="39">
                     <group eventID="5" id="-1">
-                        <set-val-20-4 comment="false" x="37" y="69">
+                        <set-val-20-4 comment="false" x="37" y="74">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-20-4>
-                        <custom-49 comment="false" x="37" y="94">
+                        <custom-46 comment="false" x="37" y="99">
+                            <int id="0" val="caca"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </custom-46>
+                        <custom-49 comment="false" x="37" y="124">
                             <int id="0" val="caca"/>
                             <int id="1" val="50"/>
                         </custom-49>
-                        <if comment="false" x="37" y="114">
+                        <if comment="false" x="37" y="144">
                             <group eventID="5" id="-1">
-                                <setanim comment="false" x="48" y="139">
+                                <setanim comment="false" x="48" y="169">
                                     <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="pipi_caca"/>
+                                    <int id="1" val="caca_pipi"/>
                                 </setanim>
                             </group>
                             <get-val-20-3 comment="false" id="0" x="0" y="0"/>
                         </if>
-                        <else comment="false" x="37" y="178">
+                        <else comment="false" x="37" y="208">
                             <group eventID="5" id="-1">
-                                <setanim comment="false" x="48" y="198">
+                                <setanim comment="false" x="48" y="228">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="caca"/>
                                 </setanim>
                             </group>
                         </else>
                     </group>
-                    <not comment="false" id="0" x="0" y="0">
-                        <get-val-20-4 comment="false" id="0" x="0" y="0"/>
-                    </not>
+                    <and comment="false" id="0" x="0" y="0">
+                        <more comment="false" id="0" x="0" y="0">
+                            <get-val-20-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </more>
+                        <not comment="false" id="1" x="0" y="0">
+                            <get-val-20-4 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                    </and>
                 </if>
             </group>
             <int id="0" val="caca"/>

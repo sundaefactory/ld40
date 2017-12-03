@@ -1,88 +1,94 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<game scaleModeIOS="0" windowsBundleID="" default="1009" disableBackButton="false" barBackgroundColor="-12303292" checksum="none" googleAppID="" lockURL="" accelFramerate="0" awidth="960" width="960" scaleModeWeb="0" aheight="540" windowsAppName="" swfHeight="0" maxScaleAndroid="4x" cws-version="1.0" metroColor="-12566464" physicsMode="0" scale="1" splashStyle="0" author="" name="ld40_release" appName="My Game" bindAllAtlasesDefault="false" defaultFramerate="60" macBundleID="" gameid="-1" desktopScale="1x" enablePurchases="false" scaleModeDesktop="0" barColor="-7829368" cws-icon128="" orientation="0" pixelsnap="false" desc="" desktopScaleMode="1" barOffsetX="0" startInFullScreenWeb="false" barOffsetY="0" openflExtras="" backgroundColor="-15592942" kit="false" swfX="0" webScale="1x" borderColor="-12303292" swfY="0" barOffsetXTablet="0" androidTargetVersion="7" barOffsetYTablet="0" cws-name="Name" simulatorTargetOS="0.0" barHeight="8" startInFullScreenDesktop="false" barOffsetYPhone="0" enableGPG="false" internalVersion="1" bundleID="com.yourname.gamename" cws-desc="Description" scaleModeAndroid="0" swfWidth="0" products="" authorURL="" multitouch="true" defaultSceneID="1009" maxScaleIOS="4x" height="540" atlasBindingDefault="false" borderThickness="2" barLocation="0" simulatorOS="0.0" haxeExtras="" autoRotate="false" cws-icon16="" maxScaleWeb="4x" antialias="true" windowsAuthor="" useGlossyIcon="false" internalVersionIOS="1" barWidth="120" showAds="false" androidMinVersion="0" maxScaleDesktop="4x" bundleVersion="1.0" format="3.4.0" barScalePhone="1.0" adsPosition="0" openflLegacy="true" telemetry="false" appType="0" preloaderstyle="0" barOffsetXPhone="0" barScaleTablet="2.0" swfloc="" testAds="false">
-<keys androidAlias="sf" p12="" ioswhirlKey="" androidPassword="sf" androidCert="C:\prj\stencyl\workspace\ld40\stencylworks\android-sdk\\android-sdk-windows\stencyl.keystore" cpmID="" whirlKey1="" p12pwd="" ngID="" iosTeamID="" prov-adhoc="" prov-store="" whirlKey="" ngKey="" ioswhirlKey1="" androidPublicKey=""/>
-<exts>
+<game accelFramerate="0" adsPosition="0" aheight="540" androidMinVersion="0" androidTargetVersion="7" antialias="true" appName="My Game" appType="0" atlasBindingDefault="false" author="" authorURL="" autoRotate="false" awidth="960" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" bindAllAtlasesDefault="false" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" cws-desc="Description" cws-icon128="" cws-icon16="" cws-name="Name" cws-version="1.0" default="0" defaultFramerate="60" defaultSceneID="0" desc="" desktopScale="1x" desktopScaleMode="1" disableBackButton="false" enableGPG="false" enablePurchases="false" format="3.4.0" gameid="-1" googleAppID="" haxeExtras="" height="540" internalVersion="1" internalVersionIOS="1" kit="false" lockURL="" macBundleID="" maxScaleAndroid="4x" maxScaleDesktop="4x" maxScaleIOS="4x" maxScaleWeb="4x" metroColor="-12566464" multitouch="true" name="ld40_release" openflExtras="" openflLegacy="true" orientation="0" physicsMode="0" pixelsnap="false" preloaderstyle="0" products="" scale="1" scaleModeAndroid="0" scaleModeDesktop="0" scaleModeIOS="0" scaleModeWeb="0" showAds="false" simulatorOS="0.0" simulatorTargetOS="0.0" splashStyle="0" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" telemetry="false" testAds="false" useGlossyIcon="false" webScale="1x" width="960" windowsAppName="" windowsAuthor="" windowsBundleID="">
+    <keys androidAlias="sf" androidCert="C:\prj\stencyl\workspace\ld40\stencylworks\android-sdk\\android-sdk-windows\stencyl.keystore" androidPassword="sf" androidPublicKey="" cpmID="" iosTeamID="" ioswhirlKey="" ioswhirlKey1="" ngID="" ngKey="" p12="" p12pwd="" prov-adhoc="" prov-store="" whirlKey="" whirlKey1=""/>
+    <exts>
         <e enabled="false" id="sf"/>
         <e enabled="false" id="swfplus"/>
         <e enabled="false" id="ecotone"/>
+        <e enabled="false" id="test"/>
+        <e enabled="false" id="test-native"/>
         <e enabled="false" id="ga"/>
+        <e enabled="false" id="label"/>
         <e enabled="false" id="particles"/>
+        <e enabled="false" id="tileapi"/>
+        <e enabled="false" id="test-flash"/>
     </exts>
-<scales>
+    <scales>
         <scale detailed="1x" id="0" name="1x" size="1.0"/>
         <scale detailed="1.5x" id="1" name="1.5x" size="1.5"/>
         <scale detailed="2x" id="2" name="2x" size="2.0"/>
         <scale detailed="3x" id="3" name="3x" size="3.0"/>
         <scale detailed="4x" id="4" name="4x" size="4.0"/>
     </scales>
-<projectScales>
+    <projectScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
         <scale enabled="true" name="4x"/>
     </projectScales>
-<webScales>
+    <webScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
         <scale enabled="true" name="4x"/>
     </webScales>
-<desktopScales>
+    <desktopScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
         <scale enabled="true" name="4x"/>
     </desktopScales>
-<iOSScales>
+    <iOSScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
         <scale enabled="true" name="4x"/>
     </iOSScales>
-<androidScales>
+    <androidScales>
         <scale enabled="true" name="1x"/>
         <scale enabled="true" name="1.5x"/>
         <scale enabled="true" name="2x"/>
         <scale enabled="true" name="3x"/>
         <scale enabled="true" name="4x"/>
     </androidScales>
-<folders>
-</folders>
-<packs>
-</packs>
-<groups>
+    <folders/>
+    <packs/>
+    <groups>
         <group desc="" id="4" name="Room"/>
         <group desc="" id="5" name="UI"/>
         <group desc="" id="6" name="Items"/>
+        <group desc="" id="7" name="Doors"/>
     </groups>
-<cgroups>
+    <cgroups>
         <cgroup g1="0" g2="1"/>
         <cgroup g1="0" g2="4"/>
         <cgroup g1="0" g2="6"/>
+        <cgroup g1="0" g2="7"/>
         <cgroup g1="1" g2="3"/>
         <cgroup g1="3" g2="3"/>
     </cgroups>
-<input>
-        <key vk="38" vks="38" keyname="UP" name="up" id="0"/>
-        <key vk="40" vks="40" keyname="DOWN" name="down" id="1"/>
-        <key vk="37" vks="37" keyname="LEFT" name="left" id="2"/>
-        <key vk="39" vks="39" keyname="RIGHT" name="right" id="3"/>
-        <key vk="90" vks="90" keyname="Z" name="action1" id="4"/>
-        <key vk="88" vks="88" keyname="X" name="action2" id="5"/>
-        <key vk="10" vks="10" keyname="ENTER" name="enter" id="6"/>
+    <input>
+        <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
+        <key id="1" keyname="DOWN" name="down" vk="40" vks="40"/>
+        <key id="2" keyname="LEFT" name="left" vk="37" vks="37"/>
+        <key id="3" keyname="RIGHT" name="right" vk="39" vks="39"/>
+        <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
+        <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
+        <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+        <key id="7" keyname="R" name="reload" vk="82" vks="82"/>
     </input>
-<attcats>
+    <attcats>
         <cat id="-1" name="Default"/>
     </attcats>
-<props/>
-<attributes>
-        <number save="true" value="1.0" cid="-1" name="gauge_decrease_factor" id="0"/>
+    <props/>
+    <attributes>
+        <number cid="-1" id="0" name="gauge_decrease_factor" save="true" value="1.0"/>
     </attributes>
-<collisions>
+    <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="1" name="Rect Up" pts="0.0,0.0#0.0,0.5#1.0,0.5#1.0,0.0"/>
         <poly id="2" name="Rect Down" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.5"/>
@@ -109,12 +115,12 @@
         <poly id="23" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="24" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
     </collisions>
-<autotileFormats/>
-<atlases>
-        <atlas allScenes="true" desc="" members="3,4,6,8,12,14,20,22,24,26,28,30,32,35," target="0" dirty="true" id="0" name="Main Atlas" resize="0" pvr="false"/>
-        <atlas allScenes="true" desc="" members="" target="0" dirty="true" id="1" name="Atlas 2" resize="0" pvr="false"/>
-        <atlas allScenes="true" desc="" members="" target="0" dirty="true" id="2" name="Atlas 3" resize="0" pvr="false"/>
-        <atlas allScenes="true" desc="" members="" target="0" dirty="true" id="3" name="Atlas 4" resize="0" pvr="false"/>
+    <autotileFormats/>
+    <atlases>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="3,4,6,8,10,12,14,20,22,24,26,28,30,32,35,50,54,56,64,66,100,999,1001,1003,1007,1011,1013,1015,1017," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
     </atlases>
-<libraries/>
+    <libraries/>
 </game>

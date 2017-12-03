@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="14" y="40">
+            <group eventID="1" id="-1">
+                <create-actor-on-layer comment="false" x="25" y="65">
+                    <actortype eid="var" id="0" vid="13"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="0"/>
+                    <getlayer comment="false" id="4" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getlayer>
+                </create-actor-on-layer>
+                <set-val-24-14 comment="false" x="25" y="105">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-24-14>
+                <set-xy comment="false" x="25" y="132">
+                    <ACTOR eid="var" id="0" vid="14"/>
+                    <int id="1" val="0"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-xy>
+                        <get-wh comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-wh>
+                    </minus>
+                </set-xy>
+                <set-xy comment="false" x="25" y="177">
+                    <ACTOR eid="var" id="0" vid="14"/>
+                    <int id="1" val="1"/>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-xy>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-wh>
+                        </minus>
+                        <get-val-24-15 comment="false" id="1" x="0" y="0"/>
+                    </plus>
+                </set-xy>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-24-1 comment="false" x="26" y="47">
+                    <int id="0" val="2"/>
+                </set-val-24-1>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="0" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <set-val-24-1 comment="false" x="37" y="70">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-val-24-1>
+                        <if comment="false" x="37" y="100">
+                            <group eventID="3" id="-1"/>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </more>
+                </if>
+                <if comment="false" x="26" y="174">
+                    <group eventID="3" id="-1">
+                        <set-val-24-11 comment="false" x="37" y="199">
+                            <plus comment="false" id="0" x="0" y="0">
+                                <get-val-24-11 comment="false" id="0" x="0" y="0"/>
+                                <times comment="false" id="1" x="0" y="0">
+                                    <stepsize comment="false" id="0" x="0" y="0"/>
+                                    <get-val-24-18 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                            </plus>
+                        </set-val-24-11>
+                        <set-xy comment="false" x="37" y="234">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="0"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-24-8 comment="false" id="0" x="0" y="0"/>
+                                <times comment="false" id="1" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-val-24-6 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-24-8 comment="false" id="1" x="0" y="0"/>
+                                    </minus>
+                                    <get-val-24-11 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                            </plus>
+                        </set-xy>
+                        <set-xy comment="false" x="37" y="281">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="1"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-24-9 comment="false" id="0" x="0" y="0"/>
+                                <times comment="false" id="1" x="0" y="0">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-val-24-7 comment="false" id="0" x="0" y="0"/>
+                                        <get-val-24-9 comment="false" id="1" x="0" y="0"/>
+                                    </minus>
+                                    <get-val-24-11 comment="false" id="1" x="0" y="0"/>
+                                </times>
+                            </plus>
+                        </set-xy>
+                        <if comment="false" x="37" y="328">
+                            <group eventID="3" id="-1">
+                                <set-val-24-11 comment="false" x="48" y="358">
+                                    <int id="0" val="1"/>
+                                </set-val-24-11>
+                                <set-val-24-5 comment="false" x="48" y="378">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-24-5>
+                                <if comment="false" x="48" y="403">
+                                    <group eventID="3" id="-1">
+                                        <scene-change-color comment="false" x="59" y="438">
+                                            <scenebyname comment="false" id="0" x="0" y="0">
+                                                <get-val-24-16 comment="false" id="0" x="0" y="0"/>
+                                            </scenebyname>
+                                            <int id="1" val="0"/>
+                                            <int id="2" val="1"/>
+                                            <color b="0" g="0" id="3" r="0"/>
+                                            <int id="4" val="0"/>
+                                            <int id="5" val="1"/>
+                                            <color b="0" g="0" id="6" r="0"/>
+                                        </scene-change-color>
+                                    </group>
+                                    <not comment="false" id="0" x="0" y="0">
+                                        <str-empty comment="false" id="0" x="0" y="0">
+                                            <get-val-24-16 comment="false" id="0" x="0" y="0"/>
+                                        </str-empty>
+                                    </not>
+                                </if>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <get-val-24-11 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </more>
+                        </if>
+                    </group>
+                    <get-val-24-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="4" id="-1">
+                        <if comment="false" x="37" y="77">
+                            <group eventID="4" id="-1">
+                                <set-val-24-17 comment="false" x="48" y="117">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-24-17>
+                            </group>
+                            <or comment="false" id="0" x="0" y="0">
+                                <not comment="false" id="0" x="0" y="0">
+                                    <str-empty comment="false" id="0" x="0" y="0">
+                                        <get-val-24-4 comment="false" id="0" x="0" y="0"/>
+                                    </str-empty>
+                                </not>
+                                <isalive comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="var" id="0" vid="3"/>
+                                </isalive>
+                            </or>
+                        </if>
+                        <else comment="false" x="37" y="154">
+                            <group eventID="4" id="-1">
+                                <set-val-24-17 comment="false" x="48" y="174">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-24-17>
+                            </group>
+                        </else>
+                        <print comment="false" x="37" y="211">
+                            <get-val-24-17 comment="false" id="0" x="0" y="0"/>
+                        </print>
+                        <if comment="false" x="37" y="236">
+                            <group eventID="4" id="-1">
+                                <say-this comment="false" x="48" y="261">
+                                    <int id="0" val="enter"/>
+                                </say-this>
+                            </group>
+                            <get-val-24-17 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="293">
+                            <group eventID="4" id="-1">
+                                <say-this comment="false" x="48" y="313">
+                                    <int id="0" val="leave"/>
+                                </say-this>
+                            </group>
+                        </else>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-val-24-2 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <more comment="false" id="1" x="0" y="0">
+                            <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </more>
+                    </and>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-custom comment="false" x="15" y="18">
+            <group eventID="5" id="-1">
+                <set-val-24-2 comment="false" x="26" y="43">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-24-2>
+                <setanim comment="false" x="26" y="68">
+                    <ACTOR eid="var" id="0" vid="14"/>
+                    <int id="1" val="open"/>
+                </setanim>
+                <actors-of-type3 comment="false" x="26" y="95">
+                    <group eventID="5" id="-1">
+                        <set-val-24-12 comment="false" x="37" y="127">
+                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-24-12>
+                    </group>
+                    <actortype eid="4" id="0"/>
+                </actors-of-type3>
+                <comment-short comment="false" x="26" y="171">
+                    <int id="0" val="désactivation de l&amp;apos;input"/>
+                </comment-short>
+                <custom-52 comment="false" x="26" y="191">
+                    <ACTOR eid="var" id="0" vid="12"/>
+                    <false comment="false" id="1" x="0" y="0"/>
+                </custom-52>
+                <comment-short comment="false" x="26" y="223">
+                    <int id="0" val="on le met de dos"/>
+                </comment-short>
+                <setanim comment="false" x="26" y="243">
+                    <ACTOR eid="var" id="0" vid="12"/>
+                    <int id="1" val="back"/>
+                </setanim>
+                <comment-short comment="false" x="26" y="270">
+                    <int id="0" val="et on lance toute la série d&amp;apos;anim"/>
+                </comment-short>
+                <dolater comment="false" x="26" y="290">
+                    <group eventID="5" id="-1">
+                        <set-val-24-5 comment="false" x="37" y="317">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-24-5>
+                        <set-val-24-11 comment="false" x="37" y="342">
+                            <int id="0" val="0"/>
+                        </set-val-24-11>
+                        <set-val-24-8 comment="false" x="37" y="362">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="var" id="0" vid="12"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                        </set-val-24-8>
+                        <set-val-24-9 comment="false" x="37" y="395">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="var" id="0" vid="12"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                        </set-val-24-9>
+                        <set-val-24-6 comment="false" x="37" y="428">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-xy>
+                                <get-wh comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="var" id="0" vid="12"/>
+                                    <int id="1" val="2"/>
+                                </get-wh>
+                            </minus>
+                        </set-val-24-6>
+                        <set-val-24-7 comment="false" x="37" y="466">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-24-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="40"/>
+                            </minus>
+                        </set-val-24-7>
+                        <setanim comment="false" x="37" y="496">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="back-walk"/>
+                        </setanim>
+                        <scaleTo comment="false" x="37" y="523">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="80"/>
+                            <int id="2" val="80"/>
+                            <int id="3" val="0.5"/>
+                            <int id="4" val="8"/>
+                        </scaleTo>
+                        <fadeInOut comment="false" x="37" y="550">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0.5"/>
+                            <int id="3" val="8"/>
+                        </fadeInOut>
+                        <dolater comment="false" x="37" y="577">
+                            <group eventID="5" id="-1">
+                                <setanim comment="false" x="48" y="604">
+                                    <ACTOR eid="var" id="0" vid="14"/>
+                                    <int id="1" val="close"/>
+                                </setanim>
+                                <dolater comment="false" x="48" y="631">
+                                    <group eventID="5" id="-1">
+                                        <set-val-24-8 comment="false" x="59" y="658">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="var" id="0" vid="12"/>
+                                                <int id="1" val="0"/>
+                                            </get-xy>
+                                        </set-val-24-8>
+                                        <set-val-24-9 comment="false" x="59" y="691">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="var" id="0" vid="12"/>
+                                                <int id="1" val="1"/>
+                                            </get-xy>
+                                        </set-val-24-9>
+                                        <set-val-24-5 comment="false" x="59" y="724">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-val-24-5>
+                                        <set-val-24-11 comment="false" x="59" y="749">
+                                            <int id="0" val="0"/>
+                                        </set-val-24-11>
+                                        <if comment="false" x="59" y="769">
+                                            <group eventID="5" id="-1">
+                                                <set-val-24-6 comment="false" x="70" y="804">
+                                                    <get-val-24-8 comment="false" id="0" x="0" y="0"/>
+                                                </set-val-24-6>
+                                                <set-val-24-7 comment="false" x="70" y="829">
+                                                    <minus comment="false" id="0" x="0" y="0">
+                                                        <get-val-24-9 comment="false" id="0" x="0" y="0"/>
+                                                        <screen-wh comment="false" id="1" x="0" y="0">
+                                                            <int id="0" val="1"/>
+                                                        </screen-wh>
+                                                    </minus>
+                                                </set-val-24-7>
+                                                <set-val-24-16 comment="false" x="70" y="867">
+                                                    <get-val-24-4 comment="false" id="0" x="0" y="0"/>
+                                                </set-val-24-16>
+                                            </group>
+                                            <not comment="false" id="0" x="0" y="0">
+                                                <str-empty comment="false" id="0" x="0" y="0">
+                                                    <get-val-24-4 comment="false" id="0" x="0" y="0"/>
+                                                </str-empty>
+                                            </not>
+                                        </if>
+                                        <else comment="false" x="59" y="904">
+                                            <group eventID="5" id="-1">
+                                                <set-val-24-6 comment="false" x="70" y="924">
+                                                    <minus comment="false" id="0" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <get-val-24-3 comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="2"/>
+                                                        </get-xy>
+                                                        <get-wh comment="false" id="1" x="0" y="0">
+                                                            <ACTOR eid="var" id="0" vid="12"/>
+                                                            <int id="1" val="2"/>
+                                                        </get-wh>
+                                                    </minus>
+                                                </set-val-24-6>
+                                                <set-val-24-7 comment="false" x="70" y="967">
+                                                    <minus comment="false" id="0" x="0" y="0">
+                                                        <get-xy comment="false" id="0" x="0" y="0">
+                                                            <get-val-24-3 comment="false" id="0" x="0" y="0"/>
+                                                            <int id="1" val="3"/>
+                                                        </get-xy>
+                                                        <get-wh comment="false" id="1" x="0" y="0">
+                                                            <ACTOR eid="var" id="0" vid="12"/>
+                                                            <int id="1" val="3"/>
+                                                        </get-wh>
+                                                    </minus>
+                                                </set-val-24-7>
+                                            </group>
+                                        </else>
+                                    </group>
+                                    <int id="0" val="0.5"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <int id="0" val="0.5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <int id="0" val="0.5"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="enter"/>
+        </event-custom>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="6" id="-1"/>
+            <int id="0" val="leave"/>
+        </event-custom>
+    </group>
+    <group eventID="6" id="-1"/>
+</groups>
