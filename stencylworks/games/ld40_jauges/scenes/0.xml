@@ -18,6 +18,14 @@
     <snippets>
         <s enabled="true" id="8">
             <prop id="1" list="0" val="-1"/>
+            <prop id="2" list="0" val=""/>
+            <prop id="3" list="0" val=""/>
+            <prop id="4" list="0" val=""/>
+            <prop id="5" list="0" val=""/>
+            <prop id="6" list="0" val=""/>
+            <prop id="7" list="0" val=""/>
+            <prop id="8" list="0" val=""/>
+            <prop id="9" list="0" val=""/>
         </s>
     </snippets>
     <terrain>
