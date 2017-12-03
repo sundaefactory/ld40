@@ -3,13 +3,41 @@
     <custom-block blocktag="custom-18" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_&quot;);" desc="" global="false" gui="Missing" id="18" message="" name="" oid="-1" return="void" shared="false" snippetID="9">
         <blank name="Self" order="0" type="actor"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="false" fric="0.2" gid="3" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="bocal" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="7" fixedrot="true" fric="0.2" gid="3" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="bocal" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="69" id="11" name="bocal" shared="false" width="44">
         <anim across="1" down="1" durations="100" height="69" id="0" loop="true" name="bocal" numframes="1" originx="22" originy="34" sync="false" version="2" width="44">
-            <poly data="4,0,0,44,0,44,69,0,69" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,44,0,44,69,0,69" density="0.1" fric="0.2" gid="3" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
+        <anim across="1" down="1" durations="100" height="69" id="1" loop="true" name="bocal_vide" numframes="1" originx="22" originy="34" sync="false" version="2" width="44">
+            <poly data="4,0,0,11,0,11,17,0,17" density="0.1" fric="0.2" gid="-1000" id="0" name="bocal_vide" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1003" fixedrot="true" fric="0.2" gid="3" id="1003" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="cat" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1004" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="100" id="1004" name="cat" shared="false" width="100">
+        <anim across="1" down="1" durations="100" height="100" id="0" loop="true" name="cat_ok" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,0,100,0,100,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="cat_ok" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="100" id="1" loop="true" name="cat_ko" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,0,0,100,0,100,100,0,100" density="0.1" fric="0.2" gid="-1000" id="0" name="cat_ko" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1005" fixedrot="true" fric="0.2" gid="3" id="1007" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="chandelier" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="1008" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="80" id="1008" name="chandelier" shared="false" width="70">
+        <anim across="1" down="1" durations="100" height="80" id="0" loop="true" name="feu_ok" numframes="1" originx="35" originy="40" sync="false" version="2" width="70">
+            <poly data="4,0,0,70,0,70,80,0,80" density="0.1" fric="0.2" gid="3" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="1004" fixedrot="false" fric="0.2" gid="3" id="1005" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="deco_01" oid="-1" pausable="true" physicsMode="2" rest="0.0" shared="false" sprite="1006" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="69" id="1006" name="deco_01" shared="false" width="44">
+        <anim across="1" down="1" durations="100" height="69" id="0" loop="true" name="Animation 0" numframes="1" originx="22" originy="34" sync="false" version="2" width="44"/>
     </sprite>
     <tileset across="11" atlasID="0" desc="" down="19" id="3" name="decor" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
@@ -308,6 +336,17 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="33" name="gauge_sleep" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1002" fixedrot="true" fric="0.2" gid="3" id="1001" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="lapin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1002" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="27" id="1002" name="lapin" shared="false" width="37">
+        <anim across="1" down="1" durations="100" height="27" id="0" loop="true" name="lapin_ok" numframes="1" originx="18" originy="13" sync="false" version="2" width="37">
+            <poly data="4,0,0,37,0,37,27,0,27" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="27" id="1" loop="true" name="lapin_ko" numframes="1" originx="18" originy="13" sync="false" version="2" width="37">
+            <poly data="4,0,0,33,0,33,23,0,23" density="0.1" fric="0.2" gid="-1000" id="0" name="lapin_ko" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="0" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
