@@ -19,6 +19,7 @@ import com.stencyl.models.Scene;
 import com.stencyl.models.Sound;
 import com.stencyl.models.Region;
 import com.stencyl.models.Font;
+import com.stencyl.models.Joystick;
 
 import com.stencyl.Engine;
 import com.stencyl.Input;
