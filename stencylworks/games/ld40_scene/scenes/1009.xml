@@ -1,0 +1,35 @@
+<scene desc="" savecount="0" depth="4" extwidth="6464" width="6400" tiled="1" format="3.4.0" height="1280" extx="-32" extheight="1344" exty="-32" gravx="-0.0" tilew="32" gravy="85.0" type="standard" tileh="32" revision="" name="level1" id="1009" eventsnippetid="0">
+    <layers>
+        <color-bg blue="-1" green="-1" red="-1"/>
+        <layer visible="true" locked="false" id="0" color="100,168,234" opacity="100" name="bg" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="3"/>
+        <layer visible="true" locked="false" id="2" color="64,64,64" opacity="100" name="items" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="2"/>
+        <layer visible="true" locked="false" id="1" color="0,255,0" opacity="100" name="rooms" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="1"/>
+        <layer visible="true" locked="false" id="3" color="255,0,255" opacity="100" name="ui" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="0"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor x="67" a="0.0" y="154" z="2" c="false" id="4" name="player 1" aid="1" sx="1.0" sy="1.0" group="0"/>
+        <actor x="1024" a="0.0" y="0" z="1" c="false" id="6" name="room 2" aid="2" sx="1.0" sy="1.0" group="4"/>
+        <actor x="512" a="0.0" y="0" z="1" c="false" id="6" name="room 3" aid="3" sx="1.0" sy="1.0" group="4"/>
+        <actor x="223" a="0.0" y="175" z="3" c="false" id="35" name="plant 4" aid="4" sx="1.0" sy="1.0" group="6"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="8">
+            <prop list="0" id="1" val="-1"/>
+            <prop list="0" id="2" val=""/>
+            <prop list="0" id="3" val=""/>
+            <prop list="0" id="4" val=""/>
+            <prop list="0" id="5" val=""/>
+            <prop list="0" id="6" val=""/>
+            <prop list="0" id="7" val=""/>
+            <prop list="0" id="8" val=""/>
+            <prop list="0" id="9" val=""/>
+        </s>
+    </snippets>
+    <terrain>
+        <p x="0.0" pts="18,0.0,256.0,0.0,0.0,1280.0,0.0,1280.0,160.0,1248.0,160.0,1248.0,32.0,896.0,32.0,896.0,160.0,864.0,160.0,864.0,32.0,512.0,32.0,512.0,160.0,480.0,160.0,480.0,32.0,32.0,32.0,32.0,224.0,1280.0,224.0,1280.0,256.0" y="0.0"/>
+    </terrain>
+    <atlases retainAtlases="true" members=""/>
+</scene>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="2" id="-1">
+                        <set-val-20-1 comment="false" x="37" y="82">
+                            <int id="0" val="2"/>
+                        </set-val-20-1>
+                        <if comment="false" x="37" y="102">
+                            <group eventID="2" id="-1">
+                                <custom-46 comment="false" x="48" y="132">
+                                    <int id="0" val="pipi"/>
+                                    <true comment="false" id="1" x="0" y="0"/>
+                                </custom-46>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-20-3 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </if>
+                        <if comment="false" x="37" y="169">
+                            <group eventID="2" id="-1">
+                                <custom-46 comment="false" x="48" y="199">
+                                    <int id="0" val="caca"/>
+                                    <true comment="false" id="1" x="0" y="0"/>
+                                </custom-46>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-20-4 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </if>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-val-20-3 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <not comment="false" id="1" x="0" y="0">
+                            <get-val-20-4 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="0" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="4" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="4" id="-1">
+                        <set-val-20-1 comment="false" x="37" y="70">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-20-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-val-20-1>
+                        <if comment="false" x="37" y="100">
+                            <group eventID="4" id="-1">
+                                <custom-46 comment="false" x="48" y="130">
+                                    <int id="0" val="pipi"/>
+                                    <false comment="false" id="1" x="0" y="0"/>
+                                </custom-46>
+                                <custom-46 comment="false" x="48" y="155">
+                                    <int id="0" val="caca"/>
+                                    <false comment="false" id="1" x="0" y="0"/>
+                                </custom-46>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-20-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-val-20-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </more>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-custom comment="false" x="15" y="14">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="39">
+                    <group eventID="5" id="-1">
+                        <set-val-20-3 comment="false" x="37" y="69">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-20-3>
+                        <custom-49 comment="false" x="37" y="94">
+                            <int id="0" val="pipi"/>
+                            <int id="1" val="50"/>
+                        </custom-49>
+                        <if comment="false" x="37" y="114">
+                            <group eventID="5" id="-1">
+                                <setanim comment="false" x="48" y="139">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="pipi_caca"/>
+                                </setanim>
+                            </group>
+                            <get-val-20-4 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="178">
+                            <group eventID="5" id="-1">
+                                <setanim comment="false" x="48" y="198">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="pipi"/>
+                                </setanim>
+                            </group>
+                        </else>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-20-3 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <int id="0" val="pipi"/>
+        </event-custom>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-custom comment="false" x="15" y="14">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="39">
+                    <group eventID="5" id="-1">
+                        <set-val-20-4 comment="false" x="37" y="69">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-20-4>
+                        <custom-49 comment="false" x="37" y="94">
+                            <int id="0" val="caca"/>
+                            <int id="1" val="50"/>
+                        </custom-49>
+                        <if comment="false" x="37" y="114">
+                            <group eventID="5" id="-1">
+                                <setanim comment="false" x="48" y="139">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="pipi_caca"/>
+                                </setanim>
+                            </group>
+                            <get-val-20-3 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="37" y="178">
+                            <group eventID="5" id="-1">
+                                <setanim comment="false" x="48" y="198">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="caca"/>
+                                </setanim>
+                            </group>
+                        </else>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-20-4 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <int id="0" val="caca"/>
+        </event-custom>
+    </group>
+    <group eventID="6" id="-1"/>
+</groups>

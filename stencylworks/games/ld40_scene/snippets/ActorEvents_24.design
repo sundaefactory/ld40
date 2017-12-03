@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="22" y="22">
+            <group eventID="1" id="-1">
+                <anchor-screen comment="false" x="33" y="47">
+                    <ACTOR eid="this" id="0"/>
+                </anchor-screen>
+                <set-attribute comment="false" x="33" y="74">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="BehaviorGauge"/>
+                    <int id="2" val="_index"/>
+                    <int id="3" val="1"/>
+                </set-attribute>
+                <set-attribute comment="false" x="33" y="101">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="BehaviorGauge"/>
+                    <int id="2" val="_left"/>
+                    <int id="3" val="false"/>
+                </set-attribute>
+                <create-actor-on-layer comment="false" x="33" y="128">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-xy comment="false" x="33" y="155">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-xy>
+                        <get-wh comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-wh>
+                    </minus>
+                </set-xy>
+                <set-xy comment="false" x="33" y="200">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="3"/>
+                        </get-xy>
+                        <get-wh comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="3"/>
+                        </get-wh>
+                    </minus>
+                </set-xy>
+                <movewithinlayer comment="false" x="33" y="245">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="3"/>
+                </movewithinlayer>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <custom-16 comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val=""/>
+                </custom-16>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>
