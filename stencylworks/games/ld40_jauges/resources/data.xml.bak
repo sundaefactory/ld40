@@ -250,6 +250,7 @@
                 <prop id="12" list="0" val="100.0"/>
                 <prop id="13" list="0" val="0"/>
                 <prop id="14" list="0" val="0"/>
+                <prop id="15" list="0" val=""/>
             </s>
         </snippets>
     </actor>
@@ -325,6 +326,8 @@
             <s enabled="true" id="20">
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="1" list="0" val="0"/>
+                <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="false"/>
             </s>
         </snippets>
     </actor>
