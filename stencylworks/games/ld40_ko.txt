@@ -1,0 +1,5 @@
+ko
+ld40_release2.saut-aa: 8 utilisé par gauge-aa
+ld40_release2.saut-st: 9 utilisé par gauge-st
+ld40_release2.saut-ev: 6 utilisé par gauge-ev
+ld40_release2 ignoré car il contient des erreurs d'id

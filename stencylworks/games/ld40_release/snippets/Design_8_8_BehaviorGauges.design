@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <create-actor-on-layer comment="false" x="26" y="40">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-val-8-3 comment="false" x="26" y="67">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-8-3>
+                <custom-19 comment="false" x="26" y="94">
+                    <ACTOR eid="var" id="0" vid="3"/>
+                    <int id="1" val="0"/>
+                </custom-19>
+                <create-actor-on-layer comment="false" x="26" y="121">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-val-8-4 comment="false" x="26" y="148">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-8-4>
+                <custom-19 comment="false" x="26" y="175">
+                    <ACTOR eid="var" id="0" vid="4"/>
+                    <int id="1" val="1"/>
+                </custom-19>
+                <create-actor-on-layer comment="false" x="26" y="202">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-val-8-5 comment="false" x="26" y="229">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-8-5>
+                <custom-19 comment="false" x="26" y="256">
+                    <ACTOR eid="var" id="0" vid="5"/>
+                    <int id="1" val="2"/>
+                </custom-19>
+                <create-actor-on-layer comment="false" x="26" y="283">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-val-8-2 comment="false" x="26" y="310">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-8-2>
+                <custom-19 comment="false" x="26" y="337">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                    <int id="1" val="3"/>
+                </custom-19>
+                <create-actor-on-layer comment="false" x="26" y="364">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-val-8-6 comment="false" x="26" y="391">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-8-6>
+                <custom-19 comment="false" x="26" y="418">
+                    <ACTOR eid="var" id="0" vid="6"/>
+                    <int id="1" val="4"/>
+                </custom-19>
+                <create-actor-on-layer comment="false" x="26" y="445">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-val-8-7 comment="false" x="26" y="472">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-8-7>
+                <custom-19 comment="false" x="26" y="499">
+                    <ACTOR eid="var" id="0" vid="7"/>
+                    <int id="1" val="5"/>
+                </custom-19>
+                <create-actor-on-layer comment="false" x="26" y="526">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-val-8-9 comment="false" x="26" y="553">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-8-9>
+                <custom-19 comment="false" x="26" y="580">
+                    <ACTOR eid="var" id="0" vid="9"/>
+                    <int id="1" val="6"/>
+                </custom-19>
+                <create-actor-on-layer comment="false" x="26" y="607">
+                    <actortype eid="8" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="ui"/>
+                </create-actor-on-layer>
+                <set-val-8-8 comment="false" x="26" y="634">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-8-8>
+                <custom-19 comment="false" x="26" y="661">
+                    <ACTOR eid="var" id="0" vid="8"/>
+                    <int id="1" val="7"/>
+                </custom-19>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="1">
+        <comment-short comment="false" x="482" y="694">
+            <int id="0" val="test jauge"/>
+        </comment-short>
+        <periodic comment="false" x="482" y="714">
+            <group eventID="1" id="-1">
+                <set-val-8-1 comment="false" x="493" y="741">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-val-8-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-val-8-1>
+                <if comment="false" x="493" y="771">
+                    <group eventID="1" id="-1">
+                        <set-val-8-1 comment="false" x="504" y="801">
+                            <int id="0" val="0"/>
+                        </set-val-8-1>
+                    </group>
+                    <less comment="false" id="0" x="0" y="0">
+                        <get-val-8-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </less>
+                </if>
+                <custom-16 comment="false" x="493" y="833">
+                    <ACTOR eid="var" id="0" vid="3"/>
+                    <get-val-8-1 comment="false" id="1" x="0" y="0"/>
+                </custom-16>
+            </group>
+            <int id="0" val="0.1"/>
+            <ACTOR eid="lastcreated" id="2"/>
+        </periodic>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
