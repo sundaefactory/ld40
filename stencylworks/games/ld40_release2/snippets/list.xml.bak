@@ -4,7 +4,7 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_3_3_Player" classname="scripts.Design_3_3_Player" desc="Déplacement du scout" description="Déplacement du scout" design="true" drawOrder="0" id="3" name="Player" oid="-1" package="scripts" shared="false" type="actor">
+    <snippet attachedevent="false" class="scripts.Design_3_3_Player" classname="scripts.Design_3_3_Player" desc="[v1.1]" description="[v1.1]" design="true" drawOrder="0" id="3" name="Player" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <control default="" defaultValue="" desc="" dropdown="" fullname="Left Control" hidden="false" id="33" name="_LeftControl" order="4"/>
         <control default="" defaultValue="" desc="" dropdown="" fullname="Right Control" hidden="false" id="34" name="_RightControl" order="5"/>
@@ -22,11 +22,15 @@
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="tmp" hidden="true" id="59" name="_tmp" order="14"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="hit" hidden="true" id="60" name="_hit" order="15"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="offsetx" hidden="true" id="61" name="_offsetx" order="16"/>
-        <blocks/>
+        <boolean default="true" defaultValue="true" desc="" dropdown="" fullname="input_state" hidden="true" id="62" name="_inputstate" order="17"/>
+        <blocks>
+            <receiver blockID="52" id="1"/>
+        </blocks>
         <events>
-            <event displayName="Updated" enabled="true" id="3" name="step" order="5" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="4" repeats="true"/>
             <event displayName="Created" enabled="true" id="6" name="init" order="3" repeats="true"/>
             <event displayName="resetoffset" enabled="true" id="10" name="event-custom" order="6" repeats="true"/>
+            <event displayName="set player input state" enabled="true" id="11" name="event-custom-block" order="7" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="6" attachedevent="true" class="scripts.ActorEvents_6" classname="scripts.ActorEvents_6" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_6" oid="-1" package="scripts." shared="false" type="actor">
@@ -237,7 +241,7 @@
             <event displayName="gauge_to_name" enabled="true" id="5" name="event-custom" order="4" repeats="true"/>
         </events>
     </snippet>
-    <snippet actorid="1009" attachedevent="true" class="scripts.ActorEvents_1009" classname="scripts.ActorEvents_1009" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1012" name="ActorEvents_1009" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="100" attachedevent="true" class="scripts.ActorEvents_100" classname="scripts.ActorEvents_100" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1012" name="ActorEvents_100" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
@@ -265,7 +269,7 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="1013" attachedevent="true" class="scripts.ActorEvents_1023" classname="scripts.ActorEvents_1023" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1019" name="ActorEvents_1023" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="1023" attachedevent="true" class="scripts.ActorEvents_1023" classname="scripts.ActorEvents_1023" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1019" name="ActorEvents_1023" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
