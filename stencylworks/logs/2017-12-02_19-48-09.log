@@ -1,0 +1,127 @@
+2017-12-02 19:48:09,441 INFO  [main] stencyl.sw.Session: Logfile: C:\sundae_factory\ld40\stencylworks\logs\2017-12-02_19-48-09.log
+2017-12-02 19:48:09,452 INFO  [main] stencyl.sw.Session: OS Name: Windows 10
+2017-12-02 19:48:09,453 INFO  [main] stencyl.sw.Session: OS Version: 10.0 (64-bit)
+2017-12-02 19:48:09,454 INFO  [main] stencyl.sw.Session: Java Version: 1.8.0_60
+2017-12-02 19:48:09,454 INFO  [main] stencyl.sw.Session: Java Home Environment Variable (JAVA_HOME): not set
+2017-12-02 19:48:09,455 INFO  [main] stencyl.sw.Session: Stencyl Version: 3.4.0.beta4 (b9300)
+2017-12-02 19:48:09,456 INFO  [main] stencyl.sw.Session: Stencyl Workspace: C:\sundae_factory\ld40\
+2017-12-02 19:48:09,457 INFO  [main] stencyl.sw.Session: User Working Directory: C:\Program Files (x86)\Stencyl
+2017-12-02 19:48:09,459 INFO  [main] stencyl.sw.Session: User Home Directory: C:\Users\Ludovic
+2017-12-02 19:48:09,459 INFO  [main] stencyl.sw.Session: System Path: C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Ludovic\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Stencyl\runtimes\jre-win\bin
+2017-12-02 19:48:09,663 DEBUG [main] stencyl.sw.util.FileHelper: Deleting: C:\Users\Ludovic\AppData\Local\Temp\stencyl8761174701896506962
+2017-12-02 19:48:09,667 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2017-12-02 19:48:09,673 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2017-12-02 19:48:09,675 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2017-12-02 19:48:09,679 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2017-12-02 19:48:09,681 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2017-12-02 19:48:09,684 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2017-12-02 19:48:09,686 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2017-12-02 19:48:09,687 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2017-12-02 19:48:09,689 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2017-12-02 19:48:09,693 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2017-12-02 19:48:09,695 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2017-12-02 19:48:09,697 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2017-12-02 19:48:09,716 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2017-12-02 19:48:09,718 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2017-12-02 19:48:09,731 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2017-12-02 19:48:09,736 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2017-12-02 19:48:09,737 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2017-12-02 19:48:09,738 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2017-12-02 19:48:09,739 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2017-12-02 19:48:09,740 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2017-12-02 19:48:09,741 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2017-12-02 19:48:09,742 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2017-12-02 19:48:09,743 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2017-12-02 19:48:09,744 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2017-12-02 19:48:09,745 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2017-12-02 19:48:09,746 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2017-12-02 19:48:09,747 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2017-12-02 19:48:09,748 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2017-12-02 19:48:09,749 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2017-12-02 19:48:09,750 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2017-12-02 19:48:09,751 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2017-12-02 19:48:09,752 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2017-12-02 19:48:09,753 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2017-12-02 19:48:09,754 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2017-12-02 19:48:09,755 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2017-12-02 19:48:09,756 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2017-12-02 19:48:09,757 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2017-12-02 19:48:09,758 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-phrases.lang
+2017-12-02 19:48:09,760 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-errors.lang
+2017-12-02 19:48:09,761 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-menu.lang
+2017-12-02 19:48:09,762 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-welcome.lang
+2017-12-02 19:48:09,763 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-dashboard.lang
+2017-12-02 19:48:09,764 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-publish.lang
+2017-12-02 19:48:09,765 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-updater.lang
+2017-12-02 19:48:09,766 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-chat.lang
+2017-12-02 19:48:09,767 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-misc.lang
+2017-12-02 19:48:09,768 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-forge.lang
+2017-12-02 19:48:09,769 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-prefs.lang
+2017-12-02 19:48:09,770 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\global-creategame.lang
+2017-12-02 19:48:09,771 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-main.lang
+2017-12-02 19:48:09,772 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blocks.lang
+2017-12-02 19:48:09,777 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-blockhelp.lang
+2017-12-02 19:48:09,781 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-events.lang
+2017-12-02 19:48:09,782 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-code.lang
+2017-12-02 19:48:09,783 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-attributes.lang
+2017-12-02 19:48:09,784 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-create.lang
+2017-12-02 19:48:09,784 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\behavior-byob.lang
+2017-12-02 19:48:09,785 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-main.lang
+2017-12-02 19:48:09,786 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-actor-physics.lang
+2017-12-02 19:48:09,787 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-background.lang
+2017-12-02 19:48:09,788 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-behaviorchooser.lang
+2017-12-02 19:48:09,788 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-desktop.lang
+2017-12-02 19:48:09,789 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-font.lang
+2017-12-02 19:48:09,790 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-sound.lang
+2017-12-02 19:48:09,790 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-tileset.lang
+2017-12-02 19:48:09,791 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-preloader.lang
+2017-12-02 19:48:09,792 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-mobile.lang
+2017-12-02 19:48:09,794 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-groups.lang
+2017-12-02 19:48:09,795 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-attributes.lang
+2017-12-02 19:48:09,795 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-input.lang
+2017-12-02 19:48:09,796 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-animation.lang
+2017-12-02 19:48:09,797 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-main.lang
+2017-12-02 19:48:09,798 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-create.lang
+2017-12-02 19:48:09,799 DEBUG [main] stencyl.sw.loc.LanguagePack: Reading... lang\en\editor-scene-tools.lang
+2017-12-02 19:48:09,801 INFO  [AWT-EventQueue-0] stencyl.sw.SW: Initializing Stencyl.
+2017-12-02 19:48:09,809 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Set Splash message: Look
+2017-12-02 19:48:11,089 INFO  [AWT-EventQueue-0] stencyl.sw.ext.ExtensionDependencyManager: Extension Dependencies: {TOOLSET={}, HAXELIB={console=haxelib-console-1.0.0, polygonal-printf=haxelib-polygonal-printf-1.0.0.beta, stencyl-cppia=haxelib-stencyl-cppia-1.0.0, hxcpp=haxelib-hxcpp-3.2.0, swf=haxelib-swf-1.7.4, box2d=haxelib-box2d-1.11.0, svg=haxelib-svg-1.0.8, lime=haxelib-lime-2.9.1, format=haxelib-format-3.1.2, actuate=haxelib-actuate-1.8.6, stencyl=haxelib-stencyl-1.0.0, layout=haxelib-layout-1.1.0, hxtelemetry=haxelib-hxtelemetry-0.3.1, openfl=haxelib-openfl-3.6.1, tilelayer=haxelib-tilelayer-0.2.1, polygonal-ds=haxelib-polygonal-ds-1.4.1, box2d-fake=haxelib-box2d-fake-1.11.0}, STENCYL={=stencyl--3.4.0.beta4}, JAVA={=java--1.8.0}, ENGINE={}}
+2017-12-02 19:48:11,097 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\sundae_factory\ld40\stencylworks\extensions: []
+2017-12-02 19:48:11,101 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Matching (non-hidden) files within C:\sundae_factory\ld40\stencylworks\extensions: []
+2017-12-02 19:48:11,101 DEBUG [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Loading engine extensions...
+2017-12-02 19:48:11,101 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Directories within C:\sundae_factory\ld40\stencylworks\engine-extensions: []
+2017-12-02 19:48:11,101 INFO  [AWT-EventQueue-0] stencyl.sw.editors.game.advanced.EngineExtensionManager: Engine Extensions: []
+2017-12-02 19:48:11,105 INFO  [AWT-EventQueue-0] stencyl.sw.app.ExtensionManager: Toolset Extensions: []
+2017-12-02 19:48:11,397 DEBUG [AWT-EventQueue-0] stencyl.sw.app.doc.Workspace: Activated: Welcome Center
+2017-12-02 19:48:11,401 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Silent Authentication.
+2017-12-02 19:48:11,417 DEBUG [AWT-EventQueue-0] stencyl.sw.Splash: Dispose Splash
+2017-12-02 19:48:11,822 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Response: user:::plans2
+2017-12-02 19:48:11,822 DEBUG [pool-1-thread-1] stencyl.sw.util.FileHelper: Deleting: C:\sundae_factory\ld40\stencylworks\prefs\auth.txt
+2017-12-02 19:48:11,830 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Logged in as: jol
+2017-12-02 19:48:11,831 INFO  [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: Usergroup: Registered
+2017-12-02 19:48:12,422 DEBUG [pool-1-thread-1] stencyl.sw.app.tasks.AuthenticateTask: 200
+2017-12-02 19:48:14,530 DEBUG [AWT-EventQueue-0] stencyl.sw.SW: Frame was maximized
+2017-12-02 20:20:43,553 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Attempting to quit out of Stencyl.
+2017-12-02 20:20:43,561 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, neko.exe, /f]
+2017-12-02 20:20:43,685 OFF   [Thread-7] stencyl.sw.util.StreamGobbler: [taskkill] Erreurÿ: le processus "neko.exe" est introuvable.
+2017-12-02 20:20:43,690 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2017-12-02 20:20:43,690 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, adb.exe, /f]
+2017-12-02 20:20:43,801 OFF   [Thread-8] stencyl.sw.util.StreamGobbler: [taskkill] Erreurÿ: le processus "adb.exe" est introuvable.
+2017-12-02 20:20:43,805 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2017-12-02 20:20:43,805 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, arm-linux-androideabi-g++.exe, /f]
+2017-12-02 20:20:43,921 OFF   [Thread-9] stencyl.sw.util.StreamGobbler: [taskkill] Erreurÿ: le processus "arm-linux-androideabi-g++.exe" est introuvable.
+2017-12-02 20:20:43,929 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2017-12-02 20:20:43,929 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, cc1plus.exe, /f]
+2017-12-02 20:20:44,037 OFF   [Thread-10] stencyl.sw.util.StreamGobbler: [taskkill] Erreurÿ: le processus "cc1plus.exe" est introuvable.
+2017-12-02 20:20:44,045 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2017-12-02 20:20:44,045 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, tail.exe, /f]
+2017-12-02 20:20:44,153 OFF   [Thread-11] stencyl.sw.util.StreamGobbler: [taskkill] Erreurÿ: le processus "tail.exe" est introuvable.
+2017-12-02 20:20:44,157 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2017-12-02 20:20:44,157 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Running command: [taskkill, /im, ios-sim.exe, /f]
+2017-12-02 20:20:44,266 OFF   [Thread-12] stencyl.sw.util.StreamGobbler: [taskkill] Erreurÿ: le processus "ios-sim.exe" est introuvable.
+2017-12-02 20:20:44,270 DEBUG [AWT-EventQueue-0] stencyl.sw.util.Util: Process 'taskkill' exited with code: 128
+2017-12-02 20:20:44,270 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying extensions.
+2017-12-02 20:20:44,270 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Performing final close.
+2017-12-02 20:20:44,274 INFO  [AWT-EventQueue-0] stencyl.sw.app.App: Exiting...
+2017-12-02 20:20:44,274 DEBUG [AWT-EventQueue-0] stencyl.sw.app.App: Destroying Temporary Sandbox.
+2017-12-02 20:20:44,274 DEBUG [AWT-EventQueue-0] stencyl.sw.util.FileHelper: Deleting: C:\Users\Ludovic\AppData\Local\Temp\stencyl8761174701896506962
