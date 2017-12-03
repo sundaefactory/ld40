@@ -5,8 +5,8 @@
             <group eventID="1" id="-1">
                 <scaleTo comment="false" x="26" y="40">
                     <ACTOR eid="this" id="0"/>
-                    <int id="1" val="51200"/>
-                    <int id="2" val="25600"/>
+                    <int id="1" val="59600"/>
+                    <int id="2" val="27700"/>
                     <int id="3" val="0"/>
                     <int id="4" val="0"/>
                 </scaleTo>

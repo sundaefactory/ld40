@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scene depth="5" desc="" eventsnippetid="1010" extheight="1344" extwidth="6464" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="1280" id="1" name="level_01" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="6400">
     <layers>
-        <color-bg blue="-1" green="-1" red="-1"/>
+        <color-bg blue="0" green="0" red="0"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="bg" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="items" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
         <layer blendMode="normal" color="255,175,175" id="4" locked="false" name="avatar" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -10,18 +10,26 @@
     </layers>
     <joints/>
     <regions/>
-    <terrainRegions/>
+    <terrainRegions>
+        <terrainRegion b="64" g="64" group="1" h="24" id="0" name="Terrain 0" pts="4,1196.0,0.0,1196.0,24.0,0.0,24.0,0.0,0.0" r="64" type="box" w="1196" x="-5" y="449"/>
+    </terrainRegions>
     <actors>
-        <actor a="0.0" aid="4" c="false" group="3" id="10" name="bocal 4" sx="1.0" sy="1.0" x="676" y="159" z="2"/>
-        <actor a="0.0" aid="5" c="false" group="3" id="999" name="saut 5" sx="1.0" sy="1.0" x="298" y="197" z="2"/>
-        <actor a="0.0" aid="6" c="false" group="3" id="1001" name="lapin 6" sx="1.0" sy="1.0" x="202" y="206" z="2"/>
-        <actor a="0.0" aid="7" c="false" group="3" id="1003" name="cat 7" sx="1.0" sy="1.0" x="386" y="155" z="2"/>
-        <actor a="0.0" aid="8" c="false" group="3" id="1005" name="deco_01 8" sx="1.0" sy="1.0" x="130" y="82" z="0"/>
-        <actor a="0.0" aid="9" c="false" group="3" id="1005" name="deco_01 9" sx="1.0" sy="1.0" x="642" y="63" z="0"/>
-        <actor a="0.0" aid="10" c="false" group="3" id="1005" name="deco_01 10" sx="1.0" sy="1.0" x="1096" y="82" z="0"/>
-        <actor a="0.0" aid="11" c="false" group="3" id="1007" name="chandelier 11" sx="1.0" sy="1.0" x="766" y="114" z="2"/>
-        <actor a="0.0" aid="12" c="false" group="3" id="1007" name="chandelier 12" sx="1.0" sy="1.0" x="943" y="109" z="2"/>
-        <actor a="0.0" aid="13" c="false" group="0" id="4" name="player 13" sx="1.0" sy="1.0" x="33" y="147" z="3"/>
+        <actor a="0.0" aid="6" c="false" group="6" id="1001" name="lapin 6" sx="1.0" sy="1.0" x="352" y="416" z="2"/>
+        <actor a="0.0" aid="7" c="false" group="6" id="1003" name="cat 7" sx="1.0" sy="1.0" x="480" y="384" z="2"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="1005" name="deco_01 8" sx="1.0" sy="1.0" x="214" y="291" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="1005" name="deco_01 9" sx="1.0" sy="1.0" x="622" y="295" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="1005" name="deco_01 10" sx="1.0" sy="1.0" x="1096" y="289" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="1007" name="chandelier 11" sx="1.0" sy="1.0" x="96" y="288" z="2"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="1007" name="chandelier 12" sx="1.0" sy="1.0" x="320" y="288" z="2"/>
+        <actor a="0.0" aid="13" c="false" group="0" id="4" name="player 13" sx="1.0" sy="1.0" x="35" y="368" z="3"/>
+        <actor a="0.0" aid="14" c="false" group="6" id="35" name="plant 14" sx="1.0" sy="1.0" x="160" y="384" z="2"/>
+        <actor a="0.0" aid="15" c="false" group="6" id="10" name="bocal 15" sx="1.0" sy="1.0" x="416" y="384" z="2"/>
+        <actor a="0.0" aid="16" c="false" group="6" id="999" name="saut 16" sx="1.0" sy="1.0" x="256" y="384" z="2"/>
+        <actor a="0.0" aid="17" c="false" group="6" id="10" name="bocal 17" sx="1.0" sy="1.0" x="614" y="384" z="2"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="1011" name="background_tapisserie_01 18" sx="1.0" sy="1.0" x="0" y="192" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="1011" name="background_tapisserie_01 19" sx="1.0" sy="1.0" x="596" y="192" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="4" id="6" name="room 20" sx="1.0" sy="1.0" x="595" y="192" z="1"/>
+        <actor a="0.0" aid="21" c="false" group="6" id="1013" name="lavabo Copy 21" sx="1.0" sy="1.0" x="746" y="356" z="2"/>
     </actors>
     <snippets>
         <s enabled="true" id="8">
@@ -36,8 +44,6 @@
             <prop id="9" list="0" val=""/>
         </s>
     </snippets>
-    <terrain>
-        <p pts="4,1472.0,0.0,1472.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="224.0"/>
-    </terrain>
+    <terrain/>
     <atlases members="" retainAtlases="true"/>
 </scene>
