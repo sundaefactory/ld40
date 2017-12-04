@@ -320,19 +320,19 @@
                 </set-val-9-14>
                 <if comment="false" x="26" y="70">
                     <group eventID="9" id="-1">
-                        <setanim comment="false" x="37" y="95">
+                        <set-opacity comment="false" x="37" y="95">
                             <ACTOR eid="var" id="0" vid="11"/>
-                            <int id="1" val="on"/>
-                        </setanim>
+                            <int id="1" val="100"/>
+                        </set-opacity>
                     </group>
                     <get-val-9-14 comment="false" id="0" x="0" y="0"/>
                 </if>
                 <else comment="false" x="26" y="134">
                     <group eventID="9" id="-1">
-                        <setanim comment="false" x="37" y="154">
+                        <set-opacity comment="false" x="37" y="154">
                             <ACTOR eid="var" id="0" vid="11"/>
-                            <int id="1" val="off"/>
-                        </setanim>
+                            <int id="1" val="50"/>
+                        </set-opacity>
                     </group>
                 </else>
             </group>
@@ -342,33 +342,33 @@
     </group>
     <group eventID="9" id="-1"/>
     <group eventID="11" id="0">
-        <receiver-6-44 comment="false" x="61" y="23">
+        <receiver-6-44 comment="false" x="15" y="15">
             <group eventID="11" id="-1">
-                <comment-short comment="false" x="72" y="53">
+                <comment-short comment="false" x="26" y="45">
                     <int id="0" val="réglage de la jauge suivant son type"/>
                 </comment-short>
-                <set-val-9-15 comment="false" x="72" y="73">
+                <set-val-9-15 comment="false" x="26" y="65">
                     <get-byobval-9-44-1 comment="false" id="0" x="0" y="0"/>
                 </set-val-9-15>
-                <if comment="false" x="72" y="98">
+                <if comment="false" x="26" y="90">
                     <group eventID="11" id="-1">
-                        <set-val-9-1 comment="false" x="83" y="128">
-                            <color b="255" g="255" id="0" r="204"/>
+                        <set-val-9-1 comment="false" x="37" y="120">
+                            <color b="255" g="255" id="0" r="153"/>
                         </set-val-9-1>
-                        <set-val-9-3 comment="false" x="83" y="155">
+                        <set-val-9-3 comment="false" x="37" y="147">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-9-3>
-                        <set-val-9-4 comment="false" x="83" y="180">
+                        <set-val-9-4 comment="false" x="37" y="172">
                             <int id="0" val="0"/>
                         </set-val-9-4>
-                        <create-actor-on-layer comment="false" x="83" y="200">
-                            <actortype eid="125" id="0"/>
+                        <create-actor-on-layer comment="false" x="37" y="192">
+                            <actortype eid="12" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                             <int id="3" val="1"/>
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
-                        <set-val-9-13 comment="false" x="83" y="227">
+                        <set-val-9-13 comment="false" x="37" y="219">
                             <int id="0" val="10"/>
                         </set-val-9-13>
                     </group>
@@ -377,25 +377,25 @@
                         <int id="1" val="respirer"/>
                     </eq>
                 </if>
-                <else-if comment="false" x="72" y="259">
+                <else-if comment="false" x="26" y="251">
                     <group eventID="11" id="-1">
-                        <set-val-9-1 comment="false" x="83" y="289">
-                            <color b="209" g="210" id="0" r="47"/>
+                        <set-val-9-1 comment="false" x="37" y="281">
+                            <color b="255" g="102" id="0" r="0"/>
                         </set-val-9-1>
-                        <set-val-9-3 comment="false" x="83" y="316">
+                        <set-val-9-3 comment="false" x="37" y="308">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-9-3>
-                        <set-val-9-4 comment="false" x="83" y="341">
+                        <set-val-9-4 comment="false" x="37" y="333">
                             <int id="0" val="1"/>
                         </set-val-9-4>
-                        <create-actor-on-layer comment="false" x="83" y="361">
-                            <actortype eid="127" id="0"/>
+                        <create-actor-on-layer comment="false" x="37" y="353">
+                            <actortype eid="22" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                             <int id="3" val="1"/>
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
-                        <set-val-9-13 comment="false" x="83" y="388">
+                        <set-val-9-13 comment="false" x="37" y="380">
                             <int id="0" val="16"/>
                         </set-val-9-13>
                     </group>
@@ -404,25 +404,25 @@
                         <int id="1" val="boire"/>
                     </eq>
                 </else-if>
-                <else-if comment="false" x="72" y="420">
+                <else-if comment="false" x="26" y="412">
                     <group eventID="11" id="-1">
-                        <set-val-9-1 comment="false" x="83" y="450">
-                            <color b="0" g="204" id="0" r="255"/>
+                        <set-val-9-1 comment="false" x="37" y="442">
+                            <color b="51" g="255" id="0" r="255"/>
                         </set-val-9-1>
-                        <set-val-9-3 comment="false" x="83" y="477">
+                        <set-val-9-3 comment="false" x="37" y="469">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-9-3>
-                        <set-val-9-4 comment="false" x="83" y="502">
+                        <set-val-9-4 comment="false" x="37" y="494">
                             <int id="0" val="2"/>
                         </set-val-9-4>
-                        <create-actor-on-layer comment="false" x="83" y="522">
-                            <actortype eid="128" id="0"/>
+                        <create-actor-on-layer comment="false" x="37" y="514">
+                            <actortype eid="24" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                             <int id="3" val="1"/>
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
-                        <set-val-9-13 comment="false" x="83" y="549">
+                        <set-val-9-13 comment="false" x="37" y="541">
                             <int id="0" val="25"/>
                         </set-val-9-13>
                     </group>
@@ -431,25 +431,25 @@
                         <int id="1" val="pipi"/>
                     </eq>
                 </else-if>
-                <else-if comment="false" x="72" y="581">
+                <else-if comment="false" x="26" y="573">
                     <group eventID="11" id="-1">
-                        <set-val-9-1 comment="false" x="83" y="611">
-                            <color b="85" g="124" id="0" r="207"/>
+                        <set-val-9-1 comment="false" x="37" y="603">
+                            <color b="51" g="255" id="0" r="51"/>
                         </set-val-9-1>
-                        <set-val-9-3 comment="false" x="83" y="638">
-                            <false comment="false" id="0" x="0" y="0"/>
+                        <set-val-9-3 comment="false" x="37" y="630">
+                            <true comment="false" id="0" x="0" y="0"/>
                         </set-val-9-3>
-                        <set-val-9-4 comment="false" x="83" y="663">
-                            <int id="0" val="0"/>
+                        <set-val-9-4 comment="false" x="37" y="655">
+                            <int id="0" val="3"/>
                         </set-val-9-4>
-                        <create-actor-on-layer comment="false" x="83" y="683">
-                            <actortype eid="126" id="0"/>
+                        <create-actor-on-layer comment="false" x="37" y="675">
+                            <actortype eid="20" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                             <int id="3" val="1"/>
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
-                        <set-val-9-13 comment="false" x="83" y="710">
+                        <set-val-9-13 comment="false" x="37" y="702">
                             <int id="0" val="30"/>
                         </set-val-9-13>
                     </group>
@@ -458,25 +458,25 @@
                         <int id="1" val="manger"/>
                     </eq>
                 </else-if>
-                <else-if comment="false" x="72" y="742">
+                <else-if comment="false" x="26" y="734">
                     <group eventID="11" id="-1">
-                        <set-val-9-1 comment="false" x="83" y="772">
-                            <color b="0" g="57" id="0" r="115"/>
+                        <set-val-9-1 comment="false" x="37" y="764">
+                            <color b="0" g="51" id="0" r="204"/>
                         </set-val-9-1>
-                        <set-val-9-3 comment="false" x="83" y="799">
+                        <set-val-9-3 comment="false" x="37" y="791">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-9-3>
-                        <set-val-9-4 comment="false" x="83" y="824">
-                            <int id="0" val="1"/>
+                        <set-val-9-4 comment="false" x="37" y="816">
+                            <int id="0" val="0"/>
                         </set-val-9-4>
-                        <create-actor-on-layer comment="false" x="83" y="844">
-                            <actortype eid="129" id="0"/>
+                        <create-actor-on-layer comment="false" x="37" y="836">
+                            <actortype eid="26" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                             <int id="3" val="1"/>
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
-                        <set-val-9-13 comment="false" x="83" y="871">
+                        <set-val-9-13 comment="false" x="37" y="863">
                             <int id="0" val="35"/>
                         </set-val-9-13>
                     </group>
@@ -485,79 +485,25 @@
                         <int id="1" val="caca"/>
                     </eq>
                 </else-if>
-                <else-if comment="false" x="72" y="903">
+                <else-if comment="false" x="26" y="895">
                     <group eventID="11" id="-1">
-                        <set-val-9-1 comment="false" x="83" y="933">
-                            <color b="204" g="102" id="0" r="255"/>
+                        <set-val-9-1 comment="false" x="37" y="925">
+                            <color b="255" g="153" id="0" r="153"/>
                         </set-val-9-1>
-                        <set-val-9-3 comment="false" x="83" y="960">
+                        <set-val-9-3 comment="false" x="37" y="952">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-9-3>
-                        <set-val-9-4 comment="false" x="83" y="985">
-                            <int id="0" val="2"/>
-                        </set-val-9-4>
-                        <create-actor-on-layer comment="false" x="83" y="1005">
-                            <actortype eid="130" id="0"/>
-                            <int id="1" val="0"/>
-                            <int id="2" val="0"/>
-                            <int id="3" val="1"/>
-                            <int id="4" val="ui"/>
-                        </create-actor-on-layer>
-                        <set-val-9-13 comment="false" x="83" y="1032">
-                            <int id="0" val="60"/>
-                        </set-val-9-13>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-9-15 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="affection"/>
-                    </eq>
-                </else-if>
-                <else-if comment="false" x="72" y="1064">
-                    <group eventID="11" id="-1">
-                        <set-val-9-1 comment="false" x="83" y="1094">
-                            <color b="0" g="102" id="0" r="255"/>
-                        </set-val-9-1>
-                        <set-val-9-3 comment="false" x="83" y="1121">
-                            <false comment="false" id="0" x="0" y="0"/>
-                        </set-val-9-3>
-                        <set-val-9-4 comment="false" x="83" y="1146">
-                            <int id="0" val="2"/>
-                        </set-val-9-4>
-                        <create-actor-on-layer comment="false" x="83" y="1166">
-                            <actortype eid="28" id="0"/>
-                            <int id="1" val="0"/>
-                            <int id="2" val="0"/>
-                            <int id="3" val="1"/>
-                            <int id="4" val="ui"/>
-                        </create-actor-on-layer>
-                        <set-val-9-13 comment="false" x="83" y="1193">
-                            <int id="0" val="45"/>
-                        </set-val-9-13>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-9-15 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="lumiere"/>
-                    </eq>
-                </else-if>
-                <else-if comment="false" x="72" y="1225">
-                    <group eventID="11" id="-1">
-                        <set-val-9-1 comment="false" x="83" y="1255">
-                            <color b="199" g="199" id="0" r="199"/>
-                        </set-val-9-1>
-                        <set-val-9-3 comment="false" x="83" y="1282">
-                            <false comment="false" id="0" x="0" y="0"/>
-                        </set-val-9-3>
-                        <set-val-9-4 comment="false" x="83" y="1307">
+                        <set-val-9-4 comment="false" x="37" y="977">
                             <int id="0" val="1"/>
                         </set-val-9-4>
-                        <create-actor-on-layer comment="false" x="83" y="1327">
+                        <create-actor-on-layer comment="false" x="37" y="997">
                             <actortype eid="32" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                             <int id="3" val="1"/>
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
-                        <set-val-9-13 comment="false" x="83" y="1354">
+                        <set-val-9-13 comment="false" x="37" y="1024">
                             <int id="0" val="40"/>
                         </set-val-9-13>
                     </group>
@@ -566,231 +512,132 @@
                         <int id="1" val="dormir"/>
                     </eq>
                 </else-if>
-                <set-val-9-11 comment="false" x="72" y="1386">
-                    <ACTOR eid="lastcreated" id="0"/>
-                </set-val-9-11>
-                <if comment="false" x="72" y="1413">
+                <else-if comment="false" x="26" y="1056">
                     <group eventID="11" id="-1">
-                        <sf-scalex comment="false" x="83" y="1438">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="1"/>
-                        </sf-scalex>
+                        <set-val-9-1 comment="false" x="37" y="1086">
+                            <color b="0" g="153" id="0" r="255"/>
+                        </set-val-9-1>
+                        <set-val-9-3 comment="false" x="37" y="1113">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-9-3>
+                        <set-val-9-4 comment="false" x="37" y="1138">
+                            <int id="0" val="2"/>
+                        </set-val-9-4>
+                        <create-actor-on-layer comment="false" x="37" y="1158">
+                            <actortype eid="28" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="1"/>
+                            <int id="4" val="ui"/>
+                        </create-actor-on-layer>
+                        <set-val-9-13 comment="false" x="37" y="1185">
+                            <int id="0" val="45"/>
+                        </set-val-9-13>
                     </group>
-                    <get-val-9-3 comment="false" id="0" x="0" y="0"/>
-                </if>
-                <else comment="false" x="72" y="1477">
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-9-15 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="lumiere"/>
+                    </eq>
+                </else-if>
+                <else comment="false" x="26" y="1217">
                     <group eventID="11" id="-1">
-                        <sf-scalex comment="false" x="83" y="1497">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="-1"/>
-                        </sf-scalex>
+                        <set-val-9-1 comment="false" x="37" y="1237">
+                            <color b="153" g="102" id="0" r="255"/>
+                        </set-val-9-1>
+                        <set-val-9-3 comment="false" x="37" y="1264">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-9-3>
+                        <set-val-9-4 comment="false" x="37" y="1289">
+                            <int id="0" val="3"/>
+                        </set-val-9-4>
+                        <create-actor-on-layer comment="false" x="37" y="1309">
+                            <actortype eid="30" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="1"/>
+                            <int id="4" val="ui"/>
+                        </create-actor-on-layer>
+                        <set-val-9-13 comment="false" x="37" y="1336">
+                            <int id="0" val="60"/>
+                        </set-val-9-13>
                     </group>
                 </else>
-                <comment-short comment="false" x="72" y="1536">
+                <set-val-9-11 comment="false" x="26" y="1368">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-9-11>
+                <comment-short comment="false" x="26" y="1395">
                     <int id="0" val="création des quartier"/>
                 </comment-short>
-                <if comment="false" x="72" y="1556">
+                <if comment="false" x="26" y="1415">
                     <group eventID="11" id="-1">
-                        <set-xy comment="false" x="83" y="1581">
+                        <set-xy comment="false" x="37" y="1440">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
-                            <int id="2" val="-22"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <minus comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <get-wh comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="2"/>
+                                    </get-wh>
+                                </minus>
+                                <int id="1" val="50"/>
+                            </plus>
                         </set-xy>
                     </group>
                     <get-val-9-3 comment="false" id="0" x="0" y="0"/>
                 </if>
-                <else comment="false" x="72" y="1620">
+                <else comment="false" x="26" y="1502">
                     <group eventID="11" id="-1">
-                        <set-xy comment="false" x="83" y="1640">
+                        <set-xy comment="false" x="37" y="1522">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
-                            <plus comment="false" id="2" x="0" y="0">
+                            <minus comment="false" id="2" x="0" y="0">
                                 <minus comment="false" id="0" x="0" y="0">
                                     <screen-wh comment="false" id="0" x="0" y="0">
                                         <int id="0" val="0"/>
                                     </screen-wh>
                                     <get-wh comment="false" id="1" x="0" y="0">
                                         <ACTOR eid="this" id="0"/>
-                                        <int id="1" val="0"/>
+                                        <int id="1" val="2"/>
                                     </get-wh>
                                 </minus>
-                                <int id="1" val="22"/>
-                            </plus>
+                                <int id="1" val="50"/>
+                            </minus>
                         </set-xy>
                     </group>
                 </else>
-                <if comment="false" x="72" y="1702">
-                    <group eventID="11" id="-1">
-                        <set-val-9-17 comment="false" x="83" y="1727">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <get-xy comment="false" id="0" x="0" y="0">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="0"/>
-                                </get-xy>
-                                <int id="1" val="78"/>
-                            </plus>
-                        </set-val-9-17>
-                    </group>
-                    <get-val-9-3 comment="false" id="0" x="0" y="0"/>
-                </if>
-                <else comment="false" x="72" y="1777">
-                    <group eventID="11" id="-1">
-                        <set-val-9-17 comment="false" x="83" y="1797">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <get-xy comment="false" id="0" x="0" y="0">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="0"/>
-                                </get-xy>
-                                <int id="1" val="53"/>
-                            </plus>
-                        </set-val-9-17>
-                    </group>
-                </else>
-                <set-xy comment="false" x="72" y="1847">
+                <set-xy comment="false" x="26" y="1584">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="1"/>
                     <plus comment="false" id="2" x="0" y="0">
-                        <int id="0" val="120"/>
+                        <int id="0" val="100"/>
                         <times comment="false" id="1" x="0" y="0">
                             <get-val-9-4 comment="false" id="0" x="0" y="0"/>
-                            <int id="1" val="120"/>
+                            <int id="1" val="100"/>
                         </times>
                     </plus>
                 </set-xy>
-                <comment-short comment="false" x="72" y="1889">
-                    <int id="0" val="d&amp;apos;abord fond de jauge"/>
-                </comment-short>
-                <create-actor-on-layer comment="false" x="72" y="1909">
-                    <actortype eid="1052" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
-                    <int id="3" val="1"/>
-                    <int id="4" val="ui"/>
-                </create-actor-on-layer>
-                <anchor-screen comment="false" x="72" y="1936">
-                    <ACTOR eid="lastcreated" id="0"/>
-                </anchor-screen>
-                <set-xy comment="false" x="72" y="1963">
-                    <ACTOR eid="lastcreated" id="0"/>
-                    <int id="1" val="0"/>
-                    <minus comment="false" id="2" x="0" y="0">
-                        <get-val-9-17 comment="false" id="0" x="0" y="0"/>
-                        <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="lastcreated" id="0"/>
-                            <int id="1" val="2"/>
-                        </get-wh>
-                    </minus>
-                </set-xy>
-                <set-xy comment="false" x="72" y="2008">
-                    <ACTOR eid="lastcreated" id="0"/>
-                    <int id="1" val="1"/>
-                    <minus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="3"/>
-                        </get-xy>
-                        <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="lastcreated" id="0"/>
-                            <int id="1" val="3"/>
-                        </get-wh>
-                    </minus>
-                </set-xy>
-                <set-val-9-5 comment="false" x="72" y="2053">
-                    <ACTOR eid="lastcreated" id="0"/>
-                </set-val-9-5>
-                <comment-short comment="false" x="72" y="2080">
-                    <int id="0" val="puis le dernier quartier"/>
-                </comment-short>
-                <create-actor-on-layer comment="false" x="72" y="2100">
+                <create-actor-on-layer comment="false" x="26" y="1626">
                     <actortype eid="14" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
                     <int id="3" val="1"/>
                     <int id="4" val="ui"/>
                 </create-actor-on-layer>
-                <set-val-9-7 comment="false" x="72" y="2127">
-                    <ACTOR eid="lastcreated" id="0"/>
-                </set-val-9-7>
-                <anchor-screen comment="false" x="72" y="2154">
-                    <ACTOR eid="var" id="0" vid="7"/>
-                </anchor-screen>
-                <set-xy comment="false" x="72" y="2181">
-                    <ACTOR eid="var" id="0" vid="7"/>
-                    <int id="1" val="0"/>
-                    <get-val-9-17 comment="false" id="2" x="0" y="0"/>
-                </set-xy>
-                <set-xy comment="false" x="72" y="2213">
-                    <ACTOR eid="var" id="0" vid="7"/>
-                    <int id="1" val="1"/>
-                    <minus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="3"/>
-                        </get-xy>
-                        <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="var" id="0" vid="7"/>
-                            <int id="1" val="1"/>
-                        </get-wh>
-                    </minus>
-                </set-xy>
-                <rotate comment="false" x="72" y="2258">
-                    <ACTOR eid="var" id="0" vid="7"/>
-                    <int id="1" val="270"/>
-                </rotate>
-                <comment-short comment="false" x="72" y="2285">
-                    <int id="0" val="puis quartier de fond pour cacher le dernier quartier"/>
-                </comment-short>
-                <create-actor-on-layer comment="false" x="72" y="2305">
-                    <actortype eid="1054" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
-                    <int id="3" val="1"/>
-                    <int id="4" val="ui"/>
-                </create-actor-on-layer>
-                <anchor-screen comment="false" x="72" y="2332">
-                    <ACTOR eid="lastcreated" id="0"/>
-                </anchor-screen>
-                <set-xy comment="false" x="72" y="2359">
-                    <ACTOR eid="lastcreated" id="0"/>
-                    <int id="1" val="0"/>
-                    <get-val-9-17 comment="false" id="2" x="0" y="0"/>
-                </set-xy>
-                <set-xy comment="false" x="72" y="2391">
-                    <ACTOR eid="lastcreated" id="0"/>
-                    <int id="1" val="1"/>
-                    <minus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="3"/>
-                        </get-xy>
-                        <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="lastcreated" id="0"/>
-                            <int id="1" val="1"/>
-                        </get-wh>
-                    </minus>
-                </set-xy>
-                <comment-short comment="false" x="72" y="2436">
-                    <int id="0" val="puis les autres quartiers"/>
-                </comment-short>
-                <create-actor-on-layer comment="false" x="72" y="2456">
-                    <actortype eid="14" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
-                    <int id="3" val="1"/>
-                    <int id="4" val="ui"/>
-                </create-actor-on-layer>
-                <set-val-9-2 comment="false" x="72" y="2483">
+                <set-val-9-2 comment="false" x="26" y="1666">
                     <ACTOR eid="lastcreated" id="0"/>
                 </set-val-9-2>
-                <anchor-screen comment="false" x="72" y="2510">
+                <anchor-screen comment="false" x="26" y="1693">
                     <ACTOR eid="var" id="0" vid="2"/>
                 </anchor-screen>
-                <set-xy comment="false" x="72" y="2537">
-                    <ACTOR eid="var" id="0" vid="2"/>
-                    <int id="1" val="0"/>
-                    <get-val-9-17 comment="false" id="2" x="0" y="0"/>
-                </set-xy>
-                <set-xy comment="false" x="72" y="2569">
+                <set-xy comment="false" x="26" y="1720">
                     <ACTOR eid="var" id="0" vid="2"/>
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
@@ -804,25 +651,26 @@
                         </get-wh>
                     </minus>
                 </set-xy>
-                <create-actor-on-layer comment="false" x="72" y="2614">
+                <create-actor-on-layer comment="false" x="26" y="1765">
                     <actortype eid="14" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
                     <int id="3" val="1"/>
                     <int id="4" val="ui"/>
                 </create-actor-on-layer>
-                <set-val-9-5 comment="false" x="72" y="2641">
+                <set-val-9-5 comment="false" x="26" y="1805">
                     <ACTOR eid="lastcreated" id="0"/>
                 </set-val-9-5>
-                <anchor-screen comment="false" x="72" y="2668">
+                <anchor-screen comment="false" x="26" y="1832">
                     <ACTOR eid="var" id="0" vid="5"/>
                 </anchor-screen>
-                <set-xy comment="false" x="72" y="2695">
-                    <ACTOR eid="var" id="0" vid="5"/>
-                    <int id="1" val="0"/>
-                    <get-val-9-17 comment="false" id="2" x="0" y="0"/>
-                </set-xy>
-                <set-xy comment="false" x="72" y="2727">
+                <set-xy comment="false" x="26" y="1859">
                     <ACTOR eid="var" id="0" vid="5"/>
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
@@ -836,29 +684,30 @@
                         </get-wh>
                     </minus>
                 </set-xy>
-                <rotate comment="false" x="72" y="2772">
+                <rotate comment="false" x="26" y="1904">
                     <ACTOR eid="var" id="0" vid="5"/>
                     <int id="1" val="90"/>
                 </rotate>
-                <create-actor-on-layer comment="false" x="72" y="2799">
+                <create-actor-on-layer comment="false" x="26" y="1931">
                     <actortype eid="14" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
                     <int id="3" val="1"/>
                     <int id="4" val="ui"/>
                 </create-actor-on-layer>
-                <set-val-9-6 comment="false" x="72" y="2826">
+                <set-val-9-6 comment="false" x="26" y="1971">
                     <ACTOR eid="lastcreated" id="0"/>
                 </set-val-9-6>
-                <anchor-screen comment="false" x="72" y="2853">
+                <anchor-screen comment="false" x="26" y="1998">
                     <ACTOR eid="var" id="0" vid="6"/>
                 </anchor-screen>
-                <set-xy comment="false" x="72" y="2880">
-                    <ACTOR eid="var" id="0" vid="6"/>
-                    <int id="1" val="0"/>
-                    <get-val-9-17 comment="false" id="2" x="0" y="0"/>
-                </set-xy>
-                <set-xy comment="false" x="72" y="2912">
+                <set-xy comment="false" x="26" y="2025">
                     <ACTOR eid="var" id="0" vid="6"/>
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
@@ -872,52 +721,31 @@
                         </get-wh>
                     </minus>
                 </set-xy>
-                <rotate comment="false" x="72" y="2957">
+                <rotate comment="false" x="26" y="2070">
                     <ACTOR eid="var" id="0" vid="6"/>
                     <int id="1" val="180"/>
                 </rotate>
-                <sf-color comment="false" x="72" y="2984">
-                    <ACTOR eid="var" id="0" vid="2"/>
-                    <get-val-9-1 comment="false" id="1" x="0" y="0"/>
-                </sf-color>
-                <sf-color comment="false" x="72" y="3016">
-                    <ACTOR eid="var" id="0" vid="5"/>
-                    <get-val-9-1 comment="false" id="1" x="0" y="0"/>
-                </sf-color>
-                <sf-color comment="false" x="72" y="3048">
-                    <ACTOR eid="var" id="0" vid="6"/>
-                    <get-val-9-1 comment="false" id="1" x="0" y="0"/>
-                </sf-color>
-                <sf-color comment="false" x="72" y="3080">
-                    <ACTOR eid="var" id="0" vid="7"/>
-                    <get-val-9-1 comment="false" id="1" x="0" y="0"/>
-                </sf-color>
-                <create-actor-on-layer comment="false" x="72" y="3112">
-                    <actortype eid="1050" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val="0"/>
+                <create-actor-on-layer comment="false" x="26" y="2097">
+                    <actortype eid="14" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
                     <int id="3" val="1"/>
                     <int id="4" val="ui"/>
                 </create-actor-on-layer>
-                <set-val-9-18 comment="false" x="72" y="3139">
+                <set-val-9-7 comment="false" x="26" y="2137">
                     <ACTOR eid="lastcreated" id="0"/>
-                </set-val-9-18>
-                <anchor-screen comment="false" x="72" y="3166">
-                    <ACTOR eid="var" id="0" vid="18"/>
+                </set-val-9-7>
+                <anchor-screen comment="false" x="26" y="2164">
+                    <ACTOR eid="var" id="0" vid="7"/>
                 </anchor-screen>
-                <set-xy comment="false" x="72" y="3193">
-                    <ACTOR eid="var" id="0" vid="18"/>
-                    <int id="1" val="0"/>
-                    <minus comment="false" id="2" x="0" y="0">
-                        <get-val-9-17 comment="false" id="0" x="0" y="0"/>
-                        <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="var" id="0" vid="18"/>
-                            <int id="1" val="2"/>
-                        </get-wh>
-                    </minus>
-                </set-xy>
-                <set-xy comment="false" x="72" y="3238">
-                    <ACTOR eid="var" id="0" vid="18"/>
+                <set-xy comment="false" x="26" y="2191">
+                    <ACTOR eid="var" id="0" vid="7"/>
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
                         <get-xy comment="false" id="0" x="0" y="0">
@@ -925,30 +753,61 @@
                             <int id="1" val="3"/>
                         </get-xy>
                         <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="var" id="0" vid="18"/>
-                            <int id="1" val="3"/>
+                            <ACTOR eid="var" id="0" vid="7"/>
+                            <int id="1" val="1"/>
                         </get-wh>
                     </minus>
                 </set-xy>
-                <sf-color comment="false" x="72" y="3283">
-                    <ACTOR eid="var" id="0" vid="18"/>
-                    <color b="0" g="0" id="1" r="0"/>
-                </sf-color>
-                <anchor-screen comment="false" x="72" y="3310">
+                <rotate comment="false" x="26" y="2236">
+                    <ACTOR eid="var" id="0" vid="7"/>
+                    <int id="1" val="270"/>
+                </rotate>
+                <apply-filter comment="false" x="26" y="2263">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                    <filter-tint comment="false" id="1" x="0" y="0">
+                        <get-val-9-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="100"/>
+                    </filter-tint>
+                </apply-filter>
+                <apply-filter comment="false" x="26" y="2308">
+                    <ACTOR eid="var" id="0" vid="5"/>
+                    <filter-tint comment="false" id="1" x="0" y="0">
+                        <get-val-9-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="100"/>
+                    </filter-tint>
+                </apply-filter>
+                <apply-filter comment="false" x="26" y="2353">
+                    <ACTOR eid="var" id="0" vid="6"/>
+                    <filter-tint comment="false" id="1" x="0" y="0">
+                        <get-val-9-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="100"/>
+                    </filter-tint>
+                </apply-filter>
+                <apply-filter comment="false" x="26" y="2398">
+                    <ACTOR eid="var" id="0" vid="7"/>
+                    <filter-tint comment="false" id="1" x="0" y="0">
+                        <get-val-9-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="100"/>
+                    </filter-tint>
+                </apply-filter>
+                <anchor-screen comment="false" x="26" y="2443">
                     <ACTOR eid="var" id="0" vid="11"/>
                 </anchor-screen>
-                <set-xy comment="false" x="72" y="3337">
+                <set-xy comment="false" x="26" y="2470">
                     <ACTOR eid="var" id="0" vid="11"/>
                     <int id="1" val="0"/>
                     <minus comment="false" id="2" x="0" y="0">
-                        <get-val-9-17 comment="false" id="0" x="0" y="0"/>
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-xy>
                         <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="var" id="0" vid="11"/>
+                            <ACTOR eid="this" id="0"/>
                             <int id="1" val="2"/>
                         </get-wh>
                     </minus>
                 </set-xy>
-                <set-xy comment="false" x="72" y="3382">
+                <set-xy comment="false" x="26" y="2515">
                     <ACTOR eid="var" id="0" vid="11"/>
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
@@ -957,17 +816,21 @@
                             <int id="1" val="3"/>
                         </get-xy>
                         <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="var" id="0" vid="11"/>
+                            <ACTOR eid="this" id="0"/>
                             <int id="1" val="3"/>
                         </get-wh>
                     </minus>
                 </set-xy>
-                <comment-short comment="false" x="72" y="3427">
+                <movewithinlayer comment="false" x="26" y="2560">
+                    <ACTOR eid="var" id="0" vid="11"/>
+                    <int id="1" val="3"/>
+                </movewithinlayer>
+                <comment-short comment="false" x="26" y="2587">
                     <int id="0" val="il n&amp;apos;y a que la jauge respire qui est activée tout le temps"/>
                 </comment-short>
-                <if comment="false" x="72" y="3447">
+                <if comment="false" x="26" y="2607">
                     <group eventID="11" id="-1">
-                        <custom-34 comment="false" x="83" y="3477">
+                        <custom-34 comment="false" x="37" y="2637">
                             <ACTOR eid="this" id="0"/>
                             <true comment="false" id="1" x="0" y="0"/>
                         </custom-34>
@@ -977,9 +840,9 @@
                         <int id="1" val="respirer"/>
                     </eq>
                 </if>
-                <else comment="false" x="72" y="3521">
+                <else comment="false" x="26" y="2681">
                     <group eventID="11" id="-1">
-                        <custom-34 comment="false" x="83" y="3541">
+                        <custom-34 comment="false" x="37" y="2701">
                             <ACTOR eid="this" id="0"/>
                             <false comment="false" id="1" x="0" y="0"/>
                         </custom-34>
@@ -990,21 +853,11 @@
             <get-byobval-9-44-1 comment="false" id="1" x="0" y="0"/>
         </receiver-6-44>
     </group>
-    <group eventID="11" id="1">
-        <sf-color comment="false" x="50" y="4101">
-            <ACTOR eid="var" id="0" vid="5"/>
-            <get-val-9-1 comment="false" id="1" x="0" y="0"/>
-        </sf-color>
-        <sf-color comment="false" x="50" y="4133">
-            <ACTOR eid="var" id="0" vid="6"/>
-            <get-val-9-1 comment="false" id="1" x="0" y="0"/>
-        </sf-color>
-        <sf-color comment="false" x="50" y="4165">
-            <ACTOR eid="var" id="0" vid="7"/>
-            <get-val-9-1 comment="false" id="1" x="0" y="0"/>
-        </sf-color>
+    <group eventID="11" id="-1">
+        <screen-wh comment="false" x="320" y="1385">
+            <int id="0" val="0"/>
+        </screen-wh>
     </group>
-    <group eventID="11" id="-1"/>
     <group eventID="12" id="0">
         <receiver-7-48 comment="false" x="15" y="15">
             <group eventID="12" id="-1">
