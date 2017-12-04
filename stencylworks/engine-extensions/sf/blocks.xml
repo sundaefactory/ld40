@@ -47,4 +47,27 @@ If you wish to use a dropdown, look at the example below for syntax.
 		</fields>
 	</block>
 	
+	<block tag="sf-color" spec="change color of %0 with %1" code="sf.SF_Utils.instance.color(~,~);" type="action" color="green" returns="void">
+		<fields>
+			<actor order="0"></actor>
+			<color order="1"></color>
+		</fields>
+	</block>
+	
+	<block tag="sf-facing-right" spec="set %0 facing right %1" code="sf.SF_Utils.instance.facingRight(~,~);" type="action" color="green" returns="void">
+		<fields>
+			<actor order="0"></actor>
+			<boolean order="1"></boolean>
+		</fields>
+	</block>
+	
+	<block tag="sf-scalex" spec="set %0 scalex to %1" code="sf.SF_Utils.instance.scaleX(~,~);" type="action" color="green" returns="void">
+		<fields>
+			<actor order="0"></actor>
+			<number order="1"></number>
+		</fields>
+	</block>
+	
+	
+	
 </palette>
