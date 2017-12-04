@@ -1,5 +1,5 @@
 ko
-ld40_scene.floor01-as: 1010 utilisé par lavabo-st
-ld40_scene.ascenseur-aa: 50 utilisé par ascenseurin-aa
-ld40_scene.ascenseur-st: 51 utilisé par ascenseurin-st
-ld40_scene.ascenseur-ev: 23 utilisé par ascenseurin-ev
+ld40_scene.test02-as: 114 utilisé par floor01-as
+ld40_scene.test01-as: 103 utilisé par intro-as
+ld40_scene.test02-ev: 1030 utilisé par floor01-ev
+ld40_scene.test01-ev: 112 utilisé par intro-ev

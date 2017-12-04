@@ -23,96 +23,140 @@
             <group eventID="5" id="-1">
                 <if comment="false" x="45" y="64">
                     <group eventID="5" id="-1">
-                        <custom-34 comment="false" x="56" y="94">
+                        <custom-34 comment="false" x="56" y="99">
                             <ACTOR eid="var" id="0" vid="3"/>
                             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>
                         </custom-34>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="respire"/>
-                    </eq>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="respire"/>
+                        </eq>
+                        <sf-notnull comment="false" id="1" x="0" y="0">
+                            <get-val-8-3 comment="false" id="0" x="0" y="0"/>
+                        </sf-notnull>
+                    </and>
                 </if>
-                <else-if comment="false" x="45" y="138">
+                <else-if comment="false" x="45" y="143">
                     <group eventID="5" id="-1">
-                        <custom-34 comment="false" x="56" y="168">
+                        <custom-34 comment="false" x="56" y="178">
                             <ACTOR eid="var" id="0" vid="4"/>
                             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>
                         </custom-34>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="boire"/>
-                    </eq>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="boire"/>
+                        </eq>
+                        <sf-notnull comment="false" id="1" x="0" y="0">
+                            <get-val-8-4 comment="false" id="0" x="0" y="0"/>
+                        </sf-notnull>
+                    </and>
                 </else-if>
-                <else-if comment="false" x="45" y="212">
+                <else-if comment="false" x="45" y="222">
                     <group eventID="5" id="-1">
-                        <custom-34 comment="false" x="56" y="242">
+                        <custom-34 comment="false" x="56" y="257">
                             <ACTOR eid="var" id="0" vid="5"/>
                             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>
                         </custom-34>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="pipi"/>
-                    </eq>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="pipi"/>
+                        </eq>
+                        <sf-notnull comment="false" id="1" x="0" y="0">
+                            <get-val-8-5 comment="false" id="0" x="0" y="0"/>
+                        </sf-notnull>
+                    </and>
                 </else-if>
-                <else-if comment="false" x="45" y="286">
+                <else-if comment="false" x="45" y="301">
                     <group eventID="5" id="-1">
-                        <custom-34 comment="false" x="56" y="316">
+                        <custom-34 comment="false" x="56" y="336">
                             <ACTOR eid="var" id="0" vid="2"/>
                             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>
                         </custom-34>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="manger"/>
-                    </eq>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="manger"/>
+                        </eq>
+                        <sf-notnull comment="false" id="1" x="0" y="0">
+                            <get-val-8-2 comment="false" id="0" x="0" y="0"/>
+                        </sf-notnull>
+                    </and>
                 </else-if>
-                <else-if comment="false" x="45" y="360">
+                <else-if comment="false" x="45" y="380">
                     <group eventID="5" id="-1">
-                        <custom-34 comment="false" x="56" y="390">
+                        <custom-34 comment="false" x="56" y="415">
                             <ACTOR eid="var" id="0" vid="6"/>
                             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>
                         </custom-34>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="caca"/>
-                    </eq>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="caca"/>
+                        </eq>
+                        <sf-notnull comment="false" id="1" x="0" y="0">
+                            <get-val-8-6 comment="false" id="0" x="0" y="0"/>
+                        </sf-notnull>
+                    </and>
                 </else-if>
-                <else-if comment="false" x="45" y="434">
+                <else-if comment="false" x="45" y="459">
                     <group eventID="5" id="-1">
-                        <custom-34 comment="false" x="56" y="464">
+                        <custom-34 comment="false" x="56" y="494">
                             <ACTOR eid="var" id="0" vid="7"/>
                             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>
                         </custom-34>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="dormir"/>
-                    </eq>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="dormir"/>
+                        </eq>
+                        <sf-notnull comment="false" id="1" x="0" y="0">
+                            <get-val-8-7 comment="false" id="0" x="0" y="0"/>
+                        </sf-notnull>
+                    </and>
                 </else-if>
-                <else-if comment="false" x="45" y="508">
+                <else-if comment="false" x="45" y="538">
                     <group eventID="5" id="-1">
-                        <custom-34 comment="false" x="56" y="538">
+                        <custom-34 comment="false" x="56" y="573">
                             <ACTOR eid="var" id="0" vid="9"/>
                             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>
                         </custom-34>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="lumiere"/>
-                    </eq>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="lumiere"/>
+                        </eq>
+                        <sf-notnull comment="false" id="1" x="0" y="0">
+                            <get-val-8-9 comment="false" id="0" x="0" y="0"/>
+                        </sf-notnull>
+                    </and>
                 </else-if>
-                <else comment="false" x="45" y="582">
+                <else-if comment="false" x="45" y="617">
                     <group eventID="5" id="-1">
-                        <custom-34 comment="false" x="56" y="602">
+                        <custom-34 comment="false" x="56" y="652">
                             <ACTOR eid="var" id="0" vid="8"/>
                             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>
                         </custom-34>
                     </group>
-                </else>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="affection"/>
+                        </eq>
+                        <sf-notnull comment="false" id="1" x="0" y="0">
+                            <get-val-8-8 comment="false" id="0" x="0" y="0"/>
+                        </sf-notnull>
+                    </and>
+                </else-if>
             </group>
             <get-byobval-8-46-0 comment="false" id="0" x="0" y="0"/>
             <get-byobval-8-46-1 comment="false" id="1" x="0" y="0"/>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="5" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <custom-1025 comment="false" x="26" y="42">
+                    <ACTOR eid="2" id="0"/>
+                    <ACTOR eid="11" id="1"/>
+                </custom-1025>
+                <dolater comment="false" x="26" y="69">
+                    <group eventID="5" id="-1">
+                        <set-game-val-2 comment="false" x="37" y="96">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-2>
+                        <custom-1039 comment="false" x="37" y="121"/>
+                    </group>
+                    <int id="0" val="0.5"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="0.01"/>
+            <ACTOR eid="lastcreated" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

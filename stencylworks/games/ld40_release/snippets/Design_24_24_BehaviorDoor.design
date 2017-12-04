@@ -642,7 +642,7 @@
         </event-custom>
     </group>
     <group eventID="6" id="-1">
-        <get-val-24-8 comment="false" x="625" y="743"/>
         <get-val-24-9 comment="false" x="657" y="808"/>
+        <get-val-24-8 comment="false" x="625" y="743"/>
     </group>
 </groups>
