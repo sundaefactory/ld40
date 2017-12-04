@@ -2,6 +2,7 @@
 <scenes>
     <scene desc="" format="3.4.0" id="144" name="floor_02"/>
     <scene desc="" format="3.4.0" id="1" name="level_01"/>
+    <scene desc="" format="3.4.0" id="145" name="floor_04"/>
     <scene desc="" format="3.4.0" id="114" name="floor_01"/>
     <scene desc="" format="3.4.0" id="102" name="start"/>
     <scene desc="" format="3.4.0" id="103" name="intro"/>
