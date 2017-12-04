@@ -18,6 +18,34 @@
     </terrainRegions>
     <actors>
         <actor a="0.0" aid="2" c="false" group="0" id="4" name="player 2" sx="1.0" sy="1.0" x="1181" y="165" z="1"/>
+        <actor a="0.0" aid="11" c="true" group="8" id="1028" name="Wc 11" sx="1.0" sy="1.0" x="719" y="1194" z="2">
+            <snippets>
+                <s enabled="true" id="1025"/>
+                <s enabled="true" id="24">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="0"/>
+                    <prop id="2" list="0" val="false"/>
+                    <prop id="3" list="0" val="-1"/>
+                    <prop id="4" list="0" val=""/>
+                    <prop id="5" list="0" val="false"/>
+                    <prop id="6" list="0" val="0"/>
+                    <prop id="7" list="0" val="0"/>
+                    <prop id="8" list="0" val="0"/>
+                    <prop id="9" list="0" val="0"/>
+                    <prop id="10" list="0" val="0"/>
+                    <prop id="11" list="0" val="0"/>
+                    <prop id="12" list="0" val=""/>
+                    <prop id="13" list="0" val="1030"/>
+                    <prop id="14" list="0" val=""/>
+                    <prop id="15" list="0" val="20"/>
+                    <prop id="17" list="0" val="false"/>
+                    <prop id="18" list="0" val="0.0005"/>
+                    <prop id="19" list="0" val="0"/>
+                    <prop id="20" list="0" val="-17"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="14" c="false" group="8" id="1037" name="salle_fermee 14" sx="1.0" sy="1.0" x="470" y="1090" z="0"/>
         <actor a="0.0" aid="18" c="true" group="7" id="1032" name="escalier1_down" sx="1.0" sy="1.0" x="297" y="704" z="2">
             <snippets>
                 <s enabled="true" id="1027"/>
@@ -102,34 +130,12 @@
                 <s enabled="true" id="27"/>
             </snippets>
         </actor>
-        <actor a="0.0" aid="11" c="true" group="8" id="1028" name="Wc 11" sx="1.0" sy="1.0" x="719" y="1194" z="2">
-            <snippets>
-                <s enabled="true" id="1025"/>
-                <s enabled="true" id="24">
-                    <prop id="2147483647" list="0" val="thisactor"/>
-                    <prop id="1" list="0" val="0"/>
-                    <prop id="2" list="0" val="false"/>
-                    <prop id="3" list="0" val="-1"/>
-                    <prop id="4" list="0" val=""/>
-                    <prop id="5" list="0" val="false"/>
-                    <prop id="6" list="0" val="0"/>
-                    <prop id="7" list="0" val="0"/>
-                    <prop id="8" list="0" val="0"/>
-                    <prop id="9" list="0" val="0"/>
-                    <prop id="10" list="0" val="0"/>
-                    <prop id="11" list="0" val="0"/>
-                    <prop id="12" list="0" val=""/>
-                    <prop id="13" list="0" val="1030"/>
-                    <prop id="14" list="0" val=""/>
-                    <prop id="15" list="0" val="20"/>
-                    <prop id="17" list="0" val="false"/>
-                    <prop id="18" list="0" val="0.0005"/>
-                    <prop id="19" list="0" val="0"/>
-                    <prop id="20" list="0" val="-17"/>
-                </s>
-            </snippets>
-        </actor>
-        <actor a="0.0" aid="14" c="false" group="8" id="1037" name="salle_fermee 14" sx="1.0" sy="1.0" x="470" y="1090" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="6" id="1001" name="lapin 25" sx="1.0" sy="1.0" x="362" y="1042" z="2"/>
+        <actor a="0.0" aid="26" c="false" group="6" id="10" name="bocal 26" sx="1.0" sy="1.0" x="1275" y="1324" z="2"/>
+        <actor a="0.0" aid="27" c="false" group="6" id="1003" name="cat 27" sx="1.0" sy="1.0" x="650" y="1261" z="2"/>
+        <actor a="0.0" aid="28" c="false" group="6" id="1013" name="manger_table 28" sx="1.0" sy="1.0" x="523" y="1242" z="2"/>
+        <actor a="0.0" aid="29" c="false" group="6" id="35" name="plant 29" sx="1.0" sy="1.0" x="1243" y="993" z="2"/>
+        <actor a="0.0" aid="30" c="false" group="6" id="999" name="saut 30" sx="1.0" sy="1.0" x="821" y="1252" z="2"/>
     </actors>
     <snippets>
         <s enabled="true" id="8">

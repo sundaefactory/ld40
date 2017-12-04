@@ -100,7 +100,7 @@
         <boolean cid="-1" id="4" name="gauge_pipi" save="true" value="false"/>
         <boolean cid="-1" id="2" name="gauge_respire" save="true" value="false"/>
         <number cid="-1" id="0" name="gauge_decrease_factor" save="true" value="1.0"/>
-        <number cid="-1" id="22" name="health_value" save="true" value="100"/>
+        <number cid="-1" id="22" name="health_value" save="true" value="100.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>

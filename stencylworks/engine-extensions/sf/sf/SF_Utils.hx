@@ -32,6 +32,10 @@ class SF_Utils
 	public function scaleX(a_actor:Actor, a_scaleX:Float):Void
 	{
 		a_actor.realScaleX = a_scaleX;
+		var _width:Float = a_scaleX>0?a_scaleX:-a_scaleX;
+		var _height:Float = a_actor.realScaleY;
+		if (a_actor.bodyDef!=null)
+			a_actor.scaleBody(_width, _height);
 	}
 	
 	public function facingRight(a_actor:Actor, a_right:Bool):Void
@@ -39,5 +43,4 @@ class SF_Utils
 		if ((a_actor.realScaleX<0 && a_right) || (a_actor.realScaleX>0 && !a_right))
 			a_actor.realScaleX = -a_actor.realScaleX;
 	}
-	
 }

@@ -9,49 +9,25 @@
                 </custom-1025>
                 <dolater comment="false" x="26" y="69">
                     <group eventID="5" id="-1">
-                        <set-game-val-4 comment="false" x="37" y="96">
-                            <true comment="false" id="0" x="0" y="0"/>
-                        </set-game-val-4>
-                        <set-game-val-5 comment="false" x="37" y="121">
-                            <true comment="false" id="0" x="0" y="0"/>
-                        </set-game-val-5>
-                        <set-game-val-9 comment="false" x="37" y="146">
-                            <true comment="false" id="0" x="0" y="0"/>
-                        </set-game-val-9>
-                        <set-game-val-3 comment="false" x="37" y="171">
+                        <set-game-val-3 comment="false" x="37" y="96">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-game-val-3>
-                        <set-game-val-6 comment="false" x="37" y="196">
+                        <set-game-val-6 comment="false" x="37" y="121">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-game-val-6>
-                        <set-game-val-2 comment="false" x="37" y="221">
+                        <set-game-val-4 comment="false" x="37" y="146">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-4>
+                        <set-game-val-9 comment="false" x="37" y="171">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-9>
+                        <set-game-val-2 comment="false" x="37" y="196">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-game-val-2>
-                        <custom-46 comment="false" x="37" y="246">
-                            <int id="0" val="pipi"/>
-                            <true comment="false" id="1" x="0" y="0"/>
-                        </custom-46>
-                        <custom-46 comment="false" x="37" y="271">
-                            <int id="0" val="manger"/>
-                            <true comment="false" id="1" x="0" y="0"/>
-                        </custom-46>
-                        <custom-46 comment="false" x="37" y="296">
-                            <int id="0" val="affection"/>
-                            <true comment="false" id="1" x="0" y="0"/>
-                        </custom-46>
-                        <custom-46 comment="false" x="37" y="321">
-                            <int id="0" val="boire"/>
-                            <true comment="false" id="1" x="0" y="0"/>
-                        </custom-46>
-                        <custom-46 comment="false" x="37" y="346">
-                            <int id="0" val="caca"/>
-                            <true comment="false" id="1" x="0" y="0"/>
-                        </custom-46>
-                        <custom-46 comment="false" x="37" y="371">
-                            <int id="0" val="respire"/>
-                            <true comment="false" id="1" x="0" y="0"/>
-                        </custom-46>
-                        <custom-1039 comment="false" x="37" y="396"/>
+                        <set-game-val-5 comment="false" x="37" y="221">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-5>
+                        <custom-1039 comment="false" x="37" y="246"/>
                     </group>
                     <int id="0" val="0.5"/>
                     <ACTOR eid="lastcreated" id="2"/>
@@ -60,6 +36,32 @@
             <int id="0" val="0.01"/>
             <ACTOR eid="lastcreated" id="2"/>
         </event-delay>
+    </group>
+    <group eventID="5" id="1">
+        <custom-46 comment="false" x="183" y="324">
+            <int id="0" val="pipi"/>
+            <true comment="false" id="1" x="0" y="0"/>
+        </custom-46>
+        <custom-46 comment="false" x="183" y="349">
+            <int id="0" val="manger"/>
+            <true comment="false" id="1" x="0" y="0"/>
+        </custom-46>
+        <custom-46 comment="false" x="183" y="374">
+            <int id="0" val="affection"/>
+            <true comment="false" id="1" x="0" y="0"/>
+        </custom-46>
+        <custom-46 comment="false" x="183" y="399">
+            <int id="0" val="boire"/>
+            <true comment="false" id="1" x="0" y="0"/>
+        </custom-46>
+        <custom-46 comment="false" x="183" y="424">
+            <int id="0" val="caca"/>
+            <true comment="false" id="1" x="0" y="0"/>
+        </custom-46>
+        <custom-46 comment="false" x="183" y="449">
+            <int id="0" val="respire"/>
+            <true comment="false" id="1" x="0" y="0"/>
+        </custom-46>
     </group>
     <group eventID="5" id="-1"/>
 </groups>

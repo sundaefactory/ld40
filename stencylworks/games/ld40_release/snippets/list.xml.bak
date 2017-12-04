@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
-    <snippet actorid="1028" attachedevent="true" class="scripts.ActorEvents_1028" classname="scripts.ActorEvents_1028" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1025" name="ActorEvents_1028" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="4" attachedevent="true" class="scripts.ActorEvents_4" classname="scripts.ActorEvents_4" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_4" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="4" attachedevent="true" class="scripts.ActorEvents_4" classname="scripts.ActorEvents_4" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_4" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="1028" attachedevent="true" class="scripts.ActorEvents_1028" classname="scripts.ActorEvents_1028" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1025" name="ActorEvents_1028" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
@@ -83,13 +83,6 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="8" attachedevent="true" class="scripts.ActorEvents_8" classname="scripts.ActorEvents_8" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="6" name="ActorEvents_8" oid="-1" package="scripts." shared="false" type="actor">
-        <actor default="" defaultValue="" desc="" dropdown="" fullname="quart0" hidden="false" id="1" name="_quart0" order="0"/>
-        <blocks/>
-        <events>
-            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
-        </events>
-    </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_114" classname="scripts.SceneEvents_114" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1030" name="SceneEvents_114" oid="-1" package="scripts." sceneid="114" shared="false" type="scene">
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="entering" hidden="false" id="1" name="_entering" order="0"/>
         <blocks/>
@@ -98,19 +91,31 @@
             <event displayName="jauge boire" enabled="true" id="6" name="event-group-region" order="5" repeats="true"/>
         </events>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_1031_1031_PlayerAnims" classname="scripts.Design_1031_1031_PlayerAnims" desc="[v1.1]" description="[v1.1]" design="true" drawOrder="0" id="1031" name="PlayerAnims" oid="-1" package="scripts" shared="false" type="actor">
+    <snippet actorid="8" attachedevent="true" class="scripts.ActorEvents_8" classname="scripts.ActorEvents_8" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="6" name="ActorEvents_8" oid="-1" package="scripts." shared="false" type="actor">
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="quart0" hidden="false" id="1" name="_quart0" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_1031_1031_PlayerAnims" classname="scripts.Design_1031_1031_PlayerAnims" desc="[v1.2]" description="[v1.2]" design="true" drawOrder="0" id="1031" name="PlayerAnims" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Facing Right" hidden="true" id="1" name="_FacingRight" order="1"/>
         <blocks/>
         <events>
             <event displayName="respirer" enabled="true" id="1" name="event-custom" order="1" repeats="true"/>
+            <event displayName="boire" enabled="true" id="2" name="event-custom" order="2" repeats="true"/>
+            <event displayName="manger" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+            <event displayName="pipi" enabled="true" id="4" name="event-custom" order="4" repeats="true"/>
+            <event displayName="caca" enabled="true" id="5" name="event-custom" order="5" repeats="true"/>
+            <event displayName="affection" enabled="true" id="6" name="event-custom" order="6" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="10" attachedevent="true" class="scripts.ActorEvents_10" classname="scripts.ActorEvents_10" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="7" name="ActorEvents_10" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_8_8_BehaviorGauges" classname="scripts.Design_8_8_BehaviorGauges" desc="[v1.7]" description="[v1.7]" design="true" drawOrder="0" id="8" name="BehaviorGauges" oid="-1" package="scripts" shared="false" type="scene">
+    <snippet attachedevent="false" class="scripts.Design_8_8_BehaviorGauges" classname="scripts.Design_8_8_BehaviorGauges" desc="[v1.8]" description="[v1.8]" design="true" drawOrder="0" id="8" name="BehaviorGauges" oid="-1" package="scripts" shared="false" type="scene">
         <number default="100" defaultValue="100" desc="" dropdown="" fullname="breath_value" hidden="true" id="1" name="_breath_value" order="0"/>
         <actor default="" defaultValue="" desc="" dropdown="" fullname="eat_gauge" hidden="true" id="2" name="_eat_gauge" order="5"/>
         <actor default="" defaultValue="" desc="" dropdown="" fullname="breath_gauge" hidden="true" id="3" name="_breath_gauge" order="6"/>
@@ -120,7 +125,7 @@
         <actor default="" defaultValue="" desc="" dropdown="" fullname="sleep_gauge" hidden="true" id="7" name="_sleepgauge" order="2"/>
         <actor default="" defaultValue="" desc="" dropdown="" fullname="love_gauge" hidden="true" id="8" name="_lovegauge" order="3"/>
         <actor default="" defaultValue="" desc="" dropdown="" fullname="light_gauge" hidden="true" id="9" name="_lightgauge" order="4"/>
-        <number default="100" defaultValue="100" desc="" dropdown="" fullname="health" hidden="true" id="10" name="_health" order="9"/>
+        <number default="100.0" defaultValue="100.0" desc="" dropdown="" fullname="health" hidden="true" id="10" name="_health" order="9"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="bad" hidden="true" id="11" name="_bad" order="10"/>
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="travelling_value" hidden="true" id="12" name="_travellingvalue" order="11"/>
         <number default="5.0E-4" defaultValue="5.0E-4" desc="" dropdown="" fullname="travelling_time" hidden="true" id="13" name="_travellingtime" order="12"/>
@@ -159,7 +164,7 @@
             <event displayName="set health bar" enabled="true" id="2" name="event-custom-block" order="2" repeats="true"/>
         </events>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_9_9_BehaviorGauge" classname="scripts.Design_9_9_BehaviorGauge" desc="[v1.5]" description="[v1.5]" design="true" drawOrder="0" id="9" name="BehaviorGauge" oid="-1" package="scripts" shared="false" type="actor">
+    <snippet attachedevent="false" class="scripts.Design_9_9_BehaviorGauge" classname="scripts.Design_9_9_BehaviorGauge" desc="[v1.7]" description="[v1.7]" design="true" drawOrder="0" id="9" name="BehaviorGauge" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <color default="" defaultValue="" desc="" dropdown="" fullname="color" hidden="false" id="1" name="_color" order="1"/>
         <actor default="" defaultValue="" desc="" dropdown="" fullname="quart0" hidden="true" id="2" name="_quart0" order="5"/>
@@ -224,6 +229,14 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet actorid="1047" attachedevent="true" class="scripts.ActorEvents_1047" classname="scripts.ActorEvents_1047" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1035" name="ActorEvents_1047" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="14" attachedevent="true" class="scripts.ActorEvents_14" classname="scripts.ActorEvents_14" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" name="ActorEvents_14" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet actorid="127" attachedevent="true" class="scripts.ActorEvents_127" classname="scripts.ActorEvents_127" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="139" name="ActorEvents_127" oid="-1" package="scripts." shared="false" type="actor">
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
         <blocks/>
@@ -232,19 +245,27 @@
             <event displayName="Updating" enabled="false" id="2" name="step" order="2" repeats="true"/>
         </events>
     </snippet>
-    <snippet actorid="14" attachedevent="true" class="scripts.ActorEvents_14" classname="scripts.ActorEvents_14" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" name="ActorEvents_14" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="128" attachedevent="true" class="scripts.ActorEvents_128" classname="scripts.ActorEvents_128" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="140" name="ActorEvents_128" oid="-1" package="scripts." shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
         <blocks/>
-        <events/>
-    </snippet>
-    <snippet actorid="1047" attachedevent="true" class="scripts.ActorEvents_1047" classname="scripts.ActorEvents_1047" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1035" name="ActorEvents_1047" oid="-1" package="scripts." shared="false" type="actor">
-        <blocks/>
-        <events/>
+        <events>
+            <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updating" enabled="false" id="2" name="step" order="2" repeats="true"/>
+        </events>
     </snippet>
     <snippet actorid="1050" attachedevent="true" class="scripts.ActorEvents_1050" classname="scripts.ActorEvents_1050" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1036" name="ActorEvents_1050" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="128" attachedevent="true" class="scripts.ActorEvents_128" classname="scripts.ActorEvents_128" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="140" name="ActorEvents_128" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="20" attachedevent="true" class="scripts.ActorEvents_20" classname="scripts.ActorEvents_20" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" name="ActorEvents_20" oid="-1" package="scripts." shared="false" type="actor">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updating" enabled="false" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="129" attachedevent="true" class="scripts.ActorEvents_129" classname="scripts.ActorEvents_129" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="141" name="ActorEvents_129" oid="-1" package="scripts." shared="false" type="actor">
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
         <blocks/>
         <events>
@@ -256,7 +277,7 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="129" attachedevent="true" class="scripts.ActorEvents_129" classname="scripts.ActorEvents_129" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="141" name="ActorEvents_129" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="22" attachedevent="true" class="scripts.ActorEvents_22" classname="scripts.ActorEvents_22" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="14" name="ActorEvents_22" oid="-1" package="scripts." shared="false" type="actor">
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
         <blocks/>
         <events>
@@ -264,7 +285,7 @@
             <event displayName="Updating" enabled="false" id="2" name="step" order="2" repeats="true"/>
         </events>
     </snippet>
-    <snippet actorid="20" attachedevent="true" class="scripts.ActorEvents_20" classname="scripts.ActorEvents_20" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" name="ActorEvents_20" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="130" attachedevent="true" class="scripts.ActorEvents_130" classname="scripts.ActorEvents_130" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="142" name="ActorEvents_130" oid="-1" package="scripts." shared="false" type="actor">
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
         <blocks/>
         <events>
@@ -276,15 +297,7 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="130" attachedevent="true" class="scripts.ActorEvents_130" classname="scripts.ActorEvents_130" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="142" name="ActorEvents_130" oid="-1" package="scripts." shared="false" type="actor">
-        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
-        <blocks/>
-        <events>
-            <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
-            <event displayName="Updating" enabled="false" id="2" name="step" order="2" repeats="true"/>
-        </events>
-    </snippet>
-    <snippet actorid="22" attachedevent="true" class="scripts.ActorEvents_22" classname="scripts.ActorEvents_22" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="14" name="ActorEvents_22" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="24" attachedevent="true" class="scripts.ActorEvents_24" classname="scripts.ActorEvents_24" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="15" name="ActorEvents_24" oid="-1" package="scripts." shared="false" type="actor">
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
         <blocks/>
         <events>
@@ -295,14 +308,6 @@
     <snippet actorid="1056" attachedevent="true" class="scripts.ActorEvents_1056" classname="scripts.ActorEvents_1056" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1039" name="ActorEvents_1056" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
-    </snippet>
-    <snippet actorid="24" attachedevent="true" class="scripts.ActorEvents_24" classname="scripts.ActorEvents_24" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="15" name="ActorEvents_24" oid="-1" package="scripts." shared="false" type="actor">
-        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
-        <blocks/>
-        <events>
-            <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
-            <event displayName="Updating" enabled="false" id="2" name="step" order="2" repeats="true"/>
-        </events>
     </snippet>
     <snippet actorid="1058" attachedevent="true" class="scripts.ActorEvents_1058" classname="scripts.ActorEvents_1058" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1040" name="ActorEvents_1058" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
@@ -316,20 +321,20 @@
             <event displayName="Updating" enabled="false" id="2" name="step" order="2" repeats="true"/>
         </events>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_144" classname="scripts.SceneEvents_144" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1041" name="SceneEvents_144" oid="-1" package="scripts." sceneid="144" shared="false" type="scene">
-        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="entering" hidden="false" id="1" name="_entering" order="0"/>
-        <blocks/>
-        <events>
-            <event displayName="arrivée player" enabled="true" id="5" name="event-delay" order="4" repeats="true"/>
-            <event displayName="jauge boire" enabled="true" id="6" name="event-group-region" order="5" repeats="true"/>
-        </events>
-    </snippet>
     <snippet actorid="28" attachedevent="true" class="scripts.ActorEvents_28" classname="scripts.ActorEvents_28" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="17" name="ActorEvents_28" oid="-1" package="scripts." shared="false" type="actor">
         <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="value" hidden="false" id="1" name="_value" order="0"/>
         <blocks/>
         <events>
             <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
             <event displayName="Updating" enabled="false" id="2" name="step" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_144" classname="scripts.SceneEvents_144" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1041" name="SceneEvents_144" oid="-1" package="scripts." sceneid="144" shared="false" type="scene">
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="entering" hidden="false" id="1" name="_entering" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="arrivée player" enabled="true" id="5" name="event-delay" order="4" repeats="true"/>
+            <event displayName="jauge boire" enabled="true" id="6" name="event-group-region" order="5" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_143" classname="scripts.SceneEvents_143" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1042" name="SceneEvents_143" oid="-1" package="scripts." sceneid="143" shared="false" type="scene">
@@ -365,11 +370,11 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="145" attachedevent="true" class="scripts.ActorEvents_145" classname="scripts.ActorEvents_145" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="151" name="ActorEvents_145" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="50" attachedevent="true" class="scripts.ActorEvents_50" classname="scripts.ActorEvents_50" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="23" name="ActorEvents_50" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="50" attachedevent="true" class="scripts.ActorEvents_50" classname="scripts.ActorEvents_50" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="23" name="ActorEvents_50" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="145" attachedevent="true" class="scripts.ActorEvents_145" classname="scripts.ActorEvents_145" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="151" name="ActorEvents_145" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
@@ -514,6 +519,10 @@
             <event displayName="arrivée player" enabled="true" id="5" name="event-delay" order="4" repeats="true"/>
             <event displayName="jauge boire" enabled="true" id="6" name="event-group-region" order="5" repeats="true"/>
         </events>
+    </snippet>
+    <snippet actorid="1019" attachedevent="true" class="scripts.ActorEvents_1019" classname="scripts.ActorEvents_1019" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1017" name="ActorEvents_1019" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_119" classname="scripts.SceneEvents_119" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="121" name="SceneEvents_119" oid="-1" package="scripts." sceneid="119" shared="false" type="scene">
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="entering" hidden="false" id="1" name="_entering" order="0"/>

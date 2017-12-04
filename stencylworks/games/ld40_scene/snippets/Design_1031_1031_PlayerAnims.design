@@ -52,4 +52,143 @@
         </event-custom>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="d&amp;apos;abord on désactive les interactions du joueur"/>
+                </comment-short>
+                <custom-52 comment="false" x="26" y="60">
+                    <ACTOR eid="this" id="0"/>
+                    <false comment="false" id="1" x="0" y="0"/>
+                </custom-52>
+                <comment-short comment="false" x="26" y="92">
+                    <int id="0" val="animation perso sur respirer"/>
+                </comment-short>
+                <setanim comment="false" x="26" y="112">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="boire"/>
+                </setanim>
+                <dolater comment="false" x="26" y="139">
+                    <group eventID="2" id="-1">
+                        <comment-short comment="false" x="37" y="166">
+                            <int id="0" val="après l&amp;apos;anim on peut réactiver les interactions du joueur"/>
+                        </comment-short>
+                        <custom-52 comment="false" x="37" y="186">
+                            <ACTOR eid="this" id="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </custom-52>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="boire"/>
+        </event-custom>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <custom-52 comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <false comment="false" id="1" x="0" y="0"/>
+                </custom-52>
+                <setanim comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="manger"/>
+                </setanim>
+                <dolater comment="false" x="26" y="99">
+                    <group eventID="2" id="-1">
+                        <custom-52 comment="false" x="37" y="126">
+                            <ACTOR eid="this" id="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </custom-52>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="manger"/>
+        </event-custom>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <custom-52 comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <false comment="false" id="1" x="0" y="0"/>
+                </custom-52>
+                <setanim comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="pipi"/>
+                </setanim>
+                <dolater comment="false" x="26" y="99">
+                    <group eventID="2" id="-1">
+                        <custom-52 comment="false" x="37" y="126">
+                            <ACTOR eid="this" id="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </custom-52>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="pipi"/>
+        </event-custom>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <custom-52 comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <false comment="false" id="1" x="0" y="0"/>
+                </custom-52>
+                <setanim comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="caca"/>
+                </setanim>
+                <dolater comment="false" x="26" y="99">
+                    <group eventID="2" id="-1">
+                        <custom-52 comment="false" x="37" y="126">
+                            <ACTOR eid="this" id="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </custom-52>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="caca"/>
+        </event-custom>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <custom-52 comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <false comment="false" id="1" x="0" y="0"/>
+                </custom-52>
+                <setanim comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="affection"/>
+                </setanim>
+                <dolater comment="false" x="26" y="99">
+                    <group eventID="2" id="-1">
+                        <custom-52 comment="false" x="37" y="126">
+                            <ACTOR eid="this" id="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </custom-52>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="affection"/>
+        </event-custom>
+    </group>
+    <group eventID="6" id="-1"/>
 </groups>
