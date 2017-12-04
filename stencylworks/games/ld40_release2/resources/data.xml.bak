@@ -58,6 +58,12 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="277" id="1012" name="background_tapisserie_01" shared="false" width="596">
         <anim across="1" down="1" durations="100" height="277" id="0" loop="true" name="Animation 0" numframes="1" originx="298" originy="138" sync="false" version="2" width="596"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1033" fixedrot="false" fric="0.2" gid="5" id="1043" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="bad" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="1044" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="33" id="1044" name="bad" shared="false" width="33">
+        <anim across="1" down="1" durations="100" height="33" id="0" loop="false" name="normal" numframes="1" originx="16" originy="16" sync="false" version="2" width="33"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.1]" eventsnippetid="7" fixedrot="true" fric="0.2" gid="6" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="bocal" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
         <snippets>
             <s enabled="true" id="1011">
@@ -94,10 +100,10 @@
             <poly data="4,0,0,40,0,40,25,0,25" density="0.1" fric="0.2" gid="6" id="0" name="Box" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1032" fixedrot="false" fric="0.2" gid="3" id="1041" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="canap" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1042" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="124" fixedrot="false" fric="0.2" gid="3" id="122" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="canap" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="123" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="89" id="1042" name="canap" shared="false" width="162">
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="89" id="123" name="canap" shared="false" width="162">
         <anim across="1" down="1" durations="100" height="89" id="0" loop="true" name="Animation 0" numframes="1" originx="81" originy="44" sync="false" version="2" width="162">
             <poly data="4,0,0,162,0,162,89,0,89" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
@@ -342,6 +348,26 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1034" fixedrot="false" fric="0.2" gid="5" id="1045" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="good" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="1046" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="33" id="1046" name="good" shared="false" width="33">
+        <anim across="1" down="1" durations="100" height="33" id="0" loop="false" name="normal" numframes="1" originx="16" originy="16" sync="false" version="2" width="33">
+            <poly data="4,0,0,33,0,33,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1035" fixedrot="false" fric="0.2" gid="3" id="1047" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="health_bar" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="1048" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="15" id="1048" name="health_bar" shared="false" width="1">
+        <anim across="1" down="1" durations="100" height="15" id="0" loop="false" name="main" numframes="1" originx="0" originy="7" sync="false" version="2" width="1"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.1]" eventsnippetid="1032" fixedrot="false" fric="0.2" gid="5" id="1041" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="heath_ui" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="1042" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="52" id="1042" name="heath_ui" shared="false" width="461">
+        <anim across="1" down="1" durations="100" height="52" id="0" loop="false" name="bg" numframes="1" originx="230" originy="26" sync="false" version="2" width="461"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.2]" eventsnippetid="1002" fixedrot="true" fric="0.2" gid="6" id="1001" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="lapin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1002" static="false">
         <snippets>
             <s enabled="true" id="1011">
@@ -444,15 +470,18 @@
             <poly data="4,50,110,65,110,65,160,50,160" density="0.1" fric="0.2" gid="-1000" id="0" name="caca_pipi" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="[v1.3]" eventsnippetid="1" fixedrot="true" fric="0.2" gid="0" id="4" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="[v1.4]" eventsnippetid="1" fixedrot="true" fric="0.2" gid="0" id="4" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
         <snippets>
             <s enabled="true" id="3">
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="64" list="0" val="false"/>
                 <prop id="33" list="0" val="left"/>
+                <prop id="65" list="0" val=""/>
                 <prop id="34" list="0" val="right"/>
+                <prop id="66" list="0" val="0"/>
+                <prop id="67" list="0" val="false"/>
                 <prop id="37" list="0" val="0"/>
-                <prop id="38" list="0" val="true"/>
+                <prop id="38" list="0" val="false"/>
                 <prop id="39" list="0" val="false"/>
                 <prop id="40" list="0" val="0.0"/>
                 <prop id="11" list="0" val="25"/>
@@ -480,37 +509,25 @@
         </snippets>
     </actor>
     <sprite atlasID="0" default="4" defaultAnimation="4" desc="" height="150" id="5" name="player" shared="false" width="150">
-        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="450" id="0" loop="true" name="walk-r" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
+        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="450" id="0" loop="true" name="walk" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
             <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100" height="450" id="4" loop="true" name="respirer-r" numframes="10" originx="75" originy="75" sync="false" version="2" width="600">
-            <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r" rest="0.0" sensor="false"/>
+        <anim across="1" down="1" durations="100" height="150" id="16" loop="false" name="dead" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
+            <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="dead" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100" height="450" id="6" loop="true" name="respirer-l" numframes="10" originx="75" originy="75" sync="false" version="2" width="600">
-            <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="450" id="7" loop="true" name="walk-l" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
-            <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r" rest="0.0" sensor="false"/>
+        <anim across="3" down="3" durations="60,60,60,60,60,60,60,60" height="450" id="4" loop="false" name="respirer" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
+            <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="respirer-r" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="150" id="8" loop="true" name="back" numframes="1" originx="75" originy="75" sync="false" version="2" width="150"/>
         <anim across="4" down="3" durations="80,80,80,80,80,80,80,80,80,80" height="450" id="9" loop="true" name="back-walk" numframes="10" originx="75" originy="75" sync="false" version="2" width="600"/>
         <anim across="4" down="3" durations="80,80,80,80,80,80,80,80,80,80" height="450" id="10" loop="true" name="front-walk" numframes="10" originx="75" originy="75" sync="false" version="2" width="600"/>
-        <anim across="1" down="1" durations="100" height="150" id="11" loop="false" name="idle-l" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
+        <anim across="1" down="1" durations="100" height="150" id="12" loop="false" name="idle" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
             <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="150" id="12" loop="false" name="idle-r" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
-            <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="450" id="13" loop="true" name="walk-r-sick" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
+        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="450" id="13" loop="true" name="walk-sick" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
             <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r-sick" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="450" id="14" loop="true" name="walk-l-sick" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
-            <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r-sick" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" down="1" durations="100" height="150" id="15" loop="false" name="idle-r-sick" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
-            <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r-sick" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" down="1" durations="100" height="150" id="16" loop="false" name="idle-l-sick" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
+        <anim across="1" down="1" durations="100" height="150" id="15" loop="false" name="idle-sick" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
             <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r-sick" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
@@ -570,6 +587,10 @@
         <blank name="type" order="1" type="text"/>
     </custom-block>
     <custom-block blocktag="custom-16" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_setGaugeValue&quot;, []);" desc="" global="false" gui="set gauge value of %0 to %1" id="16" message="setGaugeValue" name="setGaugeValue" oid="-1" return="void" shared="false" snippetID="9">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="value" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-1049" blocktype="ACTION" code=".say(&quot;ActorEvents_1041&quot;, &quot;_customBlock_setHealthBarValue&quot;, []);" desc="" global="false" gui="set health value of %0 bar with %1" id="1049" message="setHealthBarValue" name="setHealthBarValue" oid="-1" return="void" shared="false" snippetID="1032">
         <blank name="Self" order="0" type="actor"/>
         <blank name="value" order="1" type="number"/>
     </custom-block>

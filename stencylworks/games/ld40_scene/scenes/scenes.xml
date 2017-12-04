@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scenes>
-    <scene name="test_02" id="118" format="3.4.0" desc=""/>
-    <scene name="test_01" id="119" format="3.4.0" desc=""/>
+    <scene desc="" format="3.4.0" id="118" name="test_02"/>
+    <scene desc="" format="3.4.0" id="119" name="test_01"/>
 </scenes>

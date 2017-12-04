@@ -369,7 +369,7 @@
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
                         <set-val-9-13 comment="false" x="37" y="219">
-                            <int id="0" val="5"/>
+                            <int id="0" val="10"/>
                         </set-val-9-13>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
@@ -396,7 +396,7 @@
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
                         <set-val-9-13 comment="false" x="37" y="380">
-                            <int id="0" val="12"/>
+                            <int id="0" val="16"/>
                         </set-val-9-13>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
@@ -423,7 +423,7 @@
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
                         <set-val-9-13 comment="false" x="37" y="541">
-                            <int id="0" val="20"/>
+                            <int id="0" val="25"/>
                         </set-val-9-13>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
@@ -450,7 +450,7 @@
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
                         <set-val-9-13 comment="false" x="37" y="702">
-                            <int id="0" val="25"/>
+                            <int id="0" val="30"/>
                         </set-val-9-13>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
@@ -477,7 +477,7 @@
                             <int id="4" val="ui"/>
                         </create-actor-on-layer>
                         <set-val-9-13 comment="false" x="37" y="863">
-                            <int id="0" val="30"/>
+                            <int id="0" val="35"/>
                         </set-val-9-13>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">

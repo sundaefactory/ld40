@@ -1,5 +1,5 @@
 ko
-ld40_scene.test02-as: 114 utilisé par floor01-as
-ld40_scene.test01-as: 103 utilisé par intro-as
-ld40_scene.test02-ev: 1030 utilisé par floor01-ev
-ld40_scene.test01-ev: 112 utilisé par intro-ev
+ld40_release2.canap-aa: 1041 utilisé par heathui-aa
+ld40_release2.canap-st: 1042 utilisé par heathui-st
+ld40_release2.canap-ev: 1032 utilisé par heathui-ev
+ld40_release2 ignoré car il contient des erreurs d'id
