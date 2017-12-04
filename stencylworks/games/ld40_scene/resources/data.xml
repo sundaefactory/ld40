@@ -352,6 +352,9 @@
 <actor desc="" adamp="0.0" gid="5" fixedrot="true" rest="0.0" mass="1.0" sprite="132" shared="false" ignoreg="false" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="1" oid="-1" inertia="1.0" id="126" name="jauge_manger" bodytype="1" ldamp="0.0" static="false" eventsnippetid="138" continuous="true">
         <snippets/>
     </actor>
+<actor desc="" adamp="0.0" gid="3" fixedrot="false" rest="0.0" mass="1.0" sprite="160" shared="false" ignoreg="false" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="0" oid="-1" inertia="1.0" id="159" name="Fin" bodytype="2" ldamp="0.0" static="false" eventsnippetid="162" continuous="true">
+        <snippets/>
+    </actor>
 <actor desc="[v1.1]" adamp="0.0" gid="6" fixedrot="true" rest="0.0" mass="1.0" sprite="1024" shared="false" ignoreg="false" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="0" oid="-1" inertia="1.0" id="1023" name="dodo_chaise" bodytype="1" ldamp="0.0" static="false" eventsnippetid="1019" continuous="true">
         <snippets>
             <s id="1011" enabled="true">
@@ -367,6 +370,11 @@
 <actor desc="" adamp="0.0" gid="8" fixedrot="true" rest="0.0" mass="1.0" sprite="133" shared="false" ignoreg="false" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="1" oid="-1" inertia="1.0" id="127" name="jauge_boire" bodytype="1" ldamp="0.0" static="false" eventsnippetid="139" continuous="true">
         <snippets/>
     </actor>
+<sprite desc="" default="0" name="Fin" id="160" defaultAnimation="0" shared="false" width="275" atlasID="0" height="250">
+        <anim version="2" originx="137" down="5" sync="false" originy="125" name="fin" id="0" loop="false" numframes="24" width="1375" height="1250" durations="100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100" across="5">
+            <poly rest="0.0" density="0.1" sensor="false" data="4,0,0,275,0,275,250,0,250" fric="0.2" gid="-1000" name="fin" id="0"/>
+        </anim>
+    </sprite>
 <sprite desc="" default="1" name="dodo_chaise" id="1024" defaultAnimation="1" shared="false" width="105" atlasID="0" height="120">
         <anim version="2" originx="62" down="1" sync="false" originy="99" name="ko" id="0" loop="true" numframes="1" width="125" height="198" durations="100" across="1"/>
         <anim version="2" originx="52" down="1" sync="false" originy="60" name="ok" id="1" loop="false" numframes="1" width="105" height="120" durations="100" across="1">

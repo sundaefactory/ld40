@@ -1,92 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
-    <group id="0" eventID="4">
-        <event-mouse-press-release x="15" y="15" comment="false">
-            <group id="-1" eventID="4">
-                <if x="26" y="42" comment="false">
-                    <group id="-1" eventID="4">
-                        <play-sound4 x="37" y="72" comment="false">
-                            <int val="0" id="0"/>
+    <group eventID="4" id="0">
+        <event-mouse-press-release comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="4" id="-1">
+                        <play-sound4 comment="false" x="37" y="72">
+                            <int id="0" val="0"/>
                             <sound eid="155" id="1"/>
                         </play-sound4>
-                        <dolater x="37" y="99" comment="false">
-                            <group id="-1" eventID="4">
-                                <actors-of-type3 x="48" y="126" comment="false">
-                                    <group id="-1" eventID="4">
-                                        <set-frame x="59" y="158" comment="false">
-                                            <actor-of-type x="0" y="0" id="0" comment="false"/>
-                                            <int val="0" id="1"/>
+                        <dolater comment="false" x="37" y="99">
+                            <group eventID="4" id="-1">
+                                <actors-of-type3 comment="false" x="48" y="126">
+                                    <group eventID="4" id="-1">
+                                        <set-frame comment="false" x="59" y="158">
+                                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="0"/>
                                         </set-frame>
-                                        <toggle-image x="59" y="190" comment="false">
-                                            <actor-of-type x="0" y="0" id="0" comment="false"/>
-                                            <int val="0" id="1"/>
+                                        <toggle-image comment="false" x="59" y="190">
+                                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="0"/>
                                         </toggle-image>
                                     </group>
                                     <actortype eid="156" id="0"/>
                                 </actors-of-type3>
-                                <set-val-112-1 x="48" y="234" comment="false">
-                                    <true x="0" y="0" id="0" comment="false"/>
+                                <set-val-112-1 comment="false" x="48" y="234">
+                                    <true comment="false" id="0" x="0" y="0"/>
                                 </set-val-112-1>
-                                <dolater x="48" y="259" comment="false">
-                                    <group id="-1" eventID="4">
-                                        <custom-1025 x="59" y="286" comment="false">
+                                <dolater comment="false" x="48" y="259">
+                                    <group eventID="4" id="-1">
+                                        <custom-1025 comment="false" x="59" y="286">
                                             <ACTOR eid="2" id="0"/>
                                             <ACTOR eid="11" id="1"/>
                                         </custom-1025>
                                     </group>
-                                    <int val="1" id="0"/>
+                                    <int id="0" val="1"/>
                                     <ACTOR eid="lastcreated" id="2"/>
                                 </dolater>
-                                <dolater x="48" y="325" comment="false">
-                                    <group id="-1" eventID="4">
-                                        <comment-short x="59" y="352" comment="false">
-                                            <int val="déblocage jauge respire quand on arrive dans une région" id="0"/>
+                                <dolater comment="false" x="48" y="325">
+                                    <group eventID="4" id="-1">
+                                        <comment-short comment="false" x="59" y="352">
+                                            <int id="0" val="déblocage jauge respire quand on arrive dans une région"/>
                                         </comment-short>
-                                        <set-game-val-2 x="59" y="372" comment="false">
-                                            <true x="0" y="0" id="0" comment="false"/>
+                                        <set-game-val-2 comment="false" x="59" y="372">
+                                            <true comment="false" id="0" x="0" y="0"/>
                                         </set-game-val-2>
-                                        <custom-1039 x="59" y="397" comment="false"/>
+                                        <custom-1039 comment="false" x="59" y="397"/>
                                     </group>
-                                    <int val="2" id="0"/>
+                                    <int id="0" val="2"/>
                                     <ACTOR eid="lastcreated" id="2"/>
                                 </dolater>
                             </group>
-                            <int val="1" id="0"/>
+                            <int id="0" val="1"/>
                             <ACTOR eid="lastcreated" id="2"/>
                         </dolater>
                     </group>
-                    <not x="0" y="0" id="0" comment="false">
-                        <get-val-112-1 x="0" y="0" id="0" comment="false"/>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-112-1 comment="false" id="0" x="0" y="0"/>
                     </not>
                 </if>
             </group>
-            <int val="0" id="0"/>
+            <int id="0" val="0"/>
         </event-mouse-press-release>
     </group>
-    <group id="1" eventID="4">
-        <dolater x="1036" y="269" comment="false">
-            <group id="-1" eventID="4"/>
-            <int val="" id="0"/>
+    <group eventID="4" id="1">
+        <dolater comment="false" x="1036" y="269">
+            <group eventID="4" id="-1"/>
+            <int id="0" val=""/>
             <ACTOR eid="lastcreated" id="2"/>
         </dolater>
     </group>
-    <group id="-1" eventID="4"/>
-    <group id="0" eventID="5">
-        <event-delay x="15" y="15" comment="false">
-            <group id="-1" eventID="5">
-                <custom-1036 x="26" y="42" comment="false">
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <custom-1036 comment="false" x="26" y="42">
                     <ACTOR eid="2" id="0"/>
                     <ACTOR eid="11" id="1"/>
                 </custom-1036>
             </group>
-            <int val="0.01" id="0"/>
+            <int id="0" val="0.01"/>
             <ACTOR eid="lastcreated" id="2"/>
         </event-delay>
     </group>
-    <group id="-1" eventID="5"/>
-    <group id="0" eventID="8">
-        <init x="15" y="15" comment="false">
-            <group id="-1" eventID="8"/>
+    <group eventID="5" id="-1"/>
+    <group eventID="8" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="8" id="-1"/>
         </init>
     </group>
-    <group id="-1" eventID="8"/>
+    <group eventID="8" id="-1"/>
 </groups>

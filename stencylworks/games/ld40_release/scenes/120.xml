@@ -1,0 +1,76 @@
+<scene desc="" savecount="0" depth="7" extwidth="1600" width="1536" tiled="1" height="1536" extx="-32" format="3.4.0" extheight="1600" exty="-32" gravx="-0.0" tilew="32" gravy="0.0" type="standard" tileh="32" id="120" name="outro" revision="" eventsnippetid="161">
+    <layers>
+        <color-bg blue="0" red="0" green="0"/>
+        <layer visible="true" locked="false" opacity="100" name="bg" color="100,168,234" id="0" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="6"/>
+        <layer visible="true" locked="false" opacity="100" name="portes" color="0,0,255" id="7" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="5"/>
+        <layer visible="true" locked="false" opacity="100" name="fin" color="0,255,0" id="1" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="4"/>
+        <layer visible="true" locked="false" opacity="100" name="items" color="64,64,64" id="2" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="3"/>
+        <layer visible="true" locked="false" opacity="100" name="ui" color="255,0,255" id="3" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="2"/>
+        <layer visible="true" locked="false" opacity="100" name="rooms" color="255,175,175" id="6" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="1"/>
+        <layer visible="true" locked="false" opacity="100" name="intro" color="255,200,0" id="5" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="0"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions>
+        <terrainRegion x="160" h="330" y="545" type="box" r="64" b="64" name="Terrain 0" id="0" w="48" group="1" g="64" pts="4,-24.0,-165.5,24.0,-165.5,24.0,165.5,-24.0,165.5"/>
+        <terrainRegion x="1300" h="348" y="528" type="box" r="64" b="64" name="Terrain 1" id="1" w="48" group="1" g="64" pts="4,-24.0,-174.5,24.0,-174.5,24.0,174.5,-24.0,174.5"/>
+        <terrainRegion x="470" h="310" y="1057" type="box" r="64" b="64" name="Terrain 2" id="2" w="46" group="1" g="64" pts="4,0.0,0.0,0.0,310.0,46.0,310.0,46.0,0.0"/>
+        <terrainRegion x="1018" h="322" y="1044" type="box" r="64" b="64" name="Terrain 3" id="3" w="48" group="1" g="64" pts="4,-24.0,-161.5,24.0,-161.5,24.0,161.5,-24.0,161.5"/>
+    </terrainRegions>
+    <actors>
+        <actor x="719" y="1194" a="0.0" z="7" name="Wc 11" id="1028" c="true" aid="11" sx="1.0" sy="1.0" group="8">
+            <snippets>
+                <s id="1025" enabled="true"/>
+            </snippets>
+        </actor>
+        <actor x="470" y="1090" a="0.0" z="0" name="salle_fermee 14" id="1037" c="false" aid="14" sx="1.0" sy="1.0" group="8"/>
+        <actor x="920" y="1194" a="0.0" z="7" name="EscalierUp 24" id="56" c="true" aid="24" sx="1.0" sy="1.0" group="7">
+            <snippets>
+                <s id="24" enabled="true">
+                    <prop list="0" val="thisactor" id="2147483647"/>
+                    <prop list="0" val="0" id="1"/>
+                    <prop list="0" val="false" id="2"/>
+                    <prop list="0" val="-1" id="3"/>
+                    <prop list="0" val="" id="4"/>
+                    <prop list="0" val="false" id="5"/>
+                    <prop list="0" val="0" id="6"/>
+                    <prop list="0" val="0" id="7"/>
+                    <prop list="0" val="0" id="8"/>
+                    <prop list="0" val="0" id="9"/>
+                    <prop list="0" val="0" id="10"/>
+                    <prop list="0" val="0" id="11"/>
+                    <prop list="0" val="" id="12"/>
+                    <prop list="0" val="66" id="13"/>
+                    <prop list="0" val="" id="14"/>
+                    <prop list="0" val="20" id="15"/>
+                    <prop list="0" val="false" id="17"/>
+                    <prop list="0" val="0.0005" id="18"/>
+                    <prop list="0" val="0" id="19"/>
+                    <prop list="0" val="-17" id="20"/>
+                </s>
+                <s id="27" enabled="true"/>
+            </snippets>
+        </actor>
+        <actor x="602" y="1171" a="0.0" z="2" name="plant 25" id="35" c="false" aid="25" sx="1.0" sy="1.0" group="6"/>
+        <actor x="524" y="1206" a="0.0" z="2" name="chandelier 32" id="1007" c="false" aid="32" sx="1.0" sy="1.0" group="3"/>
+        <actor x="828" y="1251" a="0.0" z="2" name="lavabo 33" id="100" c="false" aid="33" sx="1.0" sy="1.0" group="6"/>
+        <actor x="857" y="1203" a="0.0" z="2" name="chandelier 34" id="1007" c="false" aid="34" sx="1.0" sy="1.0" group="3"/>
+        <actor x="850" y="1154" a="0.0" z="2" name="flamme 35" id="1015" c="false" aid="35" sx="1.0" sy="1.0" group="6"/>
+        <actor x="558" y="1162" a="0.0" z="2" name="flamme 36" id="1015" c="false" aid="36" sx="1.0" sy="1.0" group="6"/>
+        <actor x="892" y="1163" a="0.0" z="2" name="flamme2 41" id="1017" c="false" aid="41" sx="1.0" sy="1.0" group="6"/>
+        <actor x="518" y="1158" a="0.0" z="2" name="flamme2 42" id="1017" c="false" aid="42" sx="1.0" sy="1.0" group="6"/>
+        <actor x="642" y="1109" a="0.0" z="1" name="Fin 43" id="159" c="true" aid="43" sx="1.0" sy="1.0" group="3">
+            <snippets>
+                <s id="1040" enabled="true"/>
+                <s id="5" enabled="true">
+                    <prop list="0" val="thisactor" id="2147483647"/>
+                    <prop list="0" val="0.0" id="1"/>
+                    <prop list="0" val="0.0" id="2"/>
+                </s>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases retainAtlases="true" members=""/>
+</scene>
