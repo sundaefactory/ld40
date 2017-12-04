@@ -1,20 +1,13 @@
 ko
-ld40_scene.jaugerespirer-aa: 12 utilisé par gaugebreath-aa
-ld40_scene.jaugemanger-aa: 20 utilisé par gaugeeat-aa
-ld40_scene.jaugeboire-aa: 22 utilisé par gaugedrink-aa
-ld40_scene.jaugepipi-aa: 24 utilisé par gaugepee-aa
-ld40_scene.jaugecaca-aa: 26 utilisé par gaugepoo-aa
-ld40_scene.jaugeaffection-aa: 30 utilisé par gaugelove-aa
-ld40_scene.jaugerespirer-st: 13 utilisé par gaugebreath-st
-ld40_scene.jaugemanger-st: 21 utilisé par gaugeeat-st
-ld40_scene.jaugeboire-st: 23 utilisé par gaugedrink-st
-ld40_scene.jaugepipi-st: 25 utilisé par gaugepee-st
-ld40_scene.jaugecaca-st: 27 utilisé par gaugepoo-st
-ld40_scene.jaugeaffection-st: 31 utilisé par gaugelove-st
-ld40_scene.jaugerespirer-ev: 10 utilisé par gaugebreath-ev
-ld40_scene.jaugemanger-ev: 13 utilisé par gaugeeat-ev
-ld40_scene.jaugeboire-ev: 14 utilisé par gaugedrink-ev
-ld40_scene.jaugepipi-ev: 15 utilisé par gaugepee-ev
-ld40_scene.jaugecaca-ev: 16 utilisé par gaugepoo-ev
-ld40_scene.jaugeaffection-ev: 18 utilisé par gaugelove-ev
-ld40_scene ignoré car il contient des erreurs d'id
+ld40_release2.floor03-as: 116 utilisé par ascenseur-st
+ld40_release2.floor02-as: 115 utilisé par ascenseur-aa
+ld40_release2.doordeco01-aa: 1050 utilisé par disk-aa
+ld40_release2.chiffresporte6-aa: 1052 utilisé par gaugebg-aa
+ld40_release2.chiffresporte1-aa: 1054 utilisé par quartbg-aa
+ld40_release2.doordeco01-st: 1051 utilisé par disk-st
+ld40_release2.chiffresporte6-st: 1053 utilisé par gaugebg-st
+ld40_release2.chiffresporte1-st: 1055 utilisé par quartbg-st
+ld40_release2.doordeco01-ev: 1036 utilisé par disk-ev
+ld40_release2.chiffresporte6-ev: 1037 utilisé par gaugebg-ev
+ld40_release2.chiffresporte1-ev: 1038 utilisé par quartbg-ev
+ld40_release2 ignoré car il contient des erreurs d'id
