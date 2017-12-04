@@ -1,5 +1,3 @@
 ko
-ld40_scene.fin-aa: 1056 utilisé par portedeco02-aa
-ld40_scene.fin-st: 1057 utilisé par portedeco02-st
-ld40_scene.outro-ev: 1039 utilisé par portedeco02-ev
-ld40_scene.fin-ev: 1040 utilisé par chandelier02-ev
+ld40_release2.floor05-as: 155 utilisé par soundflush-ms
+ld40_release2.floorfinal-as: 156 utilisé par flaque-aa

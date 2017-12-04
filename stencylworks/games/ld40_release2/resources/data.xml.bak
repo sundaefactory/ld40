@@ -572,7 +572,7 @@
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="64" list="0" val="false"/>
                 <prop id="33" list="0" val="left"/>
-                <prop id="65" list="1" val=""/>
+                <prop id="65" list="0" val=""/>
                 <prop id="34" list="0" val="right"/>
                 <prop id="66" list="0" val="0"/>
                 <prop id="67" list="0" val="false"/>

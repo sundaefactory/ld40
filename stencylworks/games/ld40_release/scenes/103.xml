@@ -12,10 +12,10 @@
     <joints/>
     <regions/>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="330" id="0" name="Terrain 0" pts="4,-24.0,-165.5,24.0,-165.5,24.0,165.5,-24.0,165.5" r="64" type="box" w="48" x="160" y="545"/>
-        <terrainRegion b="64" g="64" group="1" h="348" id="1" name="Terrain 1" pts="4,-24.0,-174.5,24.0,-174.5,24.0,174.5,-24.0,174.5" r="64" type="box" w="48" x="1300" y="528"/>
-        <terrainRegion b="64" g="64" group="1" h="310" id="2" name="Terrain 2" pts="4,0.0,0.0,0.0,310.0,46.0,310.0,46.0,0.0" r="64" type="box" w="46" x="470" y="1057"/>
-        <terrainRegion b="64" g="64" group="1" h="322" id="3" name="Terrain 3" pts="4,-24.0,-161.5,24.0,-161.5,24.0,161.5,-24.0,161.5" r="64" type="box" w="48" x="1018" y="1044"/>
+        <terrainRegion b="64" g="64" group="1" h="330" id="0" name="Terrain 0" pts="4,-24.0,165.5,24.0,165.5,24.0,-165.5,-24.0,-165.5" r="64" type="box" w="48" x="160" y="545"/>
+        <terrainRegion b="64" g="64" group="1" h="348" id="1" name="Terrain 1" pts="4,-24.0,174.5,24.0,174.5,24.0,-174.5,-24.0,-174.5" r="64" type="box" w="48" x="1300" y="528"/>
+        <terrainRegion b="64" g="64" group="1" h="310" id="2" name="Terrain 2" pts="4,46.0,0.0,46.0,310.0,0.0,310.0,0.0,0.0" r="64" type="box" w="46" x="470" y="1057"/>
+        <terrainRegion b="64" g="64" group="1" h="322" id="3" name="Terrain 3" pts="4,-24.0,161.5,24.0,161.5,24.0,-161.5,-24.0,-161.5" r="64" type="box" w="48" x="1018" y="1044"/>
     </terrainRegions>
     <actors>
         <actor a="0.0" aid="2" c="false" group="0" id="4" name="player 2" sx="1.0" sy="1.0" x="1181" y="165" z="1"/>
@@ -172,7 +172,7 @@
             <prop id="14" list="0" val=""/>
             <prop id="15" list="0" val=""/>
         </s>
-        <s enabled="false" id="111"/>
+        <s enabled="true" id="111"/>
     </snippets>
     <terrain/>
     <atlases members="" retainAtlases="true"/>
