@@ -158,6 +158,13 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="25" id="149" name="chiffres_porte_6" shared="false" width="25">
         <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="12" sync="false" version="2" width="25"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1047" fixedrot="false" fric="0.2" gid="3" id="1062" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="coffre" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1063" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="100" id="1063" name="coffre" shared="false" width="100">
+        <anim across="1" down="1" durations="100" height="100" id="0" loop="true" name="close" numframes="1" originx="50" originy="50" sync="false" version="2" width="100"/>
+        <anim across="3" down="3" durations="60,60,60,60,60,60,60" height="300" id="1" loop="false" name="open" numframes="7" originx="50" originy="50" sync="false" version="2" width="300"/>
+    </sprite>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="1004" fixedrot="false" fric="0.2" gid="3" id="1005" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="deco_01" oid="-1" pausable="true" physicsMode="2" rest="0.0" shared="false" sprite="1006" static="true">
         <snippets/>
     </actor>
@@ -565,7 +572,7 @@
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="64" list="0" val="false"/>
                 <prop id="33" list="0" val="left"/>
-                <prop id="65" list="0" val=""/>
+                <prop id="65" list="1" val=""/>
                 <prop id="34" list="0" val="right"/>
                 <prop id="66" list="0" val="0"/>
                 <prop id="67" list="0" val="false"/>
@@ -637,6 +644,12 @@
         <blank name="Self" order="0" type="actor"/>
         <blank name="door" order="1" type="actor"/>
     </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1049" fixedrot="true" fric="0.2" gid="3" id="1066" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="pompe_a_chiotte" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1067" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="47" id="1067" name="pompe_a_chiotte" shared="false" width="40">
+        <anim across="1" down="1" durations="100" height="47" id="0" loop="true" name="Animation 0" numframes="1" originx="20" originy="23" sync="false" version="2" width="40"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1039" fixedrot="true" fric="0.2" gid="3" id="1056" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="porte_deco_02" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1057" static="false">
         <snippets/>
     </actor>
@@ -779,5 +792,13 @@
         <anim across="1" down="1" durations="100" height="155" id="0" loop="false" name="closed" numframes="1" originx="70" originy="77" sync="false" version="2" width="140"/>
         <anim across="4" down="3" durations="70,70,70,70,70,70,70,70,70,70,70" height="465" id="1" loop="false" name="open" numframes="11" originx="70" originy="77" sync="false" version="2" width="560"/>
         <anim across="4" down="3" durations="70,70,70,70,70,70,70,70,70,70,70" height="465" id="2" loop="false" name="close" numframes="11" originx="70" originy="77" sync="false" version="2" width="560"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1048" fixedrot="false" fric="0.2" gid="3" id="1064" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="wheel" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1065" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="145" id="1065" name="wheel" shared="false" width="145">
+        <anim across="1" down="1" durations="100" height="145" id="0" loop="true" name="Animation 0" numframes="1" originx="72" originy="72" sync="false" version="2" width="145">
+            <poly data="4,0,0,145,0,145,145,0,145" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
     </sprite>
 </pack>
