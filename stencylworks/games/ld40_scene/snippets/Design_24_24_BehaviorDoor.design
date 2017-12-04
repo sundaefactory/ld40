@@ -218,7 +218,7 @@
             <int id="1" val="2"/>
         </event-mouse-enter-exit-actor>
     </group>
-    <group eventID="4" id="2">
+    <group eventID="4" id="1">
         <print comment="false" x="1261" y="198">
             <int id="0" val=""/>
         </print>
@@ -642,7 +642,7 @@
         </event-custom>
     </group>
     <group eventID="6" id="-1">
-        <get-val-24-9 comment="false" x="657" y="808"/>
         <get-val-24-8 comment="false" x="625" y="743"/>
+        <get-val-24-9 comment="false" x="657" y="808"/>
     </group>
 </groups>

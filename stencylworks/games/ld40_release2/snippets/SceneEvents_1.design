@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <custom-1025 comment="false" x="26" y="42">
+                    <ACTOR eid="13" id="0"/>
+                    <ACTOR eid="25" id="1"/>
+                </custom-1025>
+            </group>
+            <int id="0" val="0.01"/>
+            <ACTOR eid="lastcreated" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="toutes les jauges"/>
+                </comment-short>
+                <set-game-val-9 comment="false" x="26" y="60">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-9>
+                <set-game-val-3 comment="false" x="26" y="85">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-3>
+                <set-game-val-6 comment="false" x="26" y="110">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-6>
+                <set-game-val-7 comment="false" x="26" y="135">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-7>
+                <set-game-val-4 comment="false" x="26" y="160">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-4>
+                <set-game-val-2 comment="false" x="26" y="185">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-2>
+                <set-game-val-8 comment="false" x="26" y="210">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-8>
+                <custom-1039 comment="false" x="26" y="235"/>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

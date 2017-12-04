@@ -8,7 +8,7 @@
         <blank name="gauge" order="0" type="text"/>
         <blank name="value" order="1" type="number"/>
     </custom-block>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="23" fixedrot="true" fric="0.2" gid="7" id="50" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Ascenseur" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="51" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="117" fixedrot="true" fric="0.2" gid="7" id="115" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Ascenseur" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="116" static="false">
         <snippets>
             <s enabled="true" id="24">
                 <prop id="2147483647" list="0" val="thisactor"/>
@@ -35,7 +35,7 @@
             </s>
         </snippets>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="160" id="51" name="AscenseurIn" shared="false" width="140">
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="160" id="116" name="Ascenseur" shared="false" width="140">
         <anim across="1" down="1" durations="100" height="160" id="0" loop="false" name="closed" numframes="1" originx="70" originy="80" sync="false" version="2" width="140">
             <poly data="4,20,0,110,0,110,160,20,160" density="0.1" fric="0.2" gid="-1000" id="0" name="closed" rest="0.0" sensor="true"/>
         </anim>
@@ -369,10 +369,11 @@
         <anim across="1" down="1" durations="80" height="175" id="3" loop="false" name="caca_pipi" numframes="1" originx="75" originy="87" sync="false" version="2" width="150"/>
         <anim across="4" down="3" durations="80,80,80,80,80,80,80,80,80,80" height="525" id="4" loop="false" name="pipi_caca" numframes="10" originx="75" originy="87" sync="false" version="2" width="600"/>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="[v1.1]" eventsnippetid="1" fixedrot="true" fric="0.2" gid="0" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="[v1.2]" eventsnippetid="1" fixedrot="true" fric="0.2" gid="0" id="4" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
         <snippets>
             <s enabled="true" id="3">
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="64" list="0" val="false"/>
                 <prop id="33" list="0" val="left"/>
                 <prop id="34" list="0" val="right"/>
                 <prop id="37" list="0" val="0"/>
@@ -396,6 +397,10 @@
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="1" list="0" val="0.0"/>
                 <prop id="2" list="0" val="0.0"/>
+            </s>
+            <s enabled="true" id="1031">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="false"/>
             </s>
         </snippets>
     </actor>
@@ -426,6 +431,18 @@
         </anim>
         <anim across="1" down="1" durations="100" height="150" id="12" loop="false" name="idle-r" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
             <poly data="4,65,65,85,65,85,130,65,130" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="450" id="13" loop="true" name="walk-r-sick" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
+            <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r-sick" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="450" id="14" loop="true" name="walk-l-sick" numframes="8" originx="75" originy="75" sync="false" version="2" width="450">
+            <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r-sick" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="150" id="15" loop="false" name="idle-r-sick" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
+            <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r-sick" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="150" id="16" loop="false" name="idle-l-sick" numframes="1" originx="75" originy="75" sync="false" version="2" width="150">
+            <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r-sick" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <custom-block blocktag="custom-1025" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_playerLeavesDoor&quot;, []);" desc="" global="false" gui="player %0 leaves door %1" id="1025" message="playerLeavesDoor" name="playerLeavesDoor" oid="-1" return="void" shared="false" snippetID="3">
@@ -492,6 +509,10 @@
         <blank name="door" order="1" type="actor"/>
     </custom-block>
     <custom-block blocktag="custom-52" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_setPlayerInputState&quot;, []);" desc="" global="false" gui="set player input state of %0  to %1" id="52" message="setPlayerInputState" name="setPlayerInputState" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="state" order="1" type="boolean"/>
+    </custom-block>
+    <custom-block blocktag="custom-1040" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_setPlayerSickness&quot;, []);" desc="" global="false" gui="set player %0 sickness with %1" id="1040" message="setPlayerSickness" name="setPlayerSickness" oid="-1" return="void" shared="false" snippetID="3">
         <blank name="Self" order="0" type="actor"/>
         <blank name="state" order="1" type="boolean"/>
     </custom-block>

@@ -89,14 +89,16 @@
     <attributes>
         <boolean cid="-1" id="9" name="gauge_affection" save="true" value="false"/>
         <boolean cid="-1" id="7" name="gauge_dormir" save="true" value="false"/>
-        <boolean cid="-1" id="4" name="gauge_pipi" save="true" value="false"/>
         <boolean cid="-1" id="1" name="level_up" save="true" value="false"/>
-        <boolean cid="-1" id="2" name="gauge_respire" save="true" value="false"/>
         <boolean cid="-1" id="6" name="gauge_caca" save="true" value="false"/>
         <boolean cid="-1" id="3" name="gauge_boire" save="true" value="false"/>
         <boolean cid="-1" id="5" name="gauge_manger" save="true" value="false"/>
-        <number cid="-1" id="0" name="gauge_decrease_factor" save="true" value="1.0"/>
         <boolean cid="-1" id="8" name="gauge_lumiere" save="true" value="false"/>
+        <number cid="-1" id="13" name="health_decrease_time" save="true" value="20"/>
+        <number cid="-1" id="12" name="health_increase_time" save="true" value="30"/>
+        <boolean cid="-1" id="4" name="gauge_pipi" save="true" value="false"/>
+        <boolean cid="-1" id="2" name="gauge_respire" save="true" value="false"/>
+        <number cid="-1" id="0" name="gauge_decrease_factor" save="true" value="1.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -127,7 +129,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="4,1028,6,1030,1032,8,10,1034,12,1037,14,20,22,24,26,28,30,32,35,50,56,64,66,100,999,1001,105,106,1003,107,1007,1011,1013,1015,1017," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="1028,4,1030,6,1032,8,10,1034,12,1037,14,20,22,24,26,28,30,32,35,56,64,66,100,999,105,1001,106,1003,107,1007,115,1011,1013,1015,1017," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
