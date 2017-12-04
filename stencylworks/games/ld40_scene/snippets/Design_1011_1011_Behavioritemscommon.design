@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="2" id="-1">
+                        <set-val-1011-1 comment="false" x="37" y="77">
+                            <int id="0" val="2"/>
+                        </set-val-1011-1>
+                        <custom-46 comment="false" x="37" y="97">
+                            <get-val-1011-6 comment="false" id="0" x="0" y="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </custom-46>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-1011-5 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="0" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="4" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="4" id="-1">
+                        <set-val-1011-1 comment="false" x="37" y="70">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-1011-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </minus>
+                        </set-val-1011-1>
+                        <if comment="false" x="37" y="100">
+                            <group eventID="4" id="-1">
+                                <custom-46 comment="false" x="48" y="130">
+                                    <get-val-1011-6 comment="false" id="0" x="0" y="0"/>
+                                    <false comment="false" id="1" x="0" y="0"/>
+                                </custom-46>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-1011-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-val-1011-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </more>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-custom comment="false" x="15" y="14">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="44">
+                    <group eventID="5" id="-1">
+                        <set-val-1011-5 comment="false" x="37" y="79">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-1011-5>
+                        <custom-46 comment="false" x="37" y="104">
+                            <get-val-1011-6 comment="false" id="0" x="0" y="0"/>
+                            <false comment="false" id="1" x="0" y="0"/>
+                        </custom-46>
+                        <custom-49 comment="false" x="37" y="129">
+                            <get-val-1011-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="50"/>
+                        </custom-49>
+                        <setanim comment="false" x="37" y="154">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="ko"/>
+                        </setanim>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <more comment="false" id="0" x="0" y="0">
+                            <get-val-1011-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </more>
+                        <not comment="false" id="1" x="0" y="0">
+                            <get-val-1011-5 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                    </and>
+                </if>
+            </group>
+            <get-val-1011-6 comment="false" id="0" x="0" y="0"/>
+        </event-custom>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

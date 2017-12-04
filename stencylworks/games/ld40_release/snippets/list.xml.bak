@@ -4,11 +4,11 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="4" attachedevent="true" class="scripts.ActorEvents_4" classname="scripts.ActorEvents_4" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_4" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="1028" attachedevent="true" class="scripts.ActorEvents_1028" classname="scripts.ActorEvents_1028" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1025" name="ActorEvents_1028" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
-    <snippet actorid="1028" attachedevent="true" class="scripts.ActorEvents_1028" classname="scripts.ActorEvents_1028" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1025" name="ActorEvents_1028" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="4" attachedevent="true" class="scripts.ActorEvents_4" classname="scripts.ActorEvents_4" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_4" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
@@ -232,14 +232,6 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="22" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
-        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="entering" hidden="false" id="1" name="_entering" order="0"/>
-        <blocks/>
-        <events>
-            <event displayName="anim intro" enabled="true" id="4" name="event-mouse-press-release" order="4" repeats="true"/>
-            <event displayName="position player" enabled="true" id="5" name="event-delay" order="3" repeats="true"/>
-        </events>
-    </snippet>
     <snippet actorid="50" attachedevent="true" class="scripts.ActorEvents_50" classname="scripts.ActorEvents_50" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="23" name="ActorEvents_50" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
@@ -310,6 +302,27 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="false" class="scripts.Design_111_111_Reload" classname="scripts.Design_111_111_Reload" desc="" description="" design="true" drawOrder="0" id="111" name="Reload" oid="-1" package="scripts" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Keyboard" enabled="true" id="1" name="event-key-press-release" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_103" classname="scripts.SceneEvents_103" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="112" name="SceneEvents_103" oid="-1" package="scripts." sceneid="103" shared="false" type="scene">
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="entering" hidden="false" id="1" name="_entering" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="anim intro" enabled="true" id="4" name="event-mouse-press-release" order="4" repeats="true"/>
+            <event displayName="position player" enabled="true" id="5" name="event-delay" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="105" attachedevent="true" class="scripts.ActorEvents_105" classname="scripts.ActorEvents_105" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="113" name="ActorEvents_105" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="kill" enabled="true" id="1" name="event-mouse-press-release" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="" description="" design="true" drawOrder="0" id="1010" name="SceneEvents_1" oid="-1" package="scripts" sceneid="1" shared="false" type="scene">
         <blocks/>
         <events/>
@@ -348,37 +361,24 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_1017_1017_Reload" classname="scripts.Design_1017_1017_Reload" desc="" description="" design="true" drawOrder="0" id="1017" name="Reload" oid="-1" package="scripts" shared="false" type="scene">
-        <blocks/>
-        <events>
-            <event displayName="Keyboard" enabled="true" id="1" name="event-key-press-release" order="1" repeats="true"/>
-        </events>
-    </snippet>
-    <snippet actorid="1019" attachedevent="true" class="scripts.ActorEvents_1019" classname="scripts.ActorEvents_1019" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1019" name="ActorEvents_1019" oid="-1" package="scripts." shared="false" type="actor">
-        <blocks/>
-        <events>
-            <event displayName="kill" enabled="true" id="1" name="event-mouse-press-release" order="2" repeats="true"/>
-            <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
-        </events>
-    </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_1011" classname="scripts.SceneEvents_1011" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1020" name="SceneEvents_1011" oid="-1" package="scripts." sceneid="1011" shared="false" type="scene">
+    <snippet attachedevent="true" class="scripts.SceneEvents_104" classname="scripts.SceneEvents_104" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1020" name="SceneEvents_104" oid="-1" package="scripts." sceneid="104" shared="false" type="scene">
         <blocks/>
         <events>
             <event displayName="Created" enabled="true" id="3" name="init" order="3" repeats="true"/>
         </events>
     </snippet>
-    <snippet actorid="1021" attachedevent="true" class="scripts.ActorEvents_1021" classname="scripts.ActorEvents_1021" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1021" name="ActorEvents_1021" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="106" attachedevent="true" class="scripts.ActorEvents_106" classname="scripts.ActorEvents_106" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1021" name="ActorEvents_106" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_1012" classname="scripts.SceneEvents_1012" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1022" name="SceneEvents_1012" oid="-1" package="scripts." sceneid="1012" shared="false" type="scene">
+    <snippet attachedevent="true" class="scripts.SceneEvents_102" classname="scripts.SceneEvents_102" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1022" name="SceneEvents_102" oid="-1" package="scripts." sceneid="102" shared="false" type="scene">
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="switching" hidden="false" id="1" name="_switching" order="0"/>
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="2" name="step" order="2" repeats="true"/>
         </events>
     </snippet>
-    <snippet actorid="1023" attachedevent="true" class="scripts.ActorEvents_1023" classname="scripts.ActorEvents_1023" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1023" name="ActorEvents_1023" oid="-1" package="scripts." shared="false" type="actor">
+    <snippet actorid="107" attachedevent="true" class="scripts.ActorEvents_107" classname="scripts.ActorEvents_107" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1023" name="ActorEvents_107" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events>
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>

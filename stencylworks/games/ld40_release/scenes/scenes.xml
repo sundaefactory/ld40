@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scenes>
-    <scene name="logo" id="104" format="3.4.0" desc=""/>
-    <scene name="scene_01" id="101" format="3.4.0" desc=""/>
-    <scene name="level1" id="1009" format="3.4.0" desc=""/>
-    <scene name="level_01" id="1" format="3.4.0" desc=""/>
-    <scene name="start" id="102" format="3.4.0" desc=""/>
-    <scene name="intro" id="103" format="3.4.0" desc=""/>
+    <scene desc="" format="3.4.0" id="1009" name="level1"/>
+    <scene desc="" format="3.4.0" id="1" name="level_01"/>
+    <scene desc="" format="3.4.0" id="101" name="scene_01"/>
+    <scene desc="" format="3.4.0" id="102" name="start"/>
+    <scene desc="" format="3.4.0" id="103" name="intro"/>
+    <scene desc="" format="3.4.0" id="104" name="logo"/>
 </scenes>
