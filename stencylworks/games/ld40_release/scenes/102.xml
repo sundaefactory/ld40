@@ -1,0 +1,13 @@
+<scene desc="" savecount="0" depth="1" extwidth="1024" width="960" tiled="1" height="544" extx="-32" format="3.4.0" extheight="608" exty="-32" gravx="-0.0" tilew="32" gravy="0.0" type="standard" tileh="32" id="102" name="start" revision="" eventsnippetid="1022">
+    <layers>
+        <color-bg blue="0" red="0" green="0"/>
+        <layer visible="true" locked="false" opacity="100" name="Layer 0" color="100,168,234" id="0" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="0"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors/>
+    <snippets/>
+    <terrain/>
+    <atlases retainAtlases="true" members=""/>
+</scene>

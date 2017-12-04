@@ -1,2 +1,13 @@
 ko
-ld40_release2.lavabo-aa: 1009 au lieu de 100
+ld40_release.start-as: 1012 utilisé par backgroundtapisserie01-st
+ld40_release.intro-as: 0 utilisé par scene00-as
+ld40_release.logo-as: 1011 utilisé par backgroundtapisserie01-aa
+ld40_release.title-aa: 1019 utilisé par cafard-aa
+ld40_release.sundaefactory-aa: 1021 utilisé par plant2-aa
+ld40_release.flush-aa: 1023 utilisé par dodochaise-aa
+ld40_release.flush-st: 1024 utilisé par dodochaise-st
+ld40_release.title-st: 1020 utilisé par cafard-st
+ld40_release.sundaefactory-st: 1022 utilisé par plant2-st
+ld40_release.intro-ev: 22 utilisé par scene00-ev
+ld40_release.title-ev: 1019 utilisé par dodochaise-ev
+ld40_release.reload-bv: 1017 utilisé par cafard-ev

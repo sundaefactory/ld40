@@ -62,6 +62,7 @@
         <group desc="" id="5" name="UI"/>
         <group desc="" id="6" name="Items"/>
         <group desc="" id="7" name="Doors"/>
+        <group desc="" id="8" name="Nocol"/>
     </groups>
     <cgroups>
         <cgroup g1="0" g2="1"/>
@@ -84,6 +85,7 @@
     </attcats>
     <props/>
     <attributes>
+        <boolean cid="-1" id="1" name="level_up" save="true" value="false"/>
         <number cid="-1" id="0" name="gauge_decrease_factor" save="true" value="1.0"/>
     </attributes>
     <collisions>

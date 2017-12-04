@@ -352,6 +352,10 @@
             <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="back-walk" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <custom-block blocktag="custom-1025" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_playerLeavesDoor&quot;, []);" desc="" global="false" gui="player %0 leaves door %1" id="1025" message="playerLeavesDoor" name="playerLeavesDoor" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="door" order="1" type="actor"/>
+    </custom-block>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="11" fixedrot="false" fric="0.2" gid="3" id="14" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="quart" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="15" static="false">
         <snippets/>
     </actor>
@@ -400,6 +404,10 @@
     <custom-block blocktag="custom-16" blocktype="ACTION" code=".say(&quot;BehaviorGauge&quot;, &quot;_customBlock_setGaugeValue&quot;, []);" desc="" global="false" gui="set gauge value of %0 to %1" id="16" message="setGaugeValue" name="setGaugeValue" oid="-1" return="void" shared="false" snippetID="9">
         <blank name="Self" order="0" type="actor"/>
         <blank name="value" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-1036" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_setPlayerBehindDoor&quot;, []);" desc="" global="false" gui="set player %0 behind door %1" id="1036" message="setPlayerBehindDoor" name="setPlayerBehindDoor" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="door" order="1" type="actor"/>
     </custom-block>
     <custom-block blocktag="custom-52" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_setPlayerInputState&quot;, []);" desc="" global="false" gui="set player input state of %0  to %1" id="52" message="setPlayerInputState" name="setPlayerInputState" oid="-1" return="void" shared="false" snippetID="3">
         <blank name="Self" order="0" type="actor"/>

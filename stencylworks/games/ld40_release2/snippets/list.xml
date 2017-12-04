@@ -4,7 +4,7 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_3_3_Player" classname="scripts.Design_3_3_Player" desc="[v1.1]" description="[v1.1]" design="true" drawOrder="0" id="3" name="Player" oid="-1" package="scripts" shared="false" type="actor">
+    <snippet attachedevent="false" class="scripts.Design_3_3_Player" classname="scripts.Design_3_3_Player" desc="[v1.2]" description="[v1.2]" design="true" drawOrder="0" id="3" name="Player" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <control default="" defaultValue="" desc="" dropdown="" fullname="Left Control" hidden="false" id="33" name="_LeftControl" order="4"/>
         <control default="" defaultValue="" desc="" dropdown="" fullname="Right Control" hidden="false" id="34" name="_RightControl" order="5"/>
@@ -25,12 +25,16 @@
         <boolean default="true" defaultValue="true" desc="" dropdown="" fullname="input_state" hidden="true" id="62" name="_inputstate" order="17"/>
         <blocks>
             <receiver blockID="52" id="1"/>
+            <receiver blockID="1025" id="2"/>
+            <receiver blockID="1036" id="3"/>
         </blocks>
         <events>
             <event displayName="Updated" enabled="true" id="3" name="step" order="4" repeats="true"/>
             <event displayName="Created" enabled="true" id="6" name="init" order="3" repeats="true"/>
-            <event displayName="resetoffset" enabled="true" id="10" name="event-custom" order="6" repeats="true"/>
+            <event displayName="resetoffset" enabled="true" id="10" name="event-custom" order="5" repeats="true"/>
             <event displayName="set player input state" enabled="true" id="11" name="event-custom-block" order="7" repeats="true"/>
+            <event displayName="player leaves door" enabled="true" id="12" name="event-custom-block" order="8" repeats="true"/>
+            <event displayName="set player behind door" enabled="true" id="13" name="event-custom-block" order="9" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="6" attachedevent="true" class="scripts.ActorEvents_6" classname="scripts.ActorEvents_6" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_6" oid="-1" package="scripts." shared="false" type="actor">
