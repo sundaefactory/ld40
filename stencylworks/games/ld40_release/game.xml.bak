@@ -101,6 +101,7 @@
         <boolean cid="-1" id="2" name="gauge_respire" save="true" value="false"/>
         <number cid="-1" id="0" name="gauge_decrease_factor" save="true" value="1.0"/>
         <number cid="-1" id="22" name="health_value" save="true" value="100.0"/>
+        <number cid="-1" id="18" name="gauge_caca_value" save="true" value="100.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -131,7 +132,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="4,1028,6,1030,1032,8,10,1034,12,1037,14,1041,1043,20,1045,22,1047,24,1050,26,1052,28,1054,32,35,50,56,64,66,100,105,106,107,115,122,125,126,127,128,129,130,999,1001,1003,1007,1011,1013,1015,1017,1021,1023," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="1028,4,1030,6,8,1032,10,1034,12,1037,14,1041,1043,20,1045,22,1047,24,1050,26,1052,28,1054,1056,32,1058,35,50,56,64,66,100,105,106,107,115,122,125,126,127,128,129,130,145,146,147,999,1001,1003,1007,1011,1013,1015,1017,1021,1023," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

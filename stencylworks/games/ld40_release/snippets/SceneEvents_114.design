@@ -5,7 +5,7 @@
             <group eventID="5" id="-1">
                 <custom-1025 comment="false" x="26" y="42">
                     <ACTOR eid="2" id="0"/>
-                    <ACTOR eid="1" id="1"/>
+                    <ACTOR eid="47" id="1"/>
                 </custom-1025>
             </group>
             <int id="0" val="0.01"/>

@@ -1,7 +1,7 @@
-<scene desc="" savecount="0" depth="6" extwidth="2368" width="2304" tiled="1" height="2048" extx="-32" format="3.4.0" extheight="2112" exty="-32" gravx="-0.0" tilew="32" gravy="0.0" type="standard" tileh="32" id="114" name="floor_01" revision="" eventsnippetid="1030">
+<scene desc="" savecount="0" depth="6" extwidth="2624" width="2560" tiled="1" height="2048" extx="-32" format="3.4.0" extheight="2112" exty="-32" gravx="-0.0" tilew="32" gravy="0.0" type="standard" tileh="32" id="114" name="floor_01" revision="" eventsnippetid="1030">
     <layers>
         <color-bg blue="0" red="0" green="0"/>
-        <layer visible="true" locked="true" opacity="100" name="bg" color="100,168,234" id="0" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="5"/>
+        <layer visible="true" locked="false" opacity="100" name="bg" color="100,168,234" id="0" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="5"/>
         <layer visible="true" locked="false" opacity="100" name="items" color="64,64,64" id="2" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="4"/>
         <layer visible="true" locked="false" opacity="100" name="player" color="0,255,0" id="1" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="3"/>
         <layer visible="true" locked="false" opacity="100" name="rooms" color="255,175,175" id="4" blendMode="normal" scrollFactorX="1.0" scrollFactorY="1.0" order="2"/>
@@ -10,15 +10,16 @@
     </layers>
     <joints/>
     <regions>
-        <region x="1094" h="112" y="1286" type="box" r="64" b="64" name="gauge_boire" id="0" w="107" g="64" pts="4,0.0,0.0,0.0,112.0,107.0,112.0,107.0,0.0"/>
+        <region x="1881" h="112" y="1312" type="box" r="64" b="64" name="gauge_boire" id="0" w="107" g="64" pts="4,107.0,0.0,107.0,112.0,0.0,112.0,0.0,0.0"/>
     </regions>
     <terrainRegions>
-        <terrainRegion x="681" h="274" y="1166" type="box" r="64" b="64" name="Terrain 0" id="0" w="35" group="1" g="64" pts="4,35.0,0.0,35.0,274.0,0.0,274.0,0.0,0.0"/>
-        <terrainRegion x="1003" h="273" y="1471" type="box" r="64" b="64" name="Terrain 1" id="1" w="45" group="1" g="64" pts="4,45.0,0.0,45.0,273.0,0.0,273.0,0.0,0.0"/>
-        <terrainRegion x="1909" h="274" y="1167" type="box" r="64" b="64" name="Terrain 2" id="2" w="17" group="1" g="64" pts="4,17.0,0.0,17.0,274.0,0.0,274.0,0.0,0.0"/>
+        <terrainRegion x="996" h="274" y="1153" type="box" r="64" b="64" name="Terrain 0" id="0" w="35" group="1" g="64" pts="4,0.0,0.0,0.0,274.0,35.0,274.0,35.0,0.0"/>
+        <terrainRegion x="658" h="273" y="846" type="box" r="64" b="64" name="Terrain 1" id="1" w="45" group="1" g="64" pts="4,0.0,0.0,0.0,273.0,45.0,273.0,45.0,0.0"/>
+        <terrainRegion x="1895" h="274" y="843" type="box" r="64" b="64" name="Terrain 2" id="2" w="17" group="1" g="64" pts="4,0.0,0.0,0.0,274.0,17.0,274.0,17.0,0.0"/>
+        <terrainRegion x="2229" h="275" y="1153" type="box" r="64" b="64" name="Terrain 3" id="3" w="13" group="1" g="64" pts="4,13.0,0.0,13.0,275.0,0.0,275.0,0.0,0.0"/>
     </terrainRegions>
     <actors>
-        <actor x="819" y="1248" a="0.0" z="2" name="Ascenseur 1" id="115" c="true" aid="1" sx="1.0" sy="1.0" group="7">
+        <actor x="805" y="927" a="0.0" z="2" name="Ascenseur 1" id="115" c="true" aid="1" sx="1.0" sy="1.0" group="7">
             <snippets>
                 <s id="117" enabled="true"/>
                 <s id="24" enabled="true">
@@ -26,7 +27,7 @@
                     <prop list="0" val="0" id="1"/>
                     <prop list="0" val="false" id="2"/>
                     <prop list="0" val="-1" id="3"/>
-                    <prop list="0" val="" id="4"/>
+                    <prop list="0" val="floor_02" id="4"/>
                     <prop list="0" val="false" id="5"/>
                     <prop list="0" val="0" id="6"/>
                     <prop list="0" val="0" id="7"/>
@@ -46,24 +47,20 @@
                 </s>
             </snippets>
         </actor>
-        <actor x="717" y="1294" a="0.0" z="1" name="player 2" id="4" c="false" aid="2" sx="1.0" sy="1.0" group="0"/>
-        <actor x="1096" y="640" a="0.0" z="0" name="background_tapisserie_01 7" id="1011" c="false" aid="7" sx="1.0" sy="1.0" group="3"/>
-        <actor x="718" y="1165" a="0.0" z="0" name="background_tapisserie_01 8" id="1011" c="false" aid="8" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1096" y="640" a="0.0" z="4" name="room 10" id="6" c="false" aid="10" sx="1.0" sy="1.0" group="4"/>
-        <actor x="500" y="640" a="0.0" z="0" name="background_tapisserie_01 13" id="1011" c="false" aid="13" sx="1.0" sy="1.0" group="3"/>
-        <actor x="749" y="1236" a="0.0" z="2" name="flamme 16" id="1015" c="false" aid="16" sx="1.0" sy="1.0" group="6"/>
-        <actor x="790" y="1242" a="0.0" z="2" name="flamme2 17" id="1017" c="false" aid="17" sx="1.0" sy="1.0" group="6"/>
-        <actor x="943" y="1251" a="0.0" z="2" name="plant 18" id="35" c="false" aid="18" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1319" y="1250" a="0.0" z="2" name="plant2 20" id="1021" c="false" aid="20" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1598" y="1337" a="0.0" z="2" name="bocal 22" id="10" c="false" aid="22" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1050" y="1469" a="0.0" z="0" name="background_tapisserie_01 23" id="1011" c="false" aid="23" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1690" y="1276" a="0.0" z="2" name="chandelier 24" id="1007" c="false" aid="24" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1153" y="1278" a="0.0" z="2" name="chandelier 25" id="1007" c="false" aid="25" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1146" y="1228" a="0.0" z="2" name="flamme 26" id="1015" c="false" aid="26" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1725" y="1233" a="0.0" z="2" name="flamme 27" id="1015" c="false" aid="27" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1683" y="1227" a="0.0" z="2" name="flamme2 28" id="1017" c="false" aid="28" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1187" y="1235" a="0.0" z="2" name="flamme2 29" id="1017" c="false" aid="29" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1406" y="1573" a="0.0" z="2" name="EscalierUp 32" id="56" c="true" aid="32" sx="1.0" sy="1.0" group="7">
+        <actor x="2079" y="1256" a="0.0" z="1" name="player 2" id="4" c="false" aid="2" sx="1.0" sy="1.0" group="0"/>
+        <actor x="704" y="844" a="0.0" z="0" name="background_tapisserie_01 8" id="1011" c="false" aid="8" sx="1.0" sy="1.0" group="3"/>
+        <actor x="735" y="915" a="0.0" z="2" name="flamme 16" id="1015" c="false" aid="16" sx="1.0" sy="1.0" group="6"/>
+        <actor x="776" y="921" a="0.0" z="2" name="flamme2 17" id="1017" c="false" aid="17" sx="1.0" sy="1.0" group="6"/>
+        <actor x="929" y="930" a="0.0" z="2" name="plant 18" id="35" c="false" aid="18" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1305" y="929" a="0.0" z="2" name="plant2 20" id="1021" c="false" aid="20" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1587" y="1009" a="0.0" z="2" name="bocal 22" id="10" c="false" aid="22" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1036" y="1148" a="0.0" z="0" name="background_tapisserie_01 23" id="1011" c="false" aid="23" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1676" y="955" a="0.0" z="2" name="chandelier 24" id="1007" c="false" aid="24" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1178" y="914" a="0.0" z="2" name="flamme 26" id="1015" c="false" aid="26" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1711" y="912" a="0.0" z="2" name="flamme 27" id="1015" c="false" aid="27" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1669" y="906" a="0.0" z="2" name="flamme2 28" id="1017" c="false" aid="28" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1210" y="915" a="0.0" z="2" name="flamme2 29" id="1017" c="false" aid="29" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1392" y="1252" a="0.0" z="2" name="EscalierUp 32" id="56" c="true" aid="32" sx="1.0" sy="1.0" group="7">
             <snippets>
                 <s id="24" enabled="true">
                     <prop list="0" val="thisactor" id="2147483647"/>
@@ -90,7 +87,7 @@
                 <s id="27" enabled="true"/>
             </snippets>
         </actor>
-        <actor x="1760" y="1269" a="0.0" z="2" name="EscalierDown 33" id="1032" c="true" aid="33" sx="1.0" sy="1.0" group="7">
+        <actor x="1746" y="948" a="0.0" z="2" name="EscalierDown 33" id="1032" c="true" aid="33" sx="1.0" sy="1.0" group="7">
             <snippets>
                 <s id="1027" enabled="true"/>
                 <s id="24" enabled="true">
@@ -117,30 +114,66 @@
                 </s>
             </snippets>
         </actor>
-        <actor x="1109" y="1573" a="0.0" z="2" name="WcPorte 35" id="1030" c="false" aid="35" sx="1.0" sy="1.0" group="8"/>
-        <actor x="1216" y="1631" a="0.0" z="2" name="lavabo 37" id="100" c="false" aid="37" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1109" y="1573" a="0.0" z="0" name="Wc 38" id="1028" c="false" aid="38" sx="1.0" sy="1.0" group="8"/>
-        <actor x="1314" y="1165" a="0.0" z="0" name="salle_fermee 39" id="1037" c="false" aid="39" sx="1.0" sy="1.0" group="8"/>
-        <actor x="1646" y="1469" a="0.0" z="0" name="salle_fermee 40" id="1037" c="false" aid="40" sx="1.0" sy="1.0" group="8"/>
-        <actor x="1012" y="1555" a="0.0" z="2" name="plant 42" id="35" c="false" aid="42" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1299" y="1606" a="0.0" z="2" name="dodo_chaise 43" id="1023" c="false" aid="43" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1516" y="1590" a="0.0" z="2" name="chandelier 44" id="1007" c="false" aid="44" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1510" y="1542" a="0.0" z="2" name="flamme 45" id="1015" c="false" aid="45" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1551" y="1548" a="0.0" z="2" name="flamme2 46" id="1017" c="false" aid="46" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1996" y="1553" a="0.0" z="2" name="Ascenseur 47" id="115" c="false" aid="47" sx="1.0" sy="1.0" group="7"/>
-        <actor x="2146" y="1581" a="347.48962" z="2" name="chandelier 48" id="1007" c="false" aid="48" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1922" y="1585" a="0.0" z="2" name="chandelier 49" id="1007" c="false" aid="49" sx="1.0" sy="1.0" group="3"/>
-        <actor x="2135" y="1535" a="0.0" z="2" name="flamme2 50" id="1017" c="false" aid="50" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1956" y="1541" a="0.0" z="2" name="flamme2 51" id="1017" c="false" aid="51" sx="1.0" sy="1.0" group="6"/>
-        <actor x="2176" y="1534" a="0.0" z="2" name="flamme 52" id="1015" c="false" aid="52" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1915" y="1536" a="0.0" z="2" name="flamme 53" id="1015" c="false" aid="53" sx="1.0" sy="1.0" group="6"/>
-        <actor x="756" y="1284" a="0.0" z="2" name="chandelier 54" id="1007" c="false" aid="54" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1753" y="1631" a="0.0" z="2" name="canap 55" id="122" c="false" aid="55" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1626" y="1553" a="0.0" z="2" name="plant 56" id="35" c="false" aid="56" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1827" y="1621" a="0.0" z="2" name="cat 58" id="1003" c="false" aid="58" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1171" y="1331" a="0.0" z="2" name="manger_table 59" id="1013" c="false" aid="59" sx="1.0" sy="1.0" group="6"/>
-        <actor x="1424" y="1331" a="0.0" z="2" name="canap 60" id="122" c="false" aid="60" sx="1.0" sy="1.0" group="3"/>
-        <actor x="1072" y="1302" a="0.0" z="2" name="dodo_chaise 61" id="1023" c="false" aid="61" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1786" y="1251" a="0.0" z="2" name="WcPorte 35" id="1030" c="false" aid="35" sx="1.0" sy="1.0" group="8"/>
+        <actor x="1724" y="1310" a="0.0" z="2" name="lavabo 37" id="100" c="false" aid="37" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1786" y="1251" a="0.0" z="0" name="Wc 38" id="1028" c="false" aid="38" sx="1.0" sy="1.0" group="8"/>
+        <actor x="1300" y="844" a="0.0" z="0" name="salle_fermee 39" id="1037" c="false" aid="39" sx="1.0" sy="1.0" group="8"/>
+        <actor x="1632" y="1148" a="0.0" z="0" name="salle_fermee 40" id="1037" c="false" aid="40" sx="1.0" sy="1.0" group="8"/>
+        <actor x="1034" y="1233" a="0.0" z="2" name="plant 42" id="35" c="false" aid="42" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1500" y="1227" a="0.0" z="2" name="flamme 45" id="1015" c="false" aid="45" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1533" y="1228" a="0.0" z="2" name="flamme2 46" id="1017" c="false" aid="46" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1982" y="1232" a="0.0" z="2" name="Ascenseur 47" id="115" c="true" aid="47" sx="1.0" sy="1.0" group="7">
+            <snippets>
+                <s id="117" enabled="true"/>
+                <s id="24" enabled="true">
+                    <prop list="0" val="thisactor" id="2147483647"/>
+                    <prop list="0" val="0" id="1"/>
+                    <prop list="0" val="false" id="2"/>
+                    <prop list="0" val="-1" id="3"/>
+                    <prop list="0" val="" id="4"/>
+                    <prop list="0" val="false" id="5"/>
+                    <prop list="0" val="0" id="6"/>
+                    <prop list="0" val="0" id="7"/>
+                    <prop list="0" val="0" id="8"/>
+                    <prop list="0" val="0" id="9"/>
+                    <prop list="0" val="0" id="10"/>
+                    <prop list="0" val="0" id="11"/>
+                    <prop list="0" val="" id="12"/>
+                    <prop list="0" val="64" id="13"/>
+                    <prop list="0" val="" id="14"/>
+                    <prop list="0" val="40" id="15"/>
+                    <prop list="0" val="false" id="17"/>
+                    <prop list="0" val="0.0005" id="18"/>
+                    <prop list="0" val="0" id="19"/>
+                    <prop list="0" val="10" id="20"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor x="2132" y="1260" a="347.48962" z="2" name="chandelier 48" id="1007" c="false" aid="48" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1908" y="1264" a="0.0" z="2" name="chandelier 49" id="1007" c="false" aid="49" sx="1.0" sy="1.0" group="3"/>
+        <actor x="2121" y="1214" a="0.0" z="2" name="flamme2 50" id="1017" c="false" aid="50" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1942" y="1220" a="0.0" z="2" name="flamme2 51" id="1017" c="false" aid="51" sx="1.0" sy="1.0" group="6"/>
+        <actor x="2162" y="1213" a="0.0" z="2" name="flamme 52" id="1015" c="false" aid="52" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1901" y="1215" a="0.0" z="2" name="flamme 53" id="1015" c="false" aid="53" sx="1.0" sy="1.0" group="6"/>
+        <actor x="742" y="963" a="0.0" z="2" name="chandelier 54" id="1007" c="false" aid="54" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1163" y="1315" a="0.0" z="2" name="canap 55" id="122" c="false" aid="55" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1607" y="1231" a="0.0" z="2" name="plant 56" id="35" c="false" aid="56" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1239" y="1304" a="0.0" z="2" name="cat 58" id="1003" c="false" aid="58" sx="1.0" sy="1.0" group="6"/>
+        <actor x="1052" y="981" a="0.0" z="2" name="dodo_chaise 61" id="1023" c="false" aid="61" sx="1.0" sy="1.0" group="6"/>
+        <actor x="411" y="1149" a="0.0" z="0" name="salle_fermee 62" id="1037" c="false" aid="62" sx="1.0" sy="1.0" group="8"/>
+        <actor x="819" y="1260" a="0.0" z="0" name="door_deco_01 63" id="145" c="false" aid="63" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1470" y="929" a="0.0" z="2" name="chiffres_porte_6 65" id="146" c="false" aid="65" sx="1.0" sy="1.0" group="3"/>
+        <actor x="706" y="1229" a="0.0" z="2" name="plant2 66" id="1021" c="false" aid="66" sx="1.0" sy="1.0" group="6"/>
+        <actor x="599" y="1314" a="0.0" z="2" name="manger_table 67" id="1013" c="false" aid="67" sx="1.0" sy="1.0" group="6"/>
+        <actor x="930" y="1263" a="0.0" z="2" name="chandelier 68" id="1007" c="false" aid="68" sx="1.0" sy="1.0" group="3"/>
+        <actor x="922" y="1214" a="0.0" z="2" name="flamme 69" id="1015" c="false" aid="69" sx="1.0" sy="1.0" group="6"/>
+        <actor x="964" y="1221" a="0.0" z="2" name="flamme2 70" id="1017" c="false" aid="70" sx="1.0" sy="1.0" group="6"/>
+        <actor x="706" y="1370" a="0.0" z="2" name="cafard 71" id="1019" c="false" aid="71" sx="1.0" sy="1.0" group="6"/>
+        <actor x="850" y="1231" a="0.0" z="2" name="chiffres_porte_1 72" id="147" c="false" aid="72" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1460" y="929" a="0.0" z="2" name="chiffres_porte_1 73" id="147" c="false" aid="73" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1441" y="956" a="0.0" z="2" name="porte_deco_02 74" id="1056" c="false" aid="74" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1506" y="1277" a="0.0" z="2" name="chandelier_02 75" id="1058" c="false" aid="75" sx="1.0" sy="1.0" group="3"/>
+        <actor x="1183" y="964" a="0.0" z="2" name="chandelier_02 76" id="1058" c="false" aid="76" sx="1.0" sy="1.0" group="3"/>
     </actors>
     <snippets>
         <s id="8" enabled="true">
@@ -158,6 +191,7 @@
             <prop list="0" val="0.0" id="12"/>
             <prop list="0" val="5.0E-4" id="13"/>
             <prop list="0" val="" id="14"/>
+            <prop list="0" val="" id="15"/>
         </s>
     </snippets>
     <terrain/>

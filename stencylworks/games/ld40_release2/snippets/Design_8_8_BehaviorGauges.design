@@ -49,6 +49,24 @@
                     </group>
                     <actortype eid="8" id="0"/>
                 </actors-of-type3>
+                <comment-short comment="false" x="26" y="349">
+                    <int id="0" val="init de la vie"/>
+                </comment-short>
+                <if comment="false" x="26" y="369">
+                    <group eventID="1" id="-1">
+                        <set-game-val-22 comment="false" x="37" y="399">
+                            <int id="0" val="100"/>
+                        </set-game-val-22>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <scenename comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="intro"/>
+                    </eq>
+                </if>
+                <custom-1049 comment="false" x="26" y="431">
+                    <ACTOR eid="var" id="0" vid="15"/>
+                    <get-game-val-22 comment="false" id="1" x="0" y="0"/>
+                </custom-1049>
             </group>
         </init>
     </group>
@@ -537,9 +555,9 @@
                 </actors-of-type3>
                 <if comment="false" x="32" y="210">
                     <group eventID="8" id="-1">
-                        <set-val-8-10 comment="false" x="43" y="235">
+                        <set-game-val-22 comment="false" x="43" y="235">
                             <minus comment="false" id="0" x="0" y="0">
-                                <get-val-8-10 comment="false" id="0" x="0" y="0"/>
+                                <get-game-val-22 comment="false" id="0" x="0" y="0"/>
                                 <times comment="false" id="1" x="0" y="0">
                                     <stepsize comment="false" id="0" x="0" y="0"/>
                                     <div comment="false" id="1" x="0" y="0">
@@ -548,7 +566,7 @@
                                     </div>
                                 </times>
                             </minus>
-                        </set-val-8-10>
+                        </set-game-val-22>
                         <if comment="false" x="43" y="275">
                             <group eventID="8" id="-1">
                                 <comment-short comment="false" x="54" y="305">
@@ -562,9 +580,9 @@
                                     <ACTOR eid="var" id="0" vid="14"/>
                                     <int id="1" val="dead"/>
                                 </setanim>
-                                <set-val-8-10 comment="false" x="54" y="384">
+                                <set-game-val-22 comment="false" x="54" y="384">
                                     <int id="0" val="0"/>
-                                </set-val-8-10>
+                                </set-game-val-22>
                                 <set-game-val-9 comment="false" x="54" y="404">
                                     <false comment="false" id="0" x="0" y="0"/>
                                 </set-game-val-9>
@@ -608,7 +626,7 @@
                                 </dolater>
                             </group>
                             <less comment="false" id="0" x="0" y="0">
-                                <get-val-8-10 comment="false" id="0" x="0" y="0"/>
+                                <get-game-val-22 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="0"/>
                             </less>
                         </if>
@@ -620,7 +638,7 @@
                                 </custom-1040>
                             </group>
                             <less comment="false" id="0" x="0" y="0">
-                                <get-val-8-10 comment="false" id="0" x="0" y="0"/>
+                                <get-game-val-22 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="33"/>
                             </less>
                         </else-if>
@@ -629,9 +647,9 @@
                 </if>
                 <else comment="false" x="32" y="773">
                     <group eventID="8" id="-1">
-                        <set-val-8-10 comment="false" x="43" y="793">
+                        <set-game-val-22 comment="false" x="43" y="793">
                             <plus comment="false" id="0" x="0" y="0">
-                                <get-val-8-10 comment="false" id="0" x="0" y="0"/>
+                                <get-game-val-22 comment="false" id="0" x="0" y="0"/>
                                 <times comment="false" id="1" x="0" y="0">
                                     <stepsize comment="false" id="0" x="0" y="0"/>
                                     <div comment="false" id="1" x="0" y="0">
@@ -640,15 +658,15 @@
                                     </div>
                                 </times>
                             </plus>
-                        </set-val-8-10>
+                        </set-game-val-22>
                         <if comment="false" x="43" y="833">
                             <group eventID="8" id="-1">
-                                <set-val-8-10 comment="false" x="54" y="863">
+                                <set-game-val-22 comment="false" x="54" y="863">
                                     <int id="0" val="100"/>
-                                </set-val-8-10>
+                                </set-game-val-22>
                             </group>
                             <more comment="false" id="0" x="0" y="0">
-                                <get-val-8-10 comment="false" id="0" x="0" y="0"/>
+                                <get-game-val-22 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="100"/>
                             </more>
                         </if>
@@ -660,7 +678,7 @@
                                 </custom-1040>
                             </group>
                             <more comment="false" id="0" x="0" y="0">
-                                <get-val-8-10 comment="false" id="0" x="0" y="0"/>
+                                <get-game-val-22 comment="false" id="0" x="0" y="0"/>
                                 <int id="1" val="33"/>
                             </more>
                         </if>
@@ -668,7 +686,7 @@
                 </else>
                 <custom-1049 comment="false" x="32" y="981">
                     <ACTOR eid="var" id="0" vid="15"/>
-                    <get-val-8-10 comment="false" id="1" x="0" y="0"/>
+                    <get-game-val-22 comment="false" id="1" x="0" y="0"/>
                 </custom-1049>
             </group>
         </step>

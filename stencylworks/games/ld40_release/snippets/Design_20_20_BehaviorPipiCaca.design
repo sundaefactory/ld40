@@ -97,7 +97,7 @@
                         </custom-46>
                         <custom-49 comment="false" x="37" y="124">
                             <int id="0" val="pipi"/>
-                            <int id="1" val="50"/>
+                            <int id="1" val="100"/>
                         </custom-49>
                         <if comment="false" x="37" y="144">
                             <group eventID="5" id="-1">
@@ -146,7 +146,7 @@
                         </custom-46>
                         <custom-49 comment="false" x="37" y="124">
                             <int id="0" val="caca"/>
-                            <int id="1" val="50"/>
+                            <int id="1" val="100"/>
                         </custom-49>
                         <if comment="false" x="37" y="144">
                             <group eventID="5" id="-1">
