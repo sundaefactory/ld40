@@ -82,6 +82,12 @@
         </anim>
         <anim across="3" down="3" durations="40,40,40,40,40,40,40,40,40" height="270" id="1" loop="true" name="ko" numframes="9" originx="30" originy="45" sync="false" version="2" width="180"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="[v1.1]" eventsnippetid="124" fixedrot="false" fric="0.2" gid="3" id="122" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="canap" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="123" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="89" id="123" name="canap" shared="false" width="162">
+        <anim across="1" down="1" durations="100" height="89" id="0" loop="true" name="Animation 0" numframes="1" originx="81" originy="44" sync="false" version="2" width="162"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.1]" eventsnippetid="1003" fixedrot="true" fric="0.2" gid="6" id="1003" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="cat" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1004" static="false">
         <snippets>
             <s enabled="true" id="1011">
@@ -114,6 +120,24 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="72" id="1051" name="disk" shared="false" width="72">
         <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="Animation 0" numframes="1" originx="36" originy="36" sync="false" version="2" width="72"/>
     </sprite>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="120" id="1024" name="dodo_chaise" shared="false" width="105">
+        <anim across="1" down="1" durations="100" height="198" id="0" loop="true" name="ko" numframes="1" originx="62" originy="99" sync="false" version="2" width="125"/>
+        <anim across="1" down="1" durations="100" height="120" id="1" loop="false" name="ok" numframes="1" originx="52" originy="60" sync="false" version="2" width="105">
+            <poly data="4,41,16,71,16,71,116,41,116" density="0.1" fric="0.2" gid="6" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.1]" eventsnippetid="1019" fixedrot="true" fric="0.2" gid="6" id="1023" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="dodo_chaise" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1024" static="false">
+        <snippets>
+            <s enabled="true" id="1011">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0.0"/>
+                <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="false"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="dormir"/>
+            </s>
+        </snippets>
+    </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.1]" eventsnippetid="1027" fixedrot="false" fric="0.2" gid="7" id="1032" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="EscalierDown" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1033" static="false">
         <snippets>
             <s enabled="true" id="24">
@@ -208,6 +232,14 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="50" id="1018" name="flamme2" shared="false" width="25">
         <anim across="5" down="4" durations="50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50" height="200" id="0" loop="true" name="Animation 0" numframes="17" originx="12" originy="25" sync="false" version="2" width="125"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1039" fixedrot="false" fric="0.2" gid="3" id="1056" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="flaque" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1057" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="25" id="1057" name="flaque" shared="false" width="100">
+        <anim across="3" down="2" durations="100,100,100,100,100" height="50" id="0" loop="false" name="flaque" numframes="5" originx="50" originy="12" sync="false" version="2" width="300">
+            <poly data="4,0,0,100,0,100,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="flaque" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1023" fixedrot="false" fric="0.2" gid="3" id="107" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="flush" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="108" static="true">
         <snippets/>
     </actor>
@@ -297,13 +329,13 @@
         <anim across="1" down="1" durations="100" height="41" id="0" loop="false" name="on" numframes="1" originx="21" originy="20" sync="false" version="2" width="43"/>
         <anim across="1" down="1" durations="100" height="41" id="1" loop="true" name="off" numframes="1" originx="21" originy="20" sync="false" version="2" width="43"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="139" fixedrot="true" fric="0.2" gid="8" id="127" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="jauge_boire" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="133" static="false">
+        <snippets/>
+    </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="48" id="133" name="jauge_boire" shared="false" width="29">
         <anim across="1" down="1" durations="100" height="48" id="0" loop="false" name="on" numframes="1" originx="14" originy="24" sync="false" version="2" width="29"/>
         <anim across="1" down="1" durations="100" height="48" id="1" loop="true" name="off" numframes="1" originx="14" originy="24" sync="false" version="2" width="29"/>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="139" fixedrot="true" fric="0.2" gid="8" id="127" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="jauge_boire" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="133" static="false">
-        <snippets/>
-    </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="141" fixedrot="true" fric="0.2" gid="5" id="129" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="jauge_caca" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="135" static="false">
         <snippets/>
     </actor>
@@ -311,13 +343,13 @@
         <anim across="1" down="1" durations="100" height="48" id="0" loop="false" name="on" numframes="1" originx="25" originy="24" sync="false" version="2" width="50"/>
         <anim across="1" down="1" durations="100" height="48" id="1" loop="false" name="off" numframes="1" originx="25" originy="24" sync="false" version="2" width="50"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="138" fixedrot="true" fric="0.2" gid="5" id="126" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="jauge_manger" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="132" static="false">
+        <snippets/>
+    </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="56" id="132" name="jauge_manger" shared="false" width="61">
         <anim across="1" down="1" durations="100" height="56" id="0" loop="false" name="on" numframes="1" originx="30" originy="28" sync="false" version="2" width="61"/>
         <anim across="1" down="1" durations="100" height="56" id="1" loop="false" name="off" numframes="1" originx="30" originy="28" sync="false" version="2" width="61"/>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="138" fixedrot="true" fric="0.2" gid="5" id="126" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="jauge_manger" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="132" static="false">
-        <snippets/>
-    </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="140" fixedrot="true" fric="0.2" gid="5" id="128" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="jauge_pipi" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="134" static="false">
         <snippets/>
     </actor>
@@ -325,12 +357,12 @@
         <anim across="1" down="1" durations="100" height="50" id="0" loop="false" name="on" numframes="1" originx="21" originy="25" sync="false" version="2" width="43"/>
         <anim across="1" down="1" durations="100" height="50" id="1" loop="true" name="off" numframes="1" originx="21" originy="25" sync="false" version="2" width="43"/>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="49" id="131" name="jauge_respirer" shared="false" width="49">
-        <anim across="1" down="1" durations="100" height="49" id="0" loop="false" name="on" numframes="1" originx="24" originy="24" sync="false" version="2" width="49"/>
-    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="137" fixedrot="true" fric="0.2" gid="8" id="125" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="jauge_respirer" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="131" static="false">
         <snippets/>
     </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="49" id="131" name="jauge_respirer" shared="false" width="49">
+        <anim across="1" down="1" durations="100" height="49" id="0" loop="false" name="on" numframes="1" originx="24" originy="24" sync="false" version="2" width="49"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.2]" eventsnippetid="1002" fixedrot="true" fric="0.2" gid="6" id="1001" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="lapin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1002" static="false">
         <snippets>
             <s enabled="true" id="1011">
@@ -408,13 +440,38 @@
         <anim across="1" down="1" durations="80" height="175" id="3" loop="false" name="caca_pipi" numframes="1" originx="75" originy="87" sync="false" version="2" width="150"/>
         <anim across="4" down="3" durations="80,80,80,80,80,80,80,80,80,80" height="525" id="4" loop="false" name="pipi_caca" numframes="10" originx="75" originy="87" sync="false" version="2" width="600"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.1]" eventsnippetid="1018" fixedrot="false" fric="0.2" gid="6" id="1021" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="plant2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1022" static="false">
+        <snippets>
+            <s enabled="true" id="20">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="false"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="175" id="1022" name="plant2" shared="false" width="125">
+        <anim across="1" down="1" durations="100" height="175" id="0" loop="false" name="normal" numframes="1" originx="62" originy="87" sync="false" version="2" width="125">
+            <poly data="4,50,110,65,110,65,160,50,160" density="0.1" fric="0.2" gid="6" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="4" down="3" durations="80,80,80,80,80,80,80,80,80,80" height="525" id="1" loop="false" name="pipi" numframes="10" originx="62" originy="87" sync="false" version="2" width="500">
+            <poly data="4,50,110,65,110,65,160,50,160" density="0.1" fric="0.2" gid="6" id="0" name="pipi" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="175" id="2" loop="false" name="caca" numframes="1" originx="62" originy="87" sync="false" version="2" width="125">
+            <poly data="4,50,110,65,110,65,160,50,160" density="0.1" fric="0.2" gid="6" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="175" id="3" loop="false" name="caca_pipi" numframes="1" originx="62" originy="87" sync="false" version="2" width="125"/>
+        <anim across="4" down="3" durations="80,80,80,80,80,80,80,80,80,80" height="525" id="4" loop="false" name="pipi_caca" numframes="10" originx="62" originy="87" sync="false" version="2" width="500">
+            <poly data="4,50,110,65,110,65,160,50,160" density="0.1" fric="0.2" gid="-1000" id="0" name="caca_pipi" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="[v1.6]" eventsnippetid="1" fixedrot="true" fric="0.2" gid="0" id="4" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
         <snippets>
             <s enabled="true" id="3">
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="64" list="0" val="false"/>
                 <prop id="33" list="0" val="left"/>
-                <prop id="65" list="1" val=""/>
+                <prop id="65" list="0" val=""/>
                 <prop id="34" list="0" val="right"/>
                 <prop id="66" list="0" val="0"/>
                 <prop id="67" list="0" val="false"/>
@@ -567,6 +624,7 @@
         <blank name="gauge" order="0" type="text"/>
         <blank name="state" order="1" type="boolean"/>
     </custom-block>
+    <music atlasID="0" desc="" id="155" loop="true" name="sound_flush" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1021" fixedrot="false" fric="0.2" gid="3" id="106" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="sundaefactory" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="110" static="true">
         <snippets/>
     </actor>

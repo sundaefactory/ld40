@@ -34,9 +34,6 @@
             </s>
         </snippets>
     </actor>
-<actor desc="" adamp="0.0" gid="3" fixedrot="false" rest="0.0" mass="1.0" shared="false" ignoreg="false" sprite="1061" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="2" oid="-1" inertia="1.0" id="1060" name="chiffres_porte_2" bodytype="1" ldamp="0.0" static="false" eventsnippetid="1043" continuous="true">
-        <snippets/>
-    </actor>
 <actor desc="" adamp="0.0" gid="8" fixedrot="false" rest="0.0" mass="1.0" sprite="1029" shared="false" ignoreg="false" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="0" oid="-1" inertia="1.0" id="1028" name="Wc" bodytype="0" ldamp="0.0" static="true" eventsnippetid="1025" continuous="true">
         <snippets>
             <s id="24" enabled="true">
@@ -113,6 +110,9 @@
                 <prop list="0" val="boire" id="6"/>
             </s>
         </snippets>
+    </actor>
+<actor desc="" adamp="0.0" gid="3" fixedrot="false" rest="0.0" mass="1.0" sprite="1061" shared="false" ignoreg="false" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="2" oid="-1" inertia="1.0" id="1060" name="chiffres_porte_2" bodytype="1" ldamp="0.0" static="false" eventsnippetid="1043" continuous="true">
+        <snippets/>
     </actor>
 <actor desc="" adamp="0.0" gid="8" fixedrot="false" rest="0.0" mass="1.0" sprite="1031" shared="false" ignoreg="false" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="0" oid="-1" inertia="1.0" id="1030" name="WcPorte" bodytype="0" ldamp="0.0" static="true" eventsnippetid="1026" continuous="true">
         <snippets/>
@@ -396,6 +396,9 @@
             </s>
         </snippets>
     </actor>
+<actor desc="" adamp="0.0" gid="3" fixedrot="false" rest="0.0" mass="1.0" shared="false" ignoreg="false" sprite="157" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="0" oid="-1" inertia="1.0" id="156" name="flaque" bodytype="2" ldamp="0.0" static="false" eventsnippetid="158" continuous="true">
+        <snippets/>
+    </actor>
 <actor desc="" adamp="0.0" gid="5" fixedrot="false" rest="0.0" mass="1.0" sprite="1053" shared="false" ignoreg="false" fric="0.2" atlasID="0" pausable="true" ascale="true" physicsMode="1" oid="-1" inertia="1.0" id="1052" name="gauge_bg" bodytype="1" ldamp="0.0" static="false" eventsnippetid="1037" continuous="true">
         <snippets/>
     </actor>
@@ -489,9 +492,6 @@
         <anim version="2" originx="30" down="1" sync="false" originy="28" name="on" id="0" loop="false" numframes="1" width="61" height="56" durations="100" across="1"/>
         <anim version="2" originx="30" down="1" sync="false" originy="28" name="off" id="1" loop="false" numframes="1" width="61" height="56" durations="100" across="1"/>
     </sprite>
-<sprite desc="" default="0" id="1061" defaultAnimation="0" name="chiffres_porte_2" shared="false" width="25" atlasID="0" height="25">
-        <anim version="2" originx="12" down="1" sync="false" originy="12" name="Animation 0" id="0" loop="true" numframes="1" width="25" height="25" durations="100" across="1"/>
-    </sprite>
 <sprite desc="" default="0" name="Wc" id="1029" defaultAnimation="0" shared="false" width="100" atlasID="0" height="155">
         <anim version="2" originx="50" down="1" sync="false" originy="77" name="normal" id="0" loop="false" numframes="1" width="100" height="155" durations="100" across="1"/>
     </sprite>
@@ -534,6 +534,9 @@
 <sprite desc="" default="0" name="jauge_boire" id="133" defaultAnimation="0" shared="false" width="29" atlasID="0" height="48">
         <anim version="2" originx="14" down="1" sync="false" originy="24" name="on" id="0" loop="false" numframes="1" width="29" height="48" durations="100" across="1"/>
         <anim version="2" originx="14" down="1" sync="false" originy="24" name="off" id="1" loop="true" numframes="1" width="29" height="48" durations="100" across="1"/>
+    </sprite>
+<sprite desc="" default="0" name="chiffres_porte_2" id="1061" defaultAnimation="0" shared="false" width="25" atlasID="0" height="25">
+        <anim version="2" originx="12" down="1" sync="false" originy="12" name="Animation 0" id="0" loop="true" numframes="1" width="25" height="25" durations="100" across="1"/>
     </sprite>
 <sprite desc="" default="0" name="jauge_pipi" id="134" defaultAnimation="0" shared="false" width="43" atlasID="0" height="50">
         <anim version="2" originx="21" down="1" sync="false" originy="25" name="on" id="0" loop="false" numframes="1" width="43" height="50" durations="100" across="1"/>
@@ -727,6 +730,11 @@
             <poly rest="0.0" density="0.1" sensor="true" data="4,0,0,40,0,40,25,0,25" fric="0.2" gid="6" name="Box" id="0"/>
         </anim>
     </sprite>
+<sprite desc="" default="0" id="157" defaultAnimation="0" name="flaque" shared="false" width="100" atlasID="0" height="25">
+        <anim version="2" originx="50" down="2" sync="false" originy="12" name="flaque" id="0" loop="false" numframes="5" width="300" height="50" durations="100,100,100,100,100" across="3">
+            <poly rest="0.0" density="0.1" data="4,0,0,100,0,100,25,0,25" sensor="false" gid="-1000" fric="0.2" name="flaque" id="0"/>
+        </anim>
+    </sprite>
 <sprite desc="" default="0" name="gauge_bg" id="1053" defaultAnimation="0" shared="false" width="100" atlasID="0" height="100">
         <anim version="2" originx="50" down="1" sync="false" originy="50" name="bg" id="0" loop="false" numframes="1" width="100" height="100" durations="100" across="1"/>
     </sprite>
@@ -753,6 +761,7 @@
 <sprite desc="" default="0" name="quart_bg" id="1055" defaultAnimation="0" shared="false" width="50" atlasID="0" height="50">
         <anim version="2" originx="25" down="1" sync="false" originy="25" name="normal" id="0" loop="true" numframes="1" width="50" height="50" durations="100" across="1"/>
     </sprite>
+<music stream="false" desc="" volume="1" type="mp3" oid="-1" name="sound_flush" id="155" loop="true" pan="0" shared="false" atlasID="0"/>
 <custom-block snippetID="3" return="void" desc="" oid="-1" name="setPlayerSickness" id="1040" gui="set player %0 sickness with %1" global="false" shared="false" blocktag="custom-1040" code=".say(&quot;Player&quot;, &quot;_customBlock_setPlayerSickness&quot;, []);" blocktype="ACTION" message="setPlayerSickness">
         <blank type="actor" order="0" name="Self"/>
         <blank type="boolean" order="1" name="state"/>

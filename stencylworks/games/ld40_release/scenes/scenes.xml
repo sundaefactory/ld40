@@ -5,9 +5,9 @@
     <scene name="level_01" id="1" format="3.4.0" desc=""/>
     <scene name="floor_04" id="154" format="3.4.0" desc=""/>
     <scene name="floor_01" id="114" format="3.4.0" desc=""/>
-    <scene desc="" format="3.4.0" id="118" name="test_02"/>
+    <scene name="test_02" id="118" format="3.4.0" desc=""/>
     <scene name="start" id="102" format="3.4.0" desc=""/>
     <scene name="floor_03" id="143" format="3.4.0" desc=""/>
-    <scene desc="" format="3.4.0" id="119" name="test_01"/>
     <scene name="intro" id="103" format="3.4.0" desc=""/>
+    <scene name="test_01" id="119" format="3.4.0" desc=""/>
 </scenes>

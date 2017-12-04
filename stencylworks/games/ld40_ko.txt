@@ -1,3 +1,5 @@
 ko
-ld40_release2.floor04-as: 145 utilisé par doordeco01-aa
-ld40_release2 ignoré car il contient des erreurs d'id
+ld40_scene.flaque-aa: 1056 utilisé par portedeco02-aa
+ld40_scene.flaque-st: 1057 utilisé par portedeco02-st
+ld40_scene.flaque-ev: 1039 utilisé par portedeco02-ev
+ld40_scene ignoré car il contient des erreurs d'id

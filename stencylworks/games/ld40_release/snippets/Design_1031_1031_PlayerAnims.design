@@ -3,19 +3,13 @@
     <group eventID="1" id="0">
         <event-custom comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <comment-short comment="false" x="26" y="40">
-                    <int id="0" val="d&amp;apos;abord on désactive les interactions du joueur"/>
-                </comment-short>
-                <custom-52 comment="false" x="26" y="60">
+                <custom-52 comment="false" x="26" y="40">
                     <ACTOR eid="this" id="0"/>
                     <false comment="false" id="1" x="0" y="0"/>
                 </custom-52>
-                <comment-short comment="false" x="26" y="92">
-                    <int id="0" val="animation perso sur respirer"/>
-                </comment-short>
-                <if comment="false" x="26" y="112">
+                <if comment="false" x="26" y="72">
                     <group eventID="1" id="-1">
-                        <setanim comment="false" x="37" y="145">
+                        <setanim comment="false" x="37" y="105">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="respirer-sickness"/>
                         </setanim>
@@ -26,20 +20,17 @@
                         <int id="2" val="_sickness"/>
                     </get-attribute>
                 </if>
-                <else comment="false" x="26" y="184">
+                <else comment="false" x="26" y="144">
                     <group eventID="1" id="-1">
-                        <setanim comment="false" x="37" y="204">
+                        <setanim comment="false" x="37" y="164">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="respirer"/>
                         </setanim>
                     </group>
                 </else>
-                <dolater comment="false" x="26" y="243">
+                <dolater comment="false" x="26" y="203">
                     <group eventID="1" id="-1">
-                        <comment-short comment="false" x="37" y="270">
-                            <int id="0" val="après l&amp;apos;anim on peut réactiver les interactions du joueur"/>
-                        </comment-short>
-                        <custom-52 comment="false" x="37" y="290">
+                        <custom-52 comment="false" x="37" y="230">
                             <ACTOR eid="this" id="0"/>
                             <true comment="false" id="1" x="0" y="0"/>
                         </custom-52>
