@@ -1,5 +1,20 @@
 ko
-ld40_release2.canap-aa: 1041 utilisé par heathui-aa
-ld40_release2.canap-st: 1042 utilisé par heathui-st
-ld40_release2.canap-ev: 1032 utilisé par heathui-ev
-ld40_release2 ignoré car il contient des erreurs d'id
+ld40_scene.jaugerespirer-aa: 12 utilisé par gaugebreath-aa
+ld40_scene.jaugemanger-aa: 20 utilisé par gaugeeat-aa
+ld40_scene.jaugeboire-aa: 22 utilisé par gaugedrink-aa
+ld40_scene.jaugepipi-aa: 24 utilisé par gaugepee-aa
+ld40_scene.jaugecaca-aa: 26 utilisé par gaugepoo-aa
+ld40_scene.jaugeaffection-aa: 30 utilisé par gaugelove-aa
+ld40_scene.jaugerespirer-st: 13 utilisé par gaugebreath-st
+ld40_scene.jaugemanger-st: 21 utilisé par gaugeeat-st
+ld40_scene.jaugeboire-st: 23 utilisé par gaugedrink-st
+ld40_scene.jaugepipi-st: 25 utilisé par gaugepee-st
+ld40_scene.jaugecaca-st: 27 utilisé par gaugepoo-st
+ld40_scene.jaugeaffection-st: 31 utilisé par gaugelove-st
+ld40_scene.jaugerespirer-ev: 10 utilisé par gaugebreath-ev
+ld40_scene.jaugemanger-ev: 13 utilisé par gaugeeat-ev
+ld40_scene.jaugeboire-ev: 14 utilisé par gaugedrink-ev
+ld40_scene.jaugepipi-ev: 15 utilisé par gaugepee-ev
+ld40_scene.jaugecaca-ev: 16 utilisé par gaugepoo-ev
+ld40_scene.jaugeaffection-ev: 18 utilisé par gaugelove-ev
+ld40_scene ignoré car il contient des erreurs d'id

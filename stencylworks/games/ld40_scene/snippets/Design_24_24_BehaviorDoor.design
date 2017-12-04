@@ -155,17 +155,7 @@
                                         </comment-short>
                                         <actors-of-type3 comment="false" x="59" y="510">
                                             <group eventID="3" id="-1">
-                                                <print comment="false" x="70" y="542">
-                                                    <str-combine comment="false" id="0" x="0" y="0">
-                                                        <int id="0" val="save "/>
-                                                        <get-attribute comment="false" id="1" x="0" y="0">
-                                                            <actor-of-type comment="false" id="0" x="0" y="0"/>
-                                                            <int id="1" val="BehaviorGauge"/>
-                                                            <int id="2" val="_internal_value"/>
-                                                        </get-attribute>
-                                                    </str-combine>
-                                                </print>
-                                                <set-game-att comment="false" x="70" y="585">
+                                                <set-game-att comment="false" x="70" y="542">
                                                     <str-combine comment="false" id="0" x="0" y="0">
                                                         <int id="0" val="saved_"/>
                                                         <get-attribute comment="false" id="1" x="0" y="0">
@@ -183,7 +173,7 @@
                                             </group>
                                             <actortype eid="8" id="0"/>
                                         </actors-of-type3>
-                                        <scene-change-through comment="false" x="59" y="640">
+                                        <scene-change-through comment="false" x="59" y="597">
                                             <scenebyname comment="false" id="0" x="0" y="0">
                                                 <get-val-24-4 comment="false" id="0" x="0" y="0"/>
                                             </scenebyname>
@@ -351,54 +341,58 @@
                             <int id="2" val="_FacingRight"/>
                             <true comment="false" id="3" x="0" y="0"/>
                         </set-attribute>
-                        <scaleTo comment="false" x="35" y="598">
+                        <sf-facing-right comment="false" x="35" y="598">
+                            <ACTOR eid="var" id="0" vid="12"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </sf-facing-right>
+                        <scaleTo comment="false" x="35" y="630">
                             <ACTOR eid="var" id="0" vid="12"/>
                             <int id="1" val="80"/>
                             <int id="2" val="80"/>
                             <get-val-24-18 comment="false" id="3" x="0" y="0"/>
                             <int id="4" val="8"/>
                         </scaleTo>
-                        <fadeInOut comment="false" x="35" y="630">
+                        <fadeInOut comment="false" x="35" y="662">
                             <ACTOR eid="var" id="0" vid="12"/>
                             <int id="1" val="1"/>
                             <get-val-24-18 comment="false" id="2" x="0" y="0"/>
                             <int id="3" val="8"/>
                         </fadeInOut>
-                        <set-val-24-5 comment="false" x="35" y="662">
+                        <set-val-24-5 comment="false" x="35" y="694">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-24-5>
-                        <dolater comment="false" x="35" y="687">
+                        <dolater comment="false" x="35" y="719">
                             <group eventID="5" id="-1">
-                                <setanim comment="false" x="46" y="719">
+                                <setanim comment="false" x="46" y="751">
                                     <ACTOR eid="var" id="0" vid="14"/>
                                     <int id="1" val="close"/>
                                 </setanim>
-                                <dolater comment="false" x="46" y="746">
+                                <dolater comment="false" x="46" y="778">
                                     <group eventID="5" id="-1">
-                                        <set-val-24-8 comment="false" x="57" y="773">
+                                        <set-val-24-8 comment="false" x="57" y="805">
                                             <get-xy comment="false" id="0" x="0" y="0">
                                                 <ACTOR eid="var" id="0" vid="12"/>
                                                 <int id="1" val="0"/>
                                             </get-xy>
                                         </set-val-24-8>
-                                        <set-val-24-9 comment="false" x="57" y="806">
+                                        <set-val-24-9 comment="false" x="57" y="838">
                                             <get-xy comment="false" id="0" x="0" y="0">
                                                 <ACTOR eid="var" id="0" vid="12"/>
                                                 <int id="1" val="1"/>
                                             </get-xy>
                                         </set-val-24-9>
-                                        <set-val-24-18 comment="false" x="57" y="839">
+                                        <set-val-24-18 comment="false" x="57" y="871">
                                             <int id="0" val="1"/>
                                         </set-val-24-18>
-                                        <set-val-24-11 comment="false" x="57" y="859">
+                                        <set-val-24-11 comment="false" x="57" y="891">
                                             <int id="0" val="0"/>
                                         </set-val-24-11>
-                                        <if comment="false" x="57" y="879">
+                                        <if comment="false" x="57" y="911">
                                             <group eventID="5" id="-1">
-                                                <set-val-24-6 comment="false" x="68" y="914">
+                                                <set-val-24-6 comment="false" x="68" y="946">
                                                     <get-val-24-8 comment="false" id="0" x="0" y="0"/>
                                                 </set-val-24-6>
-                                                <set-val-24-7 comment="false" x="68" y="939">
+                                                <set-val-24-7 comment="false" x="68" y="971">
                                                     <minus comment="false" id="0" x="0" y="0">
                                                         <get-val-24-9 comment="false" id="0" x="0" y="0"/>
                                                         <times comment="false" id="1" x="0" y="0">
@@ -409,7 +403,7 @@
                                                         </times>
                                                     </minus>
                                                 </set-val-24-7>
-                                                <set-val-24-19 comment="false" x="68" y="982">
+                                                <set-val-24-19 comment="false" x="68" y="1014">
                                                     <int id="0" val="2"/>
                                                 </set-val-24-19>
                                             </group>
@@ -419,9 +413,9 @@
                                                 </str-empty>
                                             </not>
                                         </if>
-                                        <else comment="false" x="57" y="1014">
+                                        <else comment="false" x="57" y="1046">
                                             <group eventID="5" id="-1">
-                                                <set-val-24-6 comment="false" x="68" y="1034">
+                                                <set-val-24-6 comment="false" x="68" y="1066">
                                                     <minus comment="false" id="0" x="0" y="0">
                                                         <get-xy comment="false" id="0" x="0" y="0">
                                                             <get-val-24-3 comment="false" id="0" x="0" y="0"/>
@@ -433,7 +427,7 @@
                                                         </get-wh>
                                                     </minus>
                                                 </set-val-24-6>
-                                                <set-val-24-7 comment="false" x="68" y="1077">
+                                                <set-val-24-7 comment="false" x="68" y="1109">
                                                     <minus comment="false" id="0" x="0" y="0">
                                                         <get-xy comment="false" id="0" x="0" y="0">
                                                             <get-val-24-3 comment="false" id="0" x="0" y="0"/>
@@ -445,17 +439,17 @@
                                                         </get-wh>
                                                     </minus>
                                                 </set-val-24-7>
-                                                <set-val-24-19 comment="false" x="68" y="1120">
+                                                <set-val-24-19 comment="false" x="68" y="1152">
                                                     <int id="0" val="1"/>
                                                 </set-val-24-19>
                                             </group>
                                         </else>
-                                        <set-val-24-5 comment="false" x="57" y="1152">
+                                        <set-val-24-5 comment="false" x="57" y="1184">
                                             <true comment="false" id="0" x="0" y="0"/>
                                         </set-val-24-5>
-                                        <dolater comment="false" x="57" y="1177">
+                                        <dolater comment="false" x="57" y="1209">
                                             <group eventID="5" id="-1">
-                                                <set-val-24-2 comment="false" x="68" y="1209">
+                                                <set-val-24-2 comment="false" x="68" y="1241">
                                                     <false comment="false" id="0" x="0" y="0"/>
                                                 </set-val-24-2>
                                             </group>
@@ -680,7 +674,7 @@
         </event-custom>
     </group>
     <group eventID="6" id="-1">
-        <get-val-24-8 comment="false" x="625" y="743"/>
         <get-val-24-9 comment="false" x="657" y="808"/>
+        <get-val-24-8 comment="false" x="625" y="743"/>
     </group>
 </groups>

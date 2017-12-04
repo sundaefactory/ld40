@@ -3,84 +3,95 @@
     <group eventID="16" id="0">
         <event-mouse-press-release comment="false" x="84" y="72">
             <group eventID="16" id="-1">
-                <set-val-3-59 comment="false" x="95" y="99">
-                    <minus comment="false" id="0" x="0" y="0">
-                        <mousexy comment="false" id="0" x="0" y="0">
-                            <int id="0" val="0"/>
-                            <int id="1" val="0"/>
-                        </mousexy>
-                        <get-val-3-66 comment="false" id="1" x="0" y="0"/>
-                    </minus>
-                </set-val-3-59>
-                <set-val-3-66 comment="false" x="95" y="137">
-                    <mousexy comment="false" id="0" x="0" y="0">
-                        <int id="0" val="0"/>
-                        <int id="1" val="0"/>
-                    </mousexy>
-                </set-val-3-66>
-                <add-list comment="false" x="95" y="170">
-                    <get-val-3-65 comment="false" id="0" x="0" y="0"/>
-                    <get-val-3-59 comment="false" id="1" x="0" y="0"/>
-                </add-list>
-                <if comment="false" x="95" y="195">
+                <if comment="false" x="95" y="99">
                     <group eventID="16" id="-1">
-                        <remove-index comment="false" x="106" y="230">
-                            <get-val-3-65 comment="false" id="0" x="0" y="0"/>
-                            <int id="1" val="0"/>
-                        </remove-index>
-                    </group>
-                    <more comment="false" id="0" x="0" y="0">
-                        <length-list comment="false" id="0" x="0" y="0">
-                            <get-val-3-65 comment="false" id="0" x="0" y="0"/>
-                        </length-list>
-                        <int id="1" val="10"/>
-                    </more>
-                </if>
-                <set-val-3-59 comment="false" x="95" y="267">
-                    <int id="0" val="0"/>
-                </set-val-3-59>
-                <for-each comment="false" x="95" y="287">
-                    <group eventID="16" id="-1">
-                        <set-val-3-59 comment="false" x="106" y="312">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <get-val-3-59 comment="false" id="0" x="0" y="0"/>
-                                <for-each-item comment="false" id="1" x="0" y="0"/>
-                            </plus>
+                        <set-val-3-59 comment="false" x="106" y="129">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <mousexy comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                    <int id="1" val="0"/>
+                                </mousexy>
+                                <get-val-3-66 comment="false" id="1" x="0" y="0"/>
+                            </minus>
                         </set-val-3-59>
+                        <set-val-3-66 comment="false" x="106" y="167">
+                            <mousexy comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <int id="1" val="0"/>
+                            </mousexy>
+                        </set-val-3-66>
+                        <add-list comment="false" x="106" y="200">
+                            <get-val-3-65 comment="false" id="0" x="0" y="0"/>
+                            <get-val-3-59 comment="false" id="1" x="0" y="0"/>
+                        </add-list>
+                        <if comment="false" x="106" y="225">
+                            <group eventID="16" id="-1">
+                                <remove-index comment="false" x="117" y="260">
+                                    <get-val-3-65 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                </remove-index>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <length-list comment="false" id="0" x="0" y="0">
+                                    <get-val-3-65 comment="false" id="0" x="0" y="0"/>
+                                </length-list>
+                                <int id="1" val="10"/>
+                            </more>
+                        </if>
+                        <set-val-3-59 comment="false" x="106" y="297">
+                            <int id="0" val="0"/>
+                        </set-val-3-59>
+                        <for-each comment="false" x="106" y="317">
+                            <group eventID="16" id="-1">
+                                <set-val-3-59 comment="false" x="117" y="342">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-val-3-59 comment="false" id="0" x="0" y="0"/>
+                                        <for-each-item comment="false" id="1" x="0" y="0"/>
+                                    </plus>
+                                </set-val-3-59>
+                            </group>
+                            <get-val-3-65 comment="false" id="0" x="0" y="0"/>
+                        </for-each>
+                        <if comment="false" x="106" y="384">
+                            <group eventID="16" id="-1">
+                                <set-val-3-37 comment="false" x="117" y="414">
+                                    <int id="0" val="1"/>
+                                </set-val-3-37>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <get-val-3-59 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="16"/>
+                            </more>
+                        </if>
+                        <else-if comment="false" x="106" y="446">
+                            <group eventID="16" id="-1">
+                                <set-val-3-37 comment="false" x="117" y="476">
+                                    <int id="0" val="-1"/>
+                                </set-val-3-37>
+                            </group>
+                            <less comment="false" id="0" x="0" y="0">
+                                <get-val-3-59 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="-16"/>
+                            </less>
+                        </else-if>
                     </group>
-                    <get-val-3-65 comment="false" id="0" x="0" y="0"/>
-                </for-each>
-                <if comment="false" x="95" y="354">
-                    <group eventID="16" id="-1">
-                        <set-val-3-37 comment="false" x="106" y="384">
-                            <int id="0" val="1"/>
-                        </set-val-3-37>
-                    </group>
-                    <more comment="false" id="0" x="0" y="0">
-                        <get-val-3-59 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="16"/>
-                    </more>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-3-62 comment="false" id="0" x="0" y="0"/>
+                        <get-val-3-67 comment="false" id="1" x="0" y="0"/>
+                    </and>
                 </if>
-                <else-if comment="false" x="95" y="416">
-                    <group eventID="16" id="-1">
-                        <set-val-3-37 comment="false" x="106" y="446">
-                            <int id="0" val="-1"/>
-                        </set-val-3-37>
-                    </group>
-                    <less comment="false" id="0" x="0" y="0">
-                        <get-val-3-59 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="-16"/>
-                    </less>
-                </else-if>
             </group>
-            <int id="0" val="3"/>
+            <int id="0" val="2"/>
         </event-mouse-press-release>
     </group>
     <group eventID="16" id="-1"/>
     <group eventID="17" id="0">
         <event-mouse-press-release comment="false" x="0" y="23">
             <group eventID="17" id="-1">
-                <set-val-3-37 comment="false" x="11" y="50">
+                <set-val-3-67 comment="false" x="11" y="50">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-3-67>
+                <set-val-3-37 comment="false" x="11" y="75">
                     <int id="0" val="0"/>
                 </set-val-3-37>
             </group>
@@ -256,22 +267,25 @@
     <group eventID="6" id="0">
         <init comment="false" x="24" y="21">
             <group eventID="6" id="-1">
-                <set-val-3-40 comment="false" x="35" y="46">
+                <ignore-screen-tolerance comment="false" x="35" y="46">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+                <set-val-3-40 comment="false" x="35" y="73">
                     <get-xy comment="false" id="0" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
                         <int id="1" val="1"/>
                     </get-xy>
                 </set-val-3-40>
-                <set-val-3-47 comment="false" x="35" y="79">
+                <set-val-3-47 comment="false" x="35" y="106">
                     <true comment="false" id="0" x="0" y="0"/>
                 </set-val-3-47>
-                <comment-short comment="false" x="35" y="104">
+                <comment-short comment="false" x="35" y="131">
                     <int id="0" val="par défaut player pas visible"/>
                 </comment-short>
-                <set-val-3-62 comment="false" x="35" y="124">
+                <set-val-3-62 comment="false" x="35" y="151">
                     <false comment="false" id="0" x="0" y="0"/>
                 </set-val-3-62>
-                <set-opacity comment="false" x="35" y="149">
+                <set-opacity comment="false" x="35" y="176">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="0"/>
                 </set-opacity>
@@ -387,10 +401,13 @@
     <group eventID="15" id="0">
         <event-mouse-press-release comment="false" x="15" y="15">
             <group eventID="15" id="-1">
-                <set-val-3-65 comment="false" x="26" y="42">
+                <set-val-3-67 comment="false" x="26" y="42">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-3-67>
+                <set-val-3-65 comment="false" x="26" y="67">
                     <create-list comment="false" id="0" x="0" y="0"/>
                 </set-val-3-65>
-                <set-val-3-66 comment="false" x="26" y="67">
+                <set-val-3-66 comment="false" x="26" y="92">
                     <mousexy comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <int id="1" val="0"/>
