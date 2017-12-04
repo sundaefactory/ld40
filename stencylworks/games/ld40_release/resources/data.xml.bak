@@ -314,6 +314,14 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="50" id="1018" name="flamme2" shared="false" width="25">
         <anim across="5" down="4" durations="50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50" height="200" id="0" loop="true" name="Animation 0" numframes="17" originx="12" originy="25" sync="false" version="2" width="125"/>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="158" fixedrot="false" fric="0.2" gid="3" id="156" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="flaque" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="157" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="25" id="157" name="flaque" shared="false" width="100">
+        <anim across="3" down="2" durations="100,100,100,100,100" height="50" id="0" loop="false" name="flaque" numframes="5" originx="50" originy="12" sync="false" version="2" width="300">
+            <poly data="4,0,0,100,0,100,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="flaque" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1023" fixedrot="false" fric="0.2" gid="3" id="107" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="flush" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="108" static="true">
         <snippets/>
     </actor>
@@ -360,48 +368,10 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="100" id="1053" name="gauge_bg" shared="false" width="100">
         <anim across="1" down="1" durations="100" height="100" id="0" loop="false" name="bg" numframes="1" originx="50" originy="50" sync="false" version="2" width="100"/>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="10" fixedrot="true" fric="0.2" gid="5" id="12" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_breath" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="13" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="13" name="gauge_breath" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="respire" numframes="1" originx="32" originy="32" sync="false" version="2" width="64"/>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="14" fixedrot="true" fric="0.2" gid="5" id="22" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_drink" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="23" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="23" name="gauge_drink" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.2" gid="5" id="20" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_eat" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="21" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="21" name="gauge_eat" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="5" id="28" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_light" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="29" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="29" name="gauge_light" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="15" fixedrot="true" fric="0.2" gid="5" id="24" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_pee" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="25" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="25" name="gauge_pee" shared="false" width="64">
-        <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
-            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="16" fixedrot="true" fric="0.2" gid="5" id="26" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge_poo" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="27" static="false">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="27" name="gauge_poo" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="respire" rest="0.0" sensor="false"/>
         </anim>
