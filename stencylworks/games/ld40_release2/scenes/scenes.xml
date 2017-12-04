@@ -7,5 +7,7 @@
     <scene desc="" format="3.4.0" id="103" name="intro"/>
     <scene desc="" format="3.4.0" id="104" name="logo"/>
     <scene desc="" format="3.4.0" id="154" name="floor_04"/>
+    <scene desc="" format="3.4.0" id="155" name="floor_05"/>
+    <scene desc="" format="3.4.0" id="156" name="floor_final"/>
     <scene desc="" format="3.4.0" id="143" name="floor_03"/>
 </scenes>
