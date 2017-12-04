@@ -1,0 +1,6 @@
+name=Sundae Factory
+description=Boite à outil de Sundae Factory
+author=Al1
+website=http://www.sundaefactory.com
+version=1.0
+compatibility=all
