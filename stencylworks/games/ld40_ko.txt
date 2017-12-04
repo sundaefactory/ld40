@@ -1,12 +1,3 @@
 ko
-ld40_release2.floor03-as: 116 au lieu de 143
-ld40_release2.floor02-as: 115 au lieu de 144
-ld40_release2.doordeco01-aa: 1050 au lieu de 145
-ld40_release2.chiffresporte6-aa: 1052 au lieu de 146
-ld40_release2.chiffresporte1-aa: 1054 au lieu de 147
-ld40_release2.doordeco01-st: 1051 au lieu de 148
-ld40_release2.chiffresporte6-st: 1053 au lieu de 149
-ld40_release2.chiffresporte1-st: 1055 au lieu de 150
-ld40_release2.doordeco01-ev: 1036 au lieu de 151
-ld40_release2.chiffresporte6-ev: 1037 au lieu de 152
-ld40_release2.chiffresporte1-ev: 1038 au lieu de 153
+ld40_release2.floor04-as: 145 utilisé par doordeco01-aa
+ld40_release2 ignoré car il contient des erreurs d'id
