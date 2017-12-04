@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="d&amp;apos;abord on désactive les interactions du joueur"/>
+                </comment-short>
+                <custom-52 comment="false" x="26" y="60">
+                    <ACTOR eid="this" id="0"/>
+                    <false comment="false" id="1" x="0" y="0"/>
+                </custom-52>
+                <comment-short comment="false" x="26" y="92">
+                    <int id="0" val="animation perso sur respirer"/>
+                </comment-short>
+                <if comment="false" x="26" y="112">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="137">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="respirer-r"/>
+                        </setanim>
+                    </group>
+                    <get-val-1031-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="26" y="176">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="196">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="respirer-l"/>
+                        </setanim>
+                    </group>
+                </else>
+                <dolater comment="false" x="26" y="235">
+                    <group eventID="1" id="-1">
+                        <comment-short comment="false" x="37" y="262">
+                            <int id="0" val="après l&amp;apos;anim on peut réactiver les interactions du joueur"/>
+                        </comment-short>
+                        <custom-52 comment="false" x="37" y="282">
+                            <ACTOR eid="this" id="0"/>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </custom-52>
+                    </group>
+                    <int id="0" val="1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="respirer"/>
+        </event-custom>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
