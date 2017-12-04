@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
-    <group eventID="3" id="0">
+    <group eventID="4" id="0">
+        <event-mouse-press-release comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="4" id="-1">
+                        <set-val-22-1 comment="false" x="37" y="72">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-22-1>
+                        <dolater comment="false" x="37" y="97">
+                            <group eventID="4" id="-1">
+                                <custom-1025 comment="false" x="48" y="124">
+                                    <ACTOR eid="2" id="0"/>
+                                    <ACTOR eid="11" id="1"/>
+                                </custom-1025>
+                            </group>
+                            <int id="0" val="0.5"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-22-1 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+            <int id="0" val="0"/>
+        </event-mouse-press-release>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
         <event-delay comment="false" x="15" y="15">
-            <group eventID="3" id="-1">
-                <custom-1025 comment="false" x="26" y="42">
+            <group eventID="5" id="-1">
+                <custom-1036 comment="false" x="26" y="42">
                     <ACTOR eid="2" id="0"/>
                     <ACTOR eid="11" id="1"/>
-                </custom-1025>
+                </custom-1036>
             </group>
             <int id="0" val="0.01"/>
             <ACTOR eid="lastcreated" id="2"/>
         </event-delay>
     </group>
-    <group eventID="3" id="-1"/>
+    <group eventID="5" id="-1"/>
 </groups>

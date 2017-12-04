@@ -30,6 +30,7 @@
                 <prop id="16" list="0" val=""/>
                 <prop id="17" list="0" val="false"/>
                 <prop id="18" list="0" val="0.0005"/>
+                <prop id="19" list="0" val="0"/>
             </s>
         </snippets>
     </actor>
@@ -339,6 +340,7 @@
                 <prop id="16" list="0" val=""/>
                 <prop id="17" list="0" val="false"/>
                 <prop id="18" list="0" val="0.0005"/>
+                <prop id="19" list="0" val="0"/>
             </s>
         </snippets>
     </actor>
@@ -655,6 +657,12 @@
             <poly data="4,0,0,1,0,1,1,0,1" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1029" fixedrot="false" fric="0.2" gid="8" id="1037" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="salle_fermee" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1038" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="277" id="1038" name="salle_fermee" shared="false" width="596">
+        <anim across="1" down="1" durations="100" height="277" id="0" loop="false" name="normal" numframes="1" originx="298" originy="138" sync="false" version="2" width="596"/>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="[v1.1]" eventsnippetid="1001" fixedrot="false" fric="0.2" gid="6" id="999" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="saut" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1000" static="false">
         <snippets>
             <s enabled="true" id="20">
@@ -690,6 +698,10 @@
         <blank name="Self" order="0" type="actor"/>
         <blank name="value" order="1" type="number"/>
     </custom-block>
+    <custom-block blocktag="custom-1036" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_setPlayerBehindDoor&quot;, []);" desc="" global="false" gui="set player %0 behind door %1" id="1036" message="setPlayerBehindDoor" name="setPlayerBehindDoor" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="door" order="1" type="actor"/>
+    </custom-block>
     <custom-block blocktag="custom-52" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_setPlayerInputState&quot;, []);" desc="" global="false" gui="set player input state of %0  to %1" id="52" message="setPlayerInputState" name="setPlayerInputState" oid="-1" return="void" shared="false" snippetID="3">
         <blank name="Self" order="0" type="actor"/>
         <blank name="state" order="1" type="boolean"/>
@@ -710,9 +722,9 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1019" fixedrot="false" fric="0.2" gid="3" id="1019" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="title" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1020" static="true">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="109" id="1020" name="title" shared="false" width="585">
-        <anim across="1" down="1" durations="100" height="109" id="0" loop="false" name="normal" numframes="1" originx="292" originy="54" sync="false" version="2" width="585">
-            <poly data="4,0,0,585,0,585,109,0,109" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="540" id="1020" name="title" shared="false" width="960">
+        <anim across="1" down="1" durations="100" height="540" id="0" loop="false" name="normal" numframes="1" originx="480" originy="270" sync="false" version="2" width="960">
+            <poly data="4,0,0,960,0,960,540,0,540" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1025" fixedrot="false" fric="0.2" gid="8" id="1028" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Wc" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1029" static="true">
@@ -737,6 +749,7 @@
                 <prop id="16" list="0" val=""/>
                 <prop id="17" list="0" val="false"/>
                 <prop id="18" list="0" val="0.0005"/>
+                <prop id="19" list="0" val="0"/>
             </s>
         </snippets>
     </actor>

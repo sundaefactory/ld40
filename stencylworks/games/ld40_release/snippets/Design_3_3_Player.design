@@ -263,17 +263,20 @@
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
-                        <get-xy comment="false" id="0" x="0" y="0">
-                            <get-byobval-3-1025-1 comment="false" id="0" x="0" y="0"/>
-                            <int id="1" val="3"/>
-                        </get-xy>
-                        <get-wh comment="false" id="1" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="3"/>
-                        </get-wh>
+                        <minus comment="false" id="0" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <get-byobval-3-1025-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </get-xy>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-wh>
+                        </minus>
+                        <int id="1" val="12"/>
                     </minus>
                 </set-xy>
-                <say comment="false" x="26" y="145">
+                <say comment="false" x="26" y="150">
                     <get-byobval-3-1025-1 comment="false" id="0" x="0" y="0"/>
                     <int id="1" val="BehaviorDoor"/>
                     <int id="2" val="leave"/>
@@ -284,4 +287,44 @@
         </receiver-2-1025>
     </group>
     <group eventID="12" id="-1"/>
+    <group eventID="13" id="0">
+        <receiver-3-1036 comment="false" x="15" y="15">
+            <group eventID="13" id="-1">
+                <set-xy comment="false" x="26" y="45">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <get-byobval-3-1036-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="2"/>
+                        </get-xy>
+                        <get-wh comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-wh>
+                    </minus>
+                </set-xy>
+                <set-xy comment="false" x="26" y="95">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <get-byobval-3-1036-1 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </get-xy>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-wh>
+                        </minus>
+                        <int id="1" val="12"/>
+                    </minus>
+                </set-xy>
+            </group>
+            <get-byobval-3-1036-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-3-1036-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-3-1036>
+    </group>
+    <group eventID="13" id="-1"/>
 </groups>
