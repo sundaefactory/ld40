@@ -11,14 +11,14 @@
     <joints/>
     <regions/>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="24" id="0" name="Terrain 0" pts="4,1196.0,0.0,1196.0,24.0,0.0,24.0,0.0,0.0" r="64" type="box" w="1196" x="-5" y="449"/>
+        <terrainRegion b="64" g="64" group="1" h="24" id="0" name="Terrain 0" pts="4,0.0,0.0,0.0,24.0,1196.0,24.0,1196.0,0.0" r="64" type="box" w="1196" x="-5" y="449"/>
     </terrainRegions>
     <actors>
-        <actor a="0.0" aid="6" c="false" group="6" id="1001" name="lapin 6" sx="1.0" sy="1.0" x="352" y="416" z="2"/>
+        <actor a="0.0" aid="6" c="false" group="6" id="1001" name="lapin 6" sx="1.0" sy="1.0" x="352" y="415" z="2"/>
         <actor a="0.0" aid="7" c="false" group="6" id="1003" name="cat 7" sx="1.0" sy="1.0" x="480" y="384" z="2"/>
         <actor a="0.0" aid="11" c="false" group="3" id="1007" name="chandelier 11" sx="1.0" sy="1.0" x="430" y="311" z="2"/>
         <actor a="0.0" aid="12" c="false" group="3" id="1007" name="chandelier 12" sx="1.0" sy="1.0" x="295" y="341" z="2"/>
-        <actor a="0.0" aid="13" c="false" group="0" id="4" name="player 13" sx="1.0" sy="1.0" x="18" y="457" z="3"/>
+        <actor a="0.0" aid="13" c="false" group="0" id="4" name="player 13" sx="1.0" sy="1.0" x="22" y="466" z="4"/>
         <actor a="0.0" aid="14" c="false" group="6" id="35" name="plant 14" sx="1.0" sy="1.0" x="133" y="281" z="2"/>
         <actor a="0.0" aid="15" c="false" group="6" id="10" name="bocal 15" sx="1.0" sy="1.0" x="416" y="384" z="2"/>
         <actor a="0.0" aid="16" c="false" group="6" id="999" name="saut 16" sx="1.0" sy="1.0" x="256" y="384" z="2"/>
