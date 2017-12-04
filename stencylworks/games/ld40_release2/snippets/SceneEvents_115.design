@@ -19,9 +19,9 @@
                 <comment-short comment="false" x="26" y="47">
                     <int id="0" val="déblocage jauge quand on arrive dans une région"/>
                 </comment-short>
-                <set-game-val-3 comment="false" x="26" y="67">
+                <set-game-val-4 comment="false" x="26" y="67">
                     <true comment="false" id="0" x="0" y="0"/>
-                </set-game-val-3>
+                </set-game-val-4>
                 <custom-1039 comment="false" x="26" y="92"/>
             </group>
             <int id="0" val="0"/>

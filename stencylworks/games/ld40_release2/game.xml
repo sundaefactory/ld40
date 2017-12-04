@@ -131,7 +131,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="1028,4,1030,6,8,1032,10,1034,12,1037,14,1041,1043,20,1045,22,1047,24,26,28,30,32,35,56,64,66,100,105,106,107,115,122,999,1001,1003,1005,1007,1011,1013,1015,1017,1019,1021,1023," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="4,1028,6,1030,1032,8,10,1034,12,1037,14,1041,1043,20,1045,22,1047,24,26,1050,28,1052,30,1054,32,1056,1058,35,56,64,66,100,105,106,107,115,122,999,1001,1003,1005,1007,1011,1013,1015,1017,1019,1021,1023," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
