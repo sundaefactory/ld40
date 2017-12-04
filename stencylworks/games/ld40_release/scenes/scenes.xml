@@ -3,5 +3,8 @@
     <scene desc="" format="3.4.0" id="0" name="scene_00"/>
     <scene desc="" format="3.4.0" id="1" name="level_01"/>
     <scene desc="" format="3.4.0" id="1009" name="level1"/>
+    <scene desc="" format="3.4.0" id="1010" name="intro"/>
+    <scene desc="" format="3.4.0" id="1011" name="logo"/>
+    <scene desc="" format="3.4.0" id="1012" name="start"/>
     <scene desc="" format="3.4.0" id="101" name="scene_01"/>
 </scenes>

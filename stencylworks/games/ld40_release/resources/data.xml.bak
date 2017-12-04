@@ -29,6 +29,7 @@
                 <prop id="15" list="0" val="0"/>
                 <prop id="16" list="0" val=""/>
                 <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0005"/>
             </s>
         </snippets>
     </actor>
@@ -43,7 +44,7 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="55" name="AscenseurOut" shared="false" width="64">
         <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64"/>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="31" fixedrot="false" fric="0.2" gid="3" id="64" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="AscenseurPorte" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="65" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="[v1.1]" eventsnippetid="31" fixedrot="false" fric="0.2" gid="8" id="64" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="AscenseurPorte" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="65" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="160" id="65" name="AscenseurPorte" shared="false" width="140">
@@ -53,9 +54,7 @@
         <anim across="1" down="1" durations="100" height="160" id="1" loop="true" name="closed" numframes="1" originx="70" originy="80" sync="false" version="2" width="140">
             <poly data="4,0,0,140,0,140,160,0,160" density="0.1" fric="0.2" gid="-1000" id="0" name="closed" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="480" id="2" loop="false" name="close" numframes="8" originx="70" originy="80" sync="false" version="2" width="420">
-            <poly data="4,0,0,140,0,140,160,0,160" density="0.1" fric="0.2" gid="-1000" id="0" name="close" rest="0.0" sensor="false"/>
-        </anim>
+        <anim across="3" down="3" durations="40,40,40,40,40,40,40,40" height="480" id="2" loop="false" name="close" numframes="8" originx="70" originy="80" sync="false" version="2" width="420"/>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1013" fixedrot="false" fric="0.2" gid="3" id="1011" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="background_tapisserie_01" oid="-1" pausable="true" physicsMode="2" rest="0.0" shared="false" sprite="1012" static="true">
         <snippets/>
@@ -318,6 +317,42 @@
         <tile collision="0" data="" durations="100" frames="207" id="207" order="-1"/>
         <tile collision="0" data="" durations="100" frames="208" id="208" order="-1"/>
     </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1027" fixedrot="false" fric="0.2" gid="7" id="1032" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="EscalierDown" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1033" static="false">
+        <snippets>
+            <s enabled="true" id="24">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="false"/>
+                <prop id="3" list="0" val=""/>
+                <prop id="4" list="0" val=""/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="0"/>
+                <prop id="7" list="0" val="0"/>
+                <prop id="8" list="0" val="0"/>
+                <prop id="9" list="0" val="0"/>
+                <prop id="10" list="0" val="0"/>
+                <prop id="11" list="0" val="0"/>
+                <prop id="12" list="0" val=""/>
+                <prop id="13" list="0" val="1034"/>
+                <prop id="14" list="0" val=""/>
+                <prop id="15" list="0" val="0"/>
+                <prop id="16" list="0" val=""/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0005"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="[v1.1]" eventsnippetid="1028" fixedrot="false" fric="0.2" gid="8" id="1034" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="EscalierDownPorte" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1035" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="155" id="1029" name="EscalierUp" shared="false" width="100">
+        <anim across="1" down="1" durations="100" height="155" id="0" loop="false" name="normal" numframes="1" originx="50" originy="77" sync="false" version="2" width="100"/>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="155" id="1033" name="EscalierUp" shared="false" width="100">
+        <anim across="1" down="1" durations="100" height="155" id="0" loop="false" name="normal" numframes="1" originx="50" originy="77" sync="false" version="2" width="100">
+            <poly data="4,0,0,100,0,100,155,0,155" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="7" id="56" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="EscalierUp" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="57" static="false">
         <snippets>
             <s enabled="true" id="24">
@@ -339,21 +374,30 @@
                 <prop id="15" list="0" val="0"/>
                 <prop id="16" list="0" val=""/>
                 <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0005"/>
+                <prop id="19" list="0" val="0"/>
             </s>
         </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="155" id="57" name="EscalierUp" shared="false" width="100">
         <anim across="1" down="1" durations="100" height="155" id="0" loop="false" name="normal" numframes="1" originx="50" originy="77" sync="false" version="2" width="100">
-            <poly data="4,0,0,100,0,100,155,0,155" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,100,0,100,155,0,155" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="32" fixedrot="false" fric="0.2" gid="3" id="66" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="EscalierUpPorte" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="67" static="false">
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="155" id="1035" name="EscalierUpPorte" shared="false" width="140">
+        <anim across="1" down="1" durations="100" height="155" id="0" loop="false" name="closed" numframes="1" originx="70" originy="77" sync="false" version="2" width="140">
+            <poly data="4,0,0,140,0,140,155,0,155" density="0.1" fric="0.2" gid="-1000" id="0" name="closed" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="70,70,70,70,70,70,70,70,70,70,70" height="465" id="1" loop="false" name="open" numframes="11" originx="70" originy="77" sync="false" version="2" width="560"/>
+        <anim across="4" down="3" durations="70,70,70,70,70,70,70,70,70,70,70" height="465" id="2" loop="false" name="close" numframes="11" originx="70" originy="77" sync="false" version="2" width="560"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="[v1.1]" eventsnippetid="32" fixedrot="false" fric="0.2" gid="8" id="66" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="EscalierUpPorte" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="67" static="true">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="155" id="67" name="EscalierUpPorte" shared="false" width="100">
-        <anim across="1" down="1" durations="100" height="155" id="0" loop="false" name="closed" numframes="1" originx="50" originy="77" sync="false" version="2" width="100">
-            <poly data="4,0,0,100,0,100,155,0,155" density="0.1" fric="0.2" gid="-1000" id="0" name="closed" rest="0.0" sensor="false"/>
-        </anim>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="155" id="67" name="EscalierUpPorte" shared="false" width="140">
+        <anim across="1" down="1" durations="100" height="155" id="0" loop="false" name="closed" numframes="1" originx="70" originy="77" sync="false" version="2" width="140"/>
+        <anim across="4" down="3" durations="70,70,70,70,70,70,70,70,70,70,70" height="465" id="1" loop="false" name="open" numframes="11" originx="70" originy="77" sync="false" version="2" width="560"/>
+        <anim across="4" down="3" durations="70,70,70,70,70,70,70,70,70,70,70" height="465" id="2" loop="false" name="close" numframes="11" originx="70" originy="77" sync="false" version="2" width="560"/>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1015" fixedrot="false" fric="0.2" gid="6" id="1015" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="flamme" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1016" static="true">
         <snippets/>
@@ -367,6 +411,12 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="50" id="1018" name="flamme2" shared="false" width="25">
         <anim across="5" down="4" durations="50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50" height="200" id="0" loop="true" name="Animation 0" numframes="17" originx="12" originy="25" sync="false" version="2" width="125"/>
     </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="72" id="1024" name="flush" shared="false" width="276">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="Animation 0" numframes="1" originx="138" originy="36" sync="false" version="2" width="276"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1023" fixedrot="false" fric="0.2" gid="3" id="1023" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="flush" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1024" static="true">
+        <snippets/>
+    </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gauge" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
         <snippets>
             <s enabled="true" id="9">
@@ -583,7 +633,14 @@
         <anim across="4" down="3" durations="80,80,80,80,80,80,80,80,80,80" height="450" id="9" loop="true" name="back-walk" numframes="10" originx="75" originy="75" sync="false" version="2" width="600">
             <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="back-walk" rest="0.0" sensor="false"/>
         </anim>
+        <anim across="4" down="3" durations="80,80,80,80,80,80,80,80,80,80" height="450" id="10" loop="true" name="front-walk" numframes="10" originx="75" originy="75" sync="false" version="2" width="600">
+            <poly data="4,0,0,150,0,150,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="front-walk" rest="0.0" sensor="false"/>
+        </anim>
     </sprite>
+    <custom-block blocktag="custom-1025" blocktype="ACTION" code=".say(&quot;Player&quot;, &quot;_customBlock_playerLeavesDoor&quot;, []);" desc="" global="false" gui="player %0 leaves door %1" id="1025" message="playerLeavesDoor" name="playerLeavesDoor" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="door" order="1" type="actor"/>
+    </custom-block>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="11" fixedrot="false" fric="0.2" gid="3" id="14" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="quart" oid="-1" pausable="true" physicsMode="1" rest="0.0" shared="false" sprite="15" static="false">
         <snippets/>
     </actor>
@@ -641,4 +698,54 @@
         <blank name="gauge" order="0" type="text"/>
         <blank name="state" order="1" type="boolean"/>
     </custom-block>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="240" id="1022" name="sundae_0000089" shared="false" width="360">
+        <anim across="1" down="1" durations="100" height="240" id="0" loop="true" name="Animation 0" numframes="1" originx="0" originy="0" sync="false" version="2" width="360">
+            <poly data="4,0,0,720,0,720,480,0,480" density="0.1" fric="0.2" gid="-1000" id="-1" name="default" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="1" name="default" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1021" fixedrot="false" fric="0.2" gid="3" id="1021" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="sundaefactory" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1022" static="true">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1019" fixedrot="false" fric="0.2" gid="3" id="1019" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="title" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1020" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="109" id="1020" name="title" shared="false" width="585">
+        <anim across="1" down="1" durations="100" height="109" id="0" loop="false" name="normal" numframes="1" originx="292" originy="54" sync="false" version="2" width="585">
+            <poly data="4,0,0,585,0,585,109,0,109" density="0.1" fric="0.2" gid="-1000" id="0" name="normal" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1025" fixedrot="false" fric="0.2" gid="8" id="1028" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Wc" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1029" static="true">
+        <snippets>
+            <s enabled="true" id="24">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="false"/>
+                <prop id="3" list="0" val=""/>
+                <prop id="4" list="0" val=""/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="0"/>
+                <prop id="7" list="0" val="0"/>
+                <prop id="8" list="0" val="0"/>
+                <prop id="9" list="0" val="0"/>
+                <prop id="10" list="0" val="0"/>
+                <prop id="11" list="0" val="0"/>
+                <prop id="12" list="0" val=""/>
+                <prop id="13" list="0" val="1030"/>
+                <prop id="14" list="0" val=""/>
+                <prop id="15" list="0" val="0"/>
+                <prop id="16" list="0" val=""/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0005"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="1026" fixedrot="false" fric="0.2" gid="8" id="1030" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="WcPorte" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1031" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="155" id="1031" name="WcPorte" shared="false" width="140">
+        <anim across="1" down="1" durations="100" height="155" id="0" loop="false" name="closed" numframes="1" originx="70" originy="77" sync="false" version="2" width="140"/>
+        <anim across="4" down="3" durations="70,70,70,70,70,70,70,70,70,70,70" height="465" id="1" loop="false" name="open" numframes="11" originx="70" originy="77" sync="false" version="2" width="560"/>
+        <anim across="4" down="3" durations="70,70,70,70,70,70,70,70,70,70,70" height="465" id="2" loop="false" name="close" numframes="11" originx="70" originy="77" sync="false" version="2" width="560"/>
+    </sprite>
 </pack>
