@@ -70,7 +70,7 @@
                         </custom-46>
                         <custom-49 comment="false" x="37" y="129">
                             <get-val-1011-6 comment="false" id="0" x="0" y="0"/>
-                            <int id="1" val="50"/>
+                            <int id="1" val="100"/>
                         </custom-49>
                         <setanim comment="false" x="37" y="154">
                             <ACTOR eid="this" id="0"/>
