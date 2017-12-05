@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="6" desc="" eventsnippetid="112" extheight="1600" extwidth="1600" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="1536" id="103" name="intro" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1536">
+<scene depth="6" desc="" eventsnippetid="1039" extheight="1600" extwidth="1600" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="1536" id="121" name="screenshot" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1536">
     <layers>
         <color-bg blue="0" green="0" red="0"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="bg" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -12,10 +12,10 @@
     <joints/>
     <regions/>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="330" id="0" name="Terrain 0" pts="4,-24.0,-165.5,24.0,-165.5,24.0,165.5,-24.0,165.5" r="64" type="box" w="48" x="160" y="545"/>
-        <terrainRegion b="64" g="64" group="1" h="348" id="1" name="Terrain 1" pts="4,-24.0,-174.5,24.0,-174.5,24.0,174.5,-24.0,174.5" r="64" type="box" w="48" x="1300" y="528"/>
-        <terrainRegion b="64" g="64" group="1" h="310" id="2" name="Terrain 2" pts="4,0.0,0.0,0.0,310.0,46.0,310.0,46.0,0.0" r="64" type="box" w="46" x="470" y="1057"/>
-        <terrainRegion b="64" g="64" group="1" h="322" id="3" name="Terrain 3" pts="4,-24.0,-161.5,24.0,-161.5,24.0,161.5,-24.0,161.5" r="64" type="box" w="48" x="1018" y="1044"/>
+        <terrainRegion b="64" g="64" group="1" h="330" id="0" name="Terrain 0" pts="4,-24.0,165.5,24.0,165.5,24.0,-165.5,-24.0,-165.5" r="64" type="box" w="48" x="160" y="545"/>
+        <terrainRegion b="64" g="64" group="1" h="348" id="1" name="Terrain 1" pts="4,-24.0,174.5,24.0,174.5,24.0,-174.5,-24.0,-174.5" r="64" type="box" w="48" x="1300" y="528"/>
+        <terrainRegion b="64" g="64" group="1" h="310" id="2" name="Terrain 2" pts="4,46.0,0.0,46.0,310.0,0.0,310.0,0.0,0.0" r="64" type="box" w="46" x="470" y="1057"/>
+        <terrainRegion b="64" g="64" group="1" h="322" id="3" name="Terrain 3" pts="4,-24.0,161.5,24.0,161.5,24.0,-161.5,-24.0,-161.5" r="64" type="box" w="48" x="1018" y="1044"/>
     </terrainRegions>
     <actors>
         <actor a="0.0" aid="2" c="false" group="0" id="4" name="player 2" sx="1.0" sy="1.0" x="1181" y="165" z="1"/>
@@ -104,6 +104,7 @@
             </snippets>
         </actor>
         <actor a="0.0" aid="20" c="false" group="3" id="1011" name="background_tapisserie_01 20" sx="1.0" sy="1.0" x="161" y="600" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="4" id="6" name="room 22" sx="1.0" sy="1.0" x="757" y="600" z="6"/>
         <actor a="0.0" aid="23" c="false" group="8" id="1037" name="salle_fermee 23" sx="1.0" sy="1.0" x="757" y="600" z="0"/>
         <actor a="0.0" aid="24" c="true" group="7" id="56" name="EscalierUp 24" sx="1.0" sy="1.0" x="920" y="1194" z="2">
             <snippets>
@@ -137,17 +138,12 @@
         <actor a="0.0" aid="28" c="false" group="6" id="10" name="bocal 28" sx="1.0" sy="1.0" x="805" y="771" z="2"/>
         <actor a="0.0" aid="29" c="false" group="3" id="1007" name="chandelier 29" sx="1.0" sy="1.0" x="1035" y="706" z="2"/>
         <actor a="0.0" aid="30" c="false" group="3" id="1007" name="chandelier 30" sx="1.0" sy="1.0" x="540" y="707" z="2"/>
-        <actor a="0.0" aid="32" c="false" group="3" id="1007" name="chandelier 32" sx="1.0" sy="1.0" x="524" y="1206" z="2"/>
         <actor a="0.0" aid="33" c="false" group="6" id="100" name="lavabo 33" sx="1.0" sy="1.0" x="828" y="1251" z="2"/>
         <actor a="0.0" aid="34" c="false" group="3" id="1007" name="chandelier 34" sx="1.0" sy="1.0" x="857" y="1203" z="2"/>
-        <actor a="0.0" aid="35" c="false" group="6" id="1015" name="flamme 35" sx="1.0" sy="1.0" x="850" y="1154" z="2"/>
-        <actor a="0.0" aid="36" c="false" group="6" id="1015" name="flamme 36" sx="1.0" sy="1.0" x="558" y="1162" z="2"/>
         <actor a="0.0" aid="37" c="false" group="6" id="1015" name="flamme 37" sx="1.0" sy="1.0" x="531" y="662" z="2"/>
         <actor a="0.0" aid="38" c="false" group="6" id="1015" name="flamme 38" sx="1.0" sy="1.0" x="1027" y="658" z="2"/>
         <actor a="0.0" aid="39" c="false" group="6" id="1017" name="flamme2 39" sx="1.0" sy="1.0" x="1069" y="664" z="2"/>
         <actor a="0.0" aid="40" c="false" group="6" id="1017" name="flamme2 40" sx="1.0" sy="1.0" x="576" y="664" z="2"/>
-        <actor a="0.0" aid="41" c="false" group="6" id="1017" name="flamme2 41" sx="1.0" sy="1.0" x="892" y="1163" z="2"/>
-        <actor a="0.0" aid="42" c="false" group="6" id="1017" name="flamme2 42" sx="1.0" sy="1.0" x="518" y="1158" z="2"/>
         <actor a="0.0" aid="43" c="false" group="6" id="35" name="plant 43" sx="1.0" sy="1.0" x="360" y="683" z="2"/>
         <actor a="0.0" aid="44" c="false" group="6" id="1021" name="plant2 44" sx="1.0" sy="1.0" x="1241" y="682" z="2"/>
         <actor a="0.0" aid="45" c="false" group="6" id="1021" name="plant2 45" sx="1.0" sy="1.0" x="635" y="685" z="2"/>
@@ -171,6 +167,7 @@
             <prop id="14" list="0" val=""/>
             <prop id="15" list="0" val=""/>
         </s>
+        <s enabled="false" id="111"/>
     </snippets>
     <terrain/>
     <atlases members="" retainAtlases="true"/>

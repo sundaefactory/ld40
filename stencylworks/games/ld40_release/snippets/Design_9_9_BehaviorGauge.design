@@ -222,24 +222,31 @@
     <group eventID="7" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="7" id="-1">
-                <set-val-9-9 comment="false" x="26" y="40">
-                    <minus comment="false" id="0" x="0" y="0">
-                        <get-val-9-9 comment="false" id="0" x="0" y="0"/>
-                        <div comment="false" id="1" x="0" y="0">
-                            <stepsize comment="false" id="0" x="0" y="0"/>
-                            <times comment="false" id="1" x="0" y="0">
-                                <times comment="false" id="0" x="0" y="0">
-                                    <get-val-9-13 comment="false" id="0" x="0" y="0"/>
-                                    <get-game-val-0 comment="false" id="1" x="0" y="0"/>
-                                </times>
-                                <int id="1" val="10"/>
-                            </times>
-                        </div>
-                    </minus>
-                </set-val-9-9>
-                <if comment="false" x="26" y="85">
+                <if comment="false" x="26" y="40">
                     <group eventID="7" id="-1">
-                        <set-val-9-9 comment="false" x="37" y="115">
+                        <set-val-9-9 comment="false" x="37" y="70">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-val-9-9 comment="false" id="0" x="0" y="0"/>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <stepsize comment="false" id="0" x="0" y="0"/>
+                                    <times comment="false" id="1" x="0" y="0">
+                                        <times comment="false" id="0" x="0" y="0">
+                                            <get-val-9-13 comment="false" id="0" x="0" y="0"/>
+                                            <get-game-val-0 comment="false" id="1" x="0" y="0"/>
+                                        </times>
+                                        <int id="1" val="10"/>
+                                    </times>
+                                </div>
+                            </minus>
+                        </set-val-9-9>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-game-val-23 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+                <if comment="false" x="26" y="127">
+                    <group eventID="7" id="-1">
+                        <set-val-9-9 comment="false" x="37" y="157">
                             <int id="0" val="0"/>
                         </set-val-9-9>
                     </group>
@@ -248,7 +255,7 @@
                         <int id="1" val="0"/>
                     </less>
                 </if>
-                <custom-16 comment="false" x="26" y="147">
+                <custom-16 comment="false" x="26" y="189">
                     <ACTOR eid="this" id="0"/>
                     <get-val-9-9 comment="false" id="1" x="0" y="0"/>
                 </custom-16>

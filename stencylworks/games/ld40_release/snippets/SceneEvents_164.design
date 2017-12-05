@@ -19,35 +19,14 @@
                 <comment-short comment="false" x="26" y="47">
                     <int id="0" val="déblocage jauge quand on arrive dans une région"/>
                 </comment-short>
-                <set-game-val-9 comment="false" x="26" y="67">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-9>
-                <set-game-val-3 comment="false" x="26" y="92">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-3>
-                <set-game-val-6 comment="false" x="26" y="117">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-6>
-                <set-game-val-5 comment="false" x="26" y="142">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-5>
-                <set-game-val-4 comment="false" x="26" y="167">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-4>
-                <set-game-val-2 comment="false" x="26" y="192">
-                    <false comment="false" id="0" x="0" y="0"/>
-                </set-game-val-2>
-                <custom-1039 comment="false" x="26" y="217"/>
+                <set-game-val-23 comment="false" x="26" y="67">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-23>
             </group>
             <int id="0" val="0"/>
             <REGION eid="0" id="1"/>
             <actorgroup eid="0" id="2"/>
         </event-group-region>
-    </group>
-    <group eventID="6" id="1">
-        <set-game-val-3 comment="false" x="159" y="336">
-            <true comment="false" id="0" x="0" y="0"/>
-        </set-game-val-3>
     </group>
     <group eventID="6" id="-1"/>
     <group eventID="7" id="0">

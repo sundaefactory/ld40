@@ -24,9 +24,9 @@
                                     </group>
                                     <actortype eid="156" id="0"/>
                                 </actors-of-type3>
-                                <set-val-112-1 comment="false" x="48" y="234">
+                                <set-val-1039-1 comment="false" x="48" y="234">
                                     <true comment="false" id="0" x="0" y="0"/>
-                                </set-val-112-1>
+                                </set-val-1039-1>
                                 <dolater comment="false" x="48" y="259">
                                     <group eventID="4" id="-1">
                                         <custom-1025 comment="false" x="59" y="286">
@@ -56,7 +56,7 @@
                         </dolater>
                     </group>
                     <not comment="false" id="0" x="0" y="0">
-                        <get-val-112-1 comment="false" id="0" x="0" y="0"/>
+                        <get-val-1039-1 comment="false" id="0" x="0" y="0"/>
                     </not>
                 </if>
             </group>
@@ -84,4 +84,10 @@
         </event-delay>
     </group>
     <group eventID="5" id="-1"/>
+    <group eventID="8" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="8" id="-1"/>
+        </init>
+    </group>
+    <group eventID="8" id="-1"/>
 </groups>

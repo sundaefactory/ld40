@@ -11,13 +11,13 @@
     </layers>
     <joints/>
     <regions>
-        <region b="64" g="64" h="112" id="0" name="gauge_boire" pts="4,0.0,0.0,0.0,112.0,107.0,112.0,107.0,0.0" r="64" type="box" w="107" x="1881" y="1312"/>
+        <region b="64" g="64" h="112" id="0" name="gauge_boire" pts="4,107.0,0.0,107.0,112.0,0.0,112.0,0.0,0.0" r="64" type="box" w="107" x="1881" y="1312"/>
     </regions>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="274" id="0" name="Terrain 0" pts="4,35.0,0.0,35.0,274.0,0.0,274.0,0.0,0.0" r="64" type="box" w="35" x="996" y="1153"/>
-        <terrainRegion b="64" g="64" group="1" h="273" id="1" name="Terrain 1" pts="4,45.0,0.0,45.0,273.0,0.0,273.0,0.0,0.0" r="64" type="box" w="45" x="658" y="846"/>
-        <terrainRegion b="64" g="64" group="1" h="274" id="2" name="Terrain 2" pts="4,17.0,0.0,17.0,274.0,0.0,274.0,0.0,0.0" r="64" type="box" w="17" x="1895" y="843"/>
-        <terrainRegion b="64" g="64" group="1" h="275" id="3" name="Terrain 3" pts="4,0.0,0.0,0.0,275.0,13.0,275.0,13.0,0.0" r="64" type="box" w="13" x="2229" y="1153"/>
+        <terrainRegion b="64" g="64" group="1" h="274" id="0" name="Terrain 0" pts="4,0.0,0.0,0.0,274.0,35.0,274.0,35.0,0.0" r="64" type="box" w="35" x="996" y="1153"/>
+        <terrainRegion b="64" g="64" group="1" h="273" id="1" name="Terrain 1" pts="4,0.0,0.0,0.0,273.0,45.0,273.0,45.0,0.0" r="64" type="box" w="45" x="658" y="846"/>
+        <terrainRegion b="64" g="64" group="1" h="274" id="2" name="Terrain 2" pts="4,0.0,0.0,0.0,274.0,17.0,274.0,17.0,0.0" r="64" type="box" w="17" x="1895" y="843"/>
+        <terrainRegion b="64" g="64" group="1" h="275" id="3" name="Terrain 3" pts="4,13.0,0.0,13.0,275.0,0.0,275.0,0.0,0.0" r="64" type="box" w="13" x="2229" y="1153"/>
     </terrainRegions>
     <actors>
         <actor a="0.0" aid="1" c="true" group="7" id="115" name="Ascenseur 1" sx="1.0" sy="1.0" x="805" y="927" z="2">
