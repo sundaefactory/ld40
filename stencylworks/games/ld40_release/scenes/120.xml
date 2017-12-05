@@ -62,6 +62,7 @@
         <actor a="0.0" aid="43" c="true" group="3" id="159" name="Fin 43" sx="1.0" sy="1.0" x="642" y="1109" z="1">
             <snippets>
                 <s enabled="true" id="1040"/>
+                <s enabled="true" id="162"/>
                 <s enabled="true" id="5">
                     <prop id="2147483647" list="0" val="thisactor"/>
                     <prop id="1" list="0" val="0.0"/>

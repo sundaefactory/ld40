@@ -238,11 +238,17 @@
                                 </else-if>
                                 <if comment="false" x="48" y="646">
                                     <group eventID="3" id="-1">
-                                        <set-game-val-23 comment="false" x="59" y="671">
+                                        <set-game-val-23 comment="false" x="59" y="681">
                                             <false comment="false" id="0" x="0" y="0"/>
                                         </set-game-val-23>
                                     </group>
-                                    <get-game-val-23 comment="false" id="0" x="0" y="0"/>
+                                    <and comment="false" id="0" x="0" y="0">
+                                        <get-game-val-23 comment="false" id="0" x="0" y="0"/>
+                                        <noteq comment="false" id="1" x="0" y="0">
+                                            <scenename comment="false" id="0" x="0" y="0"/>
+                                            <int id="1" val="floor_final"/>
+                                        </noteq>
+                                    </and>
                                 </if>
                             </group>
                             <more comment="false" id="0" x="0" y="0">

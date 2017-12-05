@@ -102,7 +102,6 @@
         <boolean cid="-1" id="23" name="gauge_freeze" save="true" value="false"/>
         <number cid="-1" id="0" name="gauge_decrease_factor" save="true" value="1.0"/>
         <number cid="-1" id="22" name="health_value" save="true" value="100.0"/>
-        <number cid="-1" id="18" name="gauge_caca_value" save="true" value="100.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>

@@ -359,7 +359,6 @@
         <blocks/>
         <events>
             <event displayName="arrivée player" enabled="true" id="5" name="event-delay" order="5" repeats="true"/>
-            <event displayName="disable jauges" enabled="true" id="6" name="event-group-region" order="7" repeats="true"/>
             <event displayName="Enters Region" enabled="true" id="7" name="event-actor-region" order="8" repeats="true"/>
             <event displayName="Created" enabled="true" id="8" name="init" order="6" repeats="true"/>
         </events>
@@ -445,7 +444,7 @@
     <snippet actorid="159" attachedevent="true" class="scripts.ActorEvents_159" classname="scripts.ActorEvents_159" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="162" name="ActorEvents_159" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events>
-            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="After N secs" enabled="true" id="2" name="event-delay" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="999" attachedevent="true" class="scripts.ActorEvents_999" classname="scripts.ActorEvents_999" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1001" name="ActorEvents_999" oid="-1" package="scripts." shared="false" type="actor">
